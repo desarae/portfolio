@@ -717,9 +717,7 @@ img.left, a.left img {
 	text-align: left;
 }
 /** MENU and HEADER ============================================================**/
-header {
-	margin: -13px -10px;
-}
+
 .mainmenu li { 
 	float: left; 
 }
