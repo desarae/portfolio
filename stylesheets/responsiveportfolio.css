@@ -1,18 +1,4 @@
 /***** RESPONSIVE ==============================================*****/
-@media (min-width: 1400px) {
-    body .navbar {
-	 height: 30px;
-	 padding: 0;
-	 margin: 14px 0 0 0;
-    }
-    .Header h1 {
-	    margin-bottom: 10px;
-	    top: 0px;
-	    position: absolute;
-	    min-width: 288px;
-	    text-align: left;
-	}
-}
 @media (min-width: 1200px) {
 	.toggle-wrapper.desktopmenu {
 		display: block;
