@@ -380,6 +380,7 @@ input[type='submit'], textarea:focus, .button {
     justify-content:center;
     width:100%;
     min-height:100%;
+    z-index: 2;
 }
 .button-wrapper a, .button-wrapper a:hover {
 	box-shadow: 0 0 0 0 transparent;
