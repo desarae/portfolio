@@ -16,6 +16,9 @@ aside {
 p {
 	margin: 5px 0 10px;
 }
+.hentry ol, .hentry ul {
+	margin: 0 20px;
+}
 h1, h2, h3, h4, h5 {
   	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
 	font-weight: bold;
@@ -1716,10 +1719,10 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 	border: 0px solid rgba(0, 0, 0, 0) !important;
 }
 .silly {
-	margin: 18px;
-	padding: 15px;
+	margin: 15px 20px 15px 10px;
+	padding: 5px 20px 15px 20px;
     	background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-	
+	border: 2px solid #b0dbe1;
 }
 .status-msg-body a, .status-msg-body a:link, .status-msg-body a:visited { 
 	color: #000; 
