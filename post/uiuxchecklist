@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
 <p class="excerpt">The UI feature Checklist provides a list of functionality that may be added to a site or application. This checklist is great to review during a project to determine if any key features where missed and get ideas for future enhancements. </p>
 <!--more--> 
 
@@ -776,3 +780,5 @@ td[colspan="3"] {
 </table>
 
 <p class="alert">Note: This checklist only includes elements that I might overlook and tasks that I am capable of on my own. It is not a comprehensive checklist for application development.</p>
+</body>
+</html
