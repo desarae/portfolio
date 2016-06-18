@@ -1,4 +1,11 @@
 /***** RESPONSIVE ==============================================*****/
+@media (min-width: 1400px) {
+    body .navbar {
+	 height: 30px;
+	 padding: 0;
+	 margin: 14px 0 0 0;
+    }
+}
 @media (min-width: 1200px) {
 	.toggle-wrapper.desktopmenu {
 		display: block;
