@@ -1357,6 +1357,7 @@ div#CustomSearch1  input.gsc-input {
 	width: 100% !important;
 }
 /** CONTENT ===========================================================**/
+#MAINcontent {float:left;}
 .post-body .thumbnail {
     display: none;
 	float: left;
@@ -2083,9 +2084,7 @@ ul.lineofarticles li {
 .viewall {
     display: block;
     width: 42%;
-    position: absolute;
-    top: -12px;
-    right: 0px;
+    float: right;
     z-index: 1;
 }
 .viewall .right, .viewall .left {
