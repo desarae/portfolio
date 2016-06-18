@@ -17,7 +17,7 @@ p {
 	margin: 5px 0 10px;
 }
 .hentry ol, .hentry ul {
-	margin: 0 20px;
+	padding: 0 20px;
 }
 h1, h2, h3, h4, h5 {
   	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
@@ -41,13 +41,12 @@ h3.post-title:hover, h3.post-title a:hover {
 	color: #BEE7ED !important;
 }
 h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
-    font-size: 14pt !important;
-    line-height: 1.5em !important;
-
-    max-width: 555px !important;
-    font-style: italic;
-    text-transform: Capitalize;
-	margin: 12px 0 0 0;
+    	font-size: 14pt !important;
+    	line-height: 1.5em !important;
+    	max-width: 555px !important;
+	font-style: italic;
+    	text-transform: Capitalize;
+	margin: 0;
 }
 h5 {
 	font-size: 12.5pt;
@@ -1368,28 +1367,28 @@ div#CustomSearch1  input.gsc-input {
     max-width: 50% !important;
 }
 .post-body .excerpt {
-    display: none;
+    	display: none;
 }
 blockquote p {
 	font-style: italic;
 }
 blockquote {
-    font-size: 2rem;
-    border: 5px solid #BEE7ED;
-    background: #FFF;
-    padding: 1rem 1rem;
-    margin: 0 1rem;
-    transition: all .5s ease;
-    color: #41403E;
-    font-size: 2rem;
-    letter-spacing: 1px;
-    outline: none;
-    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    border-bottom-right-radius: 225px 15px;
-    border-bottom-left-radius: 15px 255px;
+    	font-size: 2rem;
+    	border: 5px solid #BEE7ED;
+    	background: #FFF;
+        padding: 2rem 2rem 2rem 3rem;
+    	margin: 1rem 2.5rem;
+    	transition: all .5s ease;
+    	color: #41403E;
+    	font-size: 2rem;
+    	letter-spacing: 1px;
+    	outline: none;
+    	box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+    	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    	border-top-left-radius: 255px 15px;
+    	border-top-right-radius: 15px 225px;
+    	border-bottom-right-radius: 225px 15px;
+    	border-bottom-left-radius: 15px 255px;
 }
 img.nostyle, .nostyle img {
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
