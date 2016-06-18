@@ -1,0 +1,778 @@
+<p class="excerpt">The UI feature Checklist provides a list of functionality that may be added to a site or application. This checklist is great to review during a project to determine if any key features where missed and get ideas for future enhancements. </p>
+<!--more--> 
+
+<style>
+table#uiuxchecklist {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    overflow: scroll;
+    width: 100%;
+}
+#uiuxchecklist th {
+    background: #b0dbe1;
+    padding: 0 10px;
+}
+#uiuxchecklist tr {
+    border: 1px solid #ccc;
+}
+#uiuxchecklist tr:hover {
+    background: #e5e5e5;
+}
+#uiuxchecklist td {
+    padding: 10px;
+    border-right: 1px solid #e5e5e5;
+}
+td[colspan="3"] {
+    background: rgba(232, 92, 65, 0.52);
+}
+.fa-check-square {
+    color: #229c6a;
+}
+</style>
+
+<table id="uiuxchecklist">
+  <tr>
+    <th><i class="fa fa-check-square" aria-hidden="true"></i></th>
+    <th>Feature</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Setup</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Setup" value="betaSite"> </td>
+    <td>Create a beta site and production site</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Setup" value="reviewUIUXChecklist"> </td>
+    <td><a href="http://www.desaraev.com/2016/06/uiux-checklist.html#top">Review the UI/UX Checklist</a></td>
+    <td>http://www.desaraev.com/2016/06/uiux-checklist.html#top</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Setup" value="pattern"> </td>
+    <td>Pattern Library</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Setup" value="sitemap"> </td>
+    <td>Sitemap</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Content Management System</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="cms" value="blogger"></td>
+    <td>Blogger</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="cms" value="wordpress"></td>
+    <td>Wordpress</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><<input type="checkbox" name="cms" value="magento">/td>
+    <td>Magento</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td><input type="checkbox" name="cms" value="joomla"></td>
+    <td>Joomla</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="cms" value="drupal"></td>
+    <td>Drupal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="cms" value="liferay"></td>
+    <td>Liferay</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Framework</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="framework" value="polymer"></td>
+    <td>Polymer</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="framework" value="bootstrap"></td>
+    <td>Bootstrap</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="framework" value="99lime"></td>
+    <td><a href="http://www.99lime.com/">99Lime</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="framework" value="vaadin"></td>
+    <td>Vaadin</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="framework" value="cmsasset"></td>
+    <td><a href="http://assets.cms.gov/resources/framework/2.0/Pages/">CMS Assets</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Pre-processor</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="preprocess" value="sass"></td>
+    <td>SASS/SCSS</td>
+    <td>Tools: Prepros/Compass</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="preprocess" value="haml"></td>
+    <td>HAML/LESS</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>HTML5 Layout</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="header"></td>
+    <td><pre><code>&lt;header&gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="nav"></td>
+    <td><pre><code>&lt;nav &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="section"></td>
+    <td><pre><code>&lt;section &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="article"></td>
+    <td><pre><code>&lt;article &gt;</code></pre></td>
+    <td> self-contained article</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="aside"></td>
+    <td><pre><code>&lt;aside &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="footer"></td>
+    <td><pre><code>&lt;footer &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="details"></td>
+    <td><pre><code>&lt;details &gt;</code></pre></td>
+    <td>additional details</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfive" value="summary"></td>
+    <td><pre><code>&lt;summary &gt;</code></pre></td>
+    <td>Defines a heading for the details</td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>HTML5 Elements</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfiveelements" value="figcap"></td>
+    <td><pre><code>&lt;figcaption &gt;</code></pre></td>
+    <td>Figure Caption </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfiveelements" value="fig"></td>
+    <td><pre><code>&lt;figure &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfiveelements" value="main"></td>
+    <td><pre><code>&lt;main &gt;</code></pre></td>
+    <td>main content </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfiveelements" value="mark"></td>
+    <td><pre><code>&lt;mark &gt;</code></pre></td>
+    <td>marked or highlighted text </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="htmlfiveelements" value="time"></td>
+    <td><pre><code>&lt;time &gt;</code></pre></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Media</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="media" value="video"></td>
+    <td>Video</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="media" value="audio"></td>
+    <td>Audio</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="media" value="transcript"></td>
+    <td>Transcript</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="media" value="animation"></td>
+    <td>Animations</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="media" value="ebook"></td>
+    <td>eBook</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>APIs</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="api" value="geo"></td>
+    <td>Geolocation</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="api" value="drag"></td>
+    <td>Drag and Drop</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="api" value="localstore"></td>
+    <td><a href="http://www.w3schools.com/html/html5_webstorage.asp">Local storage</a></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Messages</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="nojs"></td>
+    <td><pre><code>&lt;noscript&gt;Sorry, your browser does not support JavaScript!&lt;/noscript&gt;</code></pre></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="warn"></td>
+    <td>Warning</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="success"></td>
+    <td>Success</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="jsnotif"></td>
+    <td><a href="http://fabien-d.github.com/alertify.js/">JavaScript Notifications</a></td>
+    <td>Before leaving a page</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="error"></td>
+    <td>Error</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="info"></td>
+    <td>Information</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="messages" value="responsive"></td>
+    <td>Responsive message</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Elements</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="abbr"></td>
+    <td><pre><code>&lt;abbr&gt;</code></pre></td>
+    <td>Abbreviations</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="address"></td>
+    <td><pre><code>&lt;address&gt;
+&lt;/address&gt;</code></pre></td>
+    <td>Address</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="citation"></td>
+    <td><pre><code>&lt;cite&gt;</code></pre></td>
+    <td>citation</td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Characters</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="copy"></td>
+    <td> &copy; &#169;</td>
+    <td>Copyright</td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Attributes</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="sprites"></td>
+    <td>Sprites</td>
+    <td>Can be automated with SASS</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="variable"></td>
+    <td>Create variables</td>
+    <td>Great for colors that may change</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="lang"></td>
+    <td><code>html lang="en-US"</code></td>
+    <td>Important for accessibility/search engines</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="elements" value="alt"></td>
+    <td><code>img alt=""</code></td>
+    <td>Important for accessibility/search engines</td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Tags</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tags" value="hr"></td>
+    <td><code>hr</code></td>
+    <td>Separate content</td>
+  </tr>
+  <tr>
+    <td  colspan="3"><p><b>Meta Data</b></p><p>Meta data is in the head of html and is not displayed.</p></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="meta" value="title"></td>
+    <td>title</td>
+    <td>title of page</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="meta" value="key"></td>
+    <td>keywords</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="meta" value="desc"></td>
+    <td>description</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="meta" value="auth"></td>
+    <td>author</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="meta" value="charset"></td>
+    <td><a href="http://www.w3schools.com/html/html_charset.asp">character</a></td>
+    <td><pre><code>&lt;meta charset="UTF-8"&gt;
+</code></pre></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Microformats/Microdata</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="microfd" value="resources"></td>
+    <td><a href="http://microformats.org/">Resource Microformats</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="microfd" value="schema"></td>
+    <td><a href="http://schema.org/">Schema</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Navigation</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="prime"></td>
+    <td>Primary Navigation</td>
+    <td>Top/Left/Right</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="dropdown"></td>
+    <td>Dropdowns</td>
+    <td>DO NOT USE jQuery or Hover ONLY</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="second"></td>
+    <td>Secondary</td>
+    <td>Aside,  sidebar, under a horizontal nav, toggle from side nav</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="pagination"></td>
+    <td>Pagination</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="backtop"></td>
+    <td>Back to Top</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="kb"></td>
+    <td>Keyboard only cheatsheet</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="breadcrumb"></td>
+    <td>Breadcrumbs</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="nav" value="bookmark"></td>
+    <td>Bookmark</td>
+    <td><pre><code>&lt;h2 id="tips"&gt;&lt;a href="#tips"&gt;</code></pre></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Lists</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="attnum"></td>
+    <td>Add type attribute (numbers)</td>
+    <td>type="1"</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="lett"></td>
+    <td>Add type attribute (uppercase letters)</td>
+    <td>type="A"</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="lowerlet"></td>
+    <td>Add type attribute (lowercase letters)</td>
+    <td>type="a"</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="roman"></td>
+    <td>Add type attribute (uppercase roman numbers)</td>
+    <td>type="I"</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="lowerroman"></td>
+    <td>Add type attribute (lowercase roman numbers)</td>
+    <td>type="i"</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="">desclist</td>
+    <td>Description lists</td>
+    <td><pre><code>&lt;dl&gt;  &lt;dt&gt; term &lt;dd&gt; description</code></pre></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="list" value="removeliststyle"></td>
+    <td>Remove list style</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Tool tips</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tip" value="help"></td>
+    <td>Help documentation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tip" value="formdes"></td>
+    <td>Form descriptions</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tip" value="titletag"></td>
+    <td>Title tags</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tip" value="hoverfoc"></td>
+    <td>Hover/focus help text</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Fonts</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="fonts" value="webfont"></td>
+    <td>Web Fonts</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="fonts" value="glyphicon"></td>
+    <td>Glyphicons</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="fonts" value="fontawesome"></td>
+    <td><a href="http://fontawesome.io/icon/check-square/">Font Awesome</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="fonts" value="googlefonts"></td>
+    <td>Google Fonts</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Background/ BG Images</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="bg" value="backstretch"></td>
+    <td><a href="http://srobbin.com/jquery-plugins/backstretch/">Backstretch (JS)</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="bg" value="cssimagebg"></td>
+    <td><a href="https://css-tricks.com/perfect-full-page-background-image/">CSS3 Bg Image stretch</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Colors</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="color" value="kuler"></td>
+    <td>Adobe Kuler</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="color" value="noisetexture"></td>
+    <td><a href="http://www.noisetexturegenerator.com/">Noise Texture Generator</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="color" value="subtlepatt"></td>
+    <td><a href="http://subtlepatterns.com/">Subtle Patterns</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="color" value="paletton"></td>
+    <td><a href="http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">Paletton </a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Social Media Sharing</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="fb"></td>
+    <td>Facebook</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="twitter"></td>
+    <td>Twitter</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="reddit"></td>
+    <td>Reddit</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="pinterest"></td>
+    <td>Pinterest</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="dzone"></td>
+    <td>Dzone</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="autopost"></td>
+    <td>Auto posting</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="delicious"></td>
+    <td>Delicious</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="repostblog"></td>
+    <td>Repost to a blogger/tumblr/wordpress page</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="smshare" value="ifttt"></td>
+    <td>IFTTT integration</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Comments</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="comments" value="gravatar"></td>
+    <td>Gravatar Integration</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="comments" value="disquis"></td>
+    <td>Disquis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>RSS</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="rss" value="email"></td>
+    <td>Email Subscription</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="rss" value="feedly"></td>
+    <td>Feedly</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="rss" value="feedburner"></td>
+    <td>Feedburner</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Email Newsletter</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="email" value="link"></td>
+    <td>Link</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="email" value="mailchimp"></td>
+    <td>MailChimp</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="email" value="constantcontact"></td>
+    <td>Constant Contact</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="email" value="myemma"></td>
+    <td>MyEmma</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Affiliates</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="affiliate" value="linksaf"></td>
+    <td>Links</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Alternate Stylesheets</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="altstyles" value="extratheme"></td>
+    <td>Extra Themes</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="altstyles" value="projection"></td>
+    <td>Projection</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="altstyles" value="print"></td>
+    <td>Print</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="altstyles" value="responsive"></td>
+    <td>Responsive</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Tables</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="tables" value="responsive"></td>
+    <td>Responsive</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Final Review</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="cleanupcode"></td>
+    <td>Clean up excess or hidden code</td>
+    <td>Can be done with preprocessors</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="minifycode"></td>
+    <td>Minify Code/Create Sprites out of common icons/images</td>
+    <td>Can be done with preprocessors</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="responsivetest"></td>
+    <td>Responsive testing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="browsertest"></td>
+    <td>Browser Testing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="mobiletest"></td>
+    <td>Mobile testing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="analytics"></td>
+    <td>Integrate Analytics</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="readability"></td>
+    <td><a href="http://www.read-able.com/">Test Readability</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="http://www.read-able.com/">Eye Tracking Study</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="speedtest"></td>
+    <td><a href="https://gtmetrix.com/">GTmetrix Speed test</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="finalrev" value="validatewc"></td>
+    <td><a href="http://www.w3schools.com/html/demo_xhtml.asp">W3C Validator</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="3"><b>Resources for Inspiration</b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="resources" value="github"></td>
+    <td>GitHub</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="resources" value="codepen"></td>
+    <td>Codepen</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="resources" value="breadcrumb"></td>
+    <td>Breadcrumbs</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="resources" value="smashmag"></td>
+    <td>Smashing Magazine</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="resources" value="accessibility"></td>
+    <td><a href="http://www.w3.org/WAI/intro/accessibility.php">w3 Accessibility</a></td>
+    <td></td>
+  </tr>
+</table>
+
+<p class="alert">Note: This checklist only includes elements that I might overlook and tasks that I am capable of on my own. It is not a comprehensive checklist for application development.</p>
