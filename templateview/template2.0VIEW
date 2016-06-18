@@ -1,0 +1,1243 @@
+<html dir="ltr" lang="en-US" ng-app="" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+<meta content="width=1100" name="viewport">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.2cv2ukNQR74.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw/cb=gapi.loaded_1" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.2cv2ukNQR74.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw/cb=gapi.loaded_0" async=""></script><script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content="blogger" name="generator">
+<link href="http://beta.desaraev.com/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://beta.desaraev.com/" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="Beta - Atom" href="http://beta.desaraev.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="Beta - RSS" href="http://beta.desaraev.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="Beta - Atom" href="https://www.blogger.com/feeds/4717460821390233792/posts/default">
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g">
+<link rel="openid.delegate" href="http://beta.desaraev.com/">
+<meta content="http://beta.desaraev.com/" property="og:url">
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Beta</title>
+<link href="https://plus.google.com/+AgencyCoutureDesMoines/about" rel="publisher">
+<link href="https://plus.google.com/+DesaraeVeit/about" rel="publisher">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://rawgit.com/desaraev/AccessibilityWiki/gh-pages/stylesheets/bloggeroriginal.css" media="all" rel="stylesheet" type="text/css">
+<!--Bootstrap version 3.3.6-->
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/bootstrap-tour-standalone.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/dataTables.bootsrap.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/dataTables.colVis.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/jquery.dataTables.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/jquery-ui.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/chosen.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/blogspot.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/darktheme.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/magicbg.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/mainbg.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/portfolio.css" media="all" rel="stylesheet" type="text/css">
+<link href="https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/responsiveportfolio.css" media="all" rel="stylesheet" type="text/css">
+<script src="https://rawgit.com/Desaraevdotcom/portfolio/blogger/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://rawgit.com/Desaraevdotcom/portfolio/blogger/js/docs.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<!--angular-->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+<meta content="design, ux, ui, portfolio, 3691305304f7fd780ddc" name="keywords">
+<link type="text/css" rel="stylesheet" href="https://www.blogger.com/static/v1/widgets/3414295837-widget_css_bundle.css">
+<link type="text/css" rel="stylesheet" href="https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4717460821390233792&amp;zx=0315e79e-5576-4d1d-b860-60f912e0c988">
+<style id="page-skin-1" type="text/css"><!--
+
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class="" id="top" data-pinterest-extension-installed="cr1.39.1">
+<div class="mainbg">
+<!--start skip nav-->
+<a class="sr-only sr-only-focusable" href="#MAINcontent" id="skippy"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+<!--end skip nav-->
+<div class="highlight"></div>
+<div class="toggle toggledaynight">
+<input class="togglecheckbox" id="toggledaynight" type="checkbox">
+<label class="togglebtn" for="toggledaynight"><span class="togglefeature"></span></label>
+</div>
+<div class="togglehover_img">
+<a class="btn" href="javascript:history.go(0)">Reset Theme <div class="mobileonly">by refreshing the page.</div><span>The toggle temporarily adds a different theme. Don't like it? Click 'reset' or refresh the page and it reverts to the original theme.</span></a>
+</div>
+<!--code http://codepen.io/desaraev/pen/yJepXR-->
+<div class="showit">
+<div class="starstwinkle"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+</div>
+<script>
+(function() {
+  var $check = $("input[type='checkbox']");
+  var $label = $(".togglebtn");
+  var $body = $("body");
+  var $a = $("a");
+  var $mainbg = $("div[class='mainbg']");
+
+  $check.on("click", function() {
+    var $this = $(this);
+    if ($this.hasClass("checked")) {
+      $this.removeClass("checked").val("false");
+      $this.removeAttr("checked");
+	  $body.addClass("magicbg");
+	  $body.removeClass("darkbg");
+	  $mainbg.removeClass("mainbg");
+      $label.animate({
+        color: "#FFF"
+      }, 500);
+      $a.animate({
+        color: "#FFF"
+      }, 500);
+    } else {
+      $this.addClass("checked").val("true");
+      $this.attr("checked", "checked");
+	  $body.addClass("darkbg");
+	  $body.removeClass("magicbg");
+	  $mainbg.removeClass("mainbg");
+      $label.animate({
+        color: "#FFF"
+      }, 500);
+      $a.animate({
+        color: "#558FC1"
+      }, 500);
+    }
+  });
+  }.call(this));</script>
+<header class="navbar navbar-static-top bs-docs-nav">
+<!--start NAV-->
+<nav class="navbar navbar-static-top">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="navbar-header">
+<!-- START automated blog title and description -->
+<div class="header section" id="header"><div class="widget Header" data-version="1" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+Beta
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>
+</span></p>
+</div>
+</div>
+</div></div>
+<!--automated blog title and description -->
+<div class="col-md-6 col-sm-9 darkbgonly darksearch">
+<div id="searchwrapper">
+<form action="/search" id="searchthis" method="get" style="display:inline;" class="ng-pristine ng-valid">
+<div class="col-md-9" style="float:left;">
+<input id="abt-search-box" name="q" placeholder="  Type to search " size="40" type="text">
+</div>
+<div class="col-md-3" style="float:left;">
+<input id="btn" style="padding: 1rem;" type="submit" value="Search">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!--end NAV-->
+</header>
+<!--end header-->
+<!--begin mobile toggle menu and end desktop toggle menu-->
+<div class="toggle-wrapper mobilemenu ">
+<input id="togglemenu" name="togglemenu" type="checkbox">
+<label for="togglemenu">
+<i aria-hidden="true" class="fa fa-bars"></i>
+</label>
+<div class="toggle-inside">
+<div class="toggle-wrapper">
+<input id="toggleEXAMPLE" name="toggleEXAMPLE" type="checkbox">
+<label for="toggleEXAMPLE"><div>UI Design</div></label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/magento-site-migration.html">CDS Global</a></li>
+<li><a href="http://www.desaraev.com/2016/06/gage-marketing.html">Gage</a></li>
+<li><a href="http://www.desaraev.com/2016/06/dr-kulick.html">Dr. Kulick</a></li>
+<li><a href="http://www.desaraev.com/2016/06/author-brian-rathbone.html">Author Brian Rathbone</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleUX" name="toggleUX" type="checkbox">
+<label for="toggleUX">
+<div>User Experience</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/general-dynamics-information-technology.html">General Dynamics</a></li>
+<li><a href="http://www.desaraev.com/2016/06/portfolio-website.html">Portfolio</a></li>
+<li><a href="http://www.desaraev.com/2016/06/sample-of-standards-documentation.html">Standards</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<!--begin other-->
+<div class="toggle-wrapper">
+<input id="toggleOther" name="toggleOther" type="checkbox">
+<label for="toggleOther">
+<div>Other</div>
+</label>
+<div class="toggle-inside">
+<div class="toggle-wrapper">
+<input id="toggleSEO" name="toggleSEO" type="checkbox">
+<label for="toggleSEO">
+<div>SEO</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/downtown-resource-group.html">DRG</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="togglelogging" name="togglelogging" type="checkbox">
+<label for="togglelogging">
+<div>Blogging</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/book-review-blog.html">Book Reviews</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleArt" name="toggleArt" type="checkbox">
+<label for="toggleArt">
+<div>Art</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li>
+<a href="http://www.desaraev.com/2016/06/large-abstract-painting-with-hidden-text.html">Abstract Painting</a>
+</li>
+<li>
+<a href="http://www.desaraev.com/2016/06/photo-strolling-in-ireland.html">Dublin Photo</a>
+</li>
+<li>
+<a href="http://www.desaraev.com/2016/06/digital-self-portrait-painting.html">Digital Art</a>
+</li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleEvent" name="toggleEvent" type="checkbox">
+<label for="toggleEvent">
+<div>Event Planning</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li>
+<a href="http://www.desaraev.com/2016/06/style-for-dignity.html">dig·ni·ty </a>
+</li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<!--end other-->
+<p><a href="http://goo.gl/forms/adS4pKSJhG0uu6fm1" target="_blank">Feedback</a></p>
+</div><!--part of the menu toggle wrapper-->
+</div>
+<!--end mobile toggle menu-->
+<div class="clearfix">
+</div>
+<div itemscope="itemscope" itemtype="http://schema.org/Blog" style="display: none;">
+<meta content="Beta" itemprop="name">
+</div>
+<div class="container main-container" id="content">
+<div class="row">
+<!--main content area-->
+<!-- START sidebar -->
+<div class="col-lg-3 col-sm-12 desktoponly" role="complementary">
+<div class="row section" role="aside" style="display: none;">
+<aside class="section">
+<div class="sidebar section" id="sidebar-left-1"><div class="widget BlogArchive" data-version="1" id="BlogArchive1">
+<h2>Portfolio</h2>
+<div class="widget-content">
+<div id="ArchiveList">
+<div id="BlogArchive1_ArchiveList">
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://beta.desaraev.com/search?updated-min=2016-01-01T00:00:00-08:00&amp;updated-max=2017-01-01T00:00:00-08:00&amp;max-results=25">
+2016
+</a>
+<span class="post-count" dir="ltr">(25)</span>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://beta.desaraev.com/2016_06_01_archive.html">
+June
+</a>
+<span class="post-count" dir="ltr">(25)</span>
+<ul class="posts">
+<li><a href="http://beta.desaraev.com/2016/06/portfolio-website.html">Portfolio Website</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/sample-of-standards-documentation.html">Sample of Standards Documentation</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/application-development-projecttask.html">Application Development Project/Task Outline</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/user-experience-review.html">User Experience Review</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/general-dynamics-information-technology.html">General Dynamics Information Technology</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/recommendations.html">Recommendations</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/risdall-marketing.html">Risdall Marketing</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/myfreeestimates.html">MyFreeEstimates</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/gage-marketing.html">Gage Marketing</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/cds-global.html">CDS Global</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/author-brian-rathbone.html">Author Brian Rathbone</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/style-for-dignity.html">Style for Dignity</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/dr-kulick.html">Dr. Kulick</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/downtown-resource-group.html">Downtown Resource Group</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/digital-self-portrait-painting.html">Digital Self-Portrait Painting</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/photo-strolling-in-ireland.html">Photo: Strolling in Ireland</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/large-abstract-painting-with-hidden-text.html">Large Abstract Painting with Hidden Text</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/book-review-blog.html">Book Review Blog</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/version-2-of-toggle-with-no-css.html">Version 2 of Toggle with No CSS (Simplified)</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/htmlcss-toggle-button-no-need-for-jquery.html">HTML/CSS Toggle Button (No need for jQuery)</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/seo-documentation-examples.html">SEO Documentation Examples</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/icedot-athletes.html">ICEdot Athletes</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/example-beta-testing.html">Example Beta Testing</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/recommended-tools-and-resources.html">Recommended Tools and Resources</a></li>
+<li><a href="http://beta.desaraev.com/2016/06/self-initiated-projects.html">Self-Initiated Projects</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://beta.desaraev.com/search?updated-min=2008-01-01T00:00:00-08:00&amp;updated-max=2009-01-01T00:00:00-08:00&amp;max-results=1">
+2008
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://beta.desaraev.com/2008_07_01_archive.html">
+July
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=4717460821390233792&amp;widgetType=BlogArchive&amp;widgetId=BlogArchive1&amp;action=editWidget&amp;sectionId=sidebar-left-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;BlogArchive1&quot;));" target="configBlogArchive1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div></div>
+</aside>
+</div>
+<div class="row section silly fixed" role="aside">
+<aside class="section">
+<!--desktoponly menu-->
+<div class="toggle-wrapper desktopmenu">
+<input checked="true" id="togglemenudesktoponly" name="togglemenudesktoponly" type="checkbox">
+<label for="togglemenudesktoponly">
+<div>Menu</div>
+</label>
+<div class="toggle-inside">
+<div class="toggle-wrapper">
+<input checked="true" id="toggleEXAMPLEdesktoponly" name="toggleEXAMPLEdesktoponly" type="checkbox">
+<label for="toggleEXAMPLEdesktoponly">
+<div>UI Design</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/magento-site-migration.html">CDS Global</a></li>
+<li><a href="http://www.desaraev.com/2016/06/gage-marketing.html">Gage</a></li>
+<li><a href="http://www.desaraev.com/2016/06/dr-kulick.html">Dr. Kulick</a></li>
+<li><a href="http://www.desaraev.com/2016/06/author-brian-rathbone.html">Author Brian Rathbone</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input checked="true" id="toggleUXdesktoponly" name="toggleUXdesktoponly" type="checkbox">
+<label for="toggleUXdesktoponly">
+<div>User Experience</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/general-dynamics-information-technology.html">General Dynamics</a></li>
+<li><a href="http://www.desaraev.com/2016/06/portfolio-website.html">Portfolio</a></li>
+<li><a href="http://www.desaraev.com/2016/06/sample-of-standards-documentation.html">Standards</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<!--begin other-->
+<div class="toggle-wrapper">
+<input id="toggleOtherdesktoponly" name="toggleOtherdesktoponly" type="checkbox">
+<label for="toggleOtherdesktoponly">
+<div>Other</div>
+</label>
+<div class="toggle-inside">
+<div class="toggle-wrapper">
+<input id="toggleSEOdesktoponly" name="toggleSEOdesktoponly" type="checkbox">
+<label for="toggleSEOdesktoponly">
+<div>SEO</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/downtown-resource-group.html">DRG</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleloggingdesktoponly" name="toggleloggingdesktoponly" type="checkbox">
+<label for="toggleloggingdesktoponly">
+<div>Blogging</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li><a href="http://www.desaraev.com/2016/06/book-review-blog.html">Book Reviews</a></li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleArtdesktoponly" name="toggleArtdesktoponly" type="checkbox">
+<label for="toggleArtdesktoponly">
+<div>Art</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li>
+<a href="http://www.desaraev.com/2016/06/large-abstract-painting-with-hidden-text.html">Abstract Painting</a>
+</li>
+<li>
+<a href="http://www.desaraev.com/2016/06/photo-strolling-in-ireland.html">Dublin Photo</a>
+</li>
+<li>
+<a href="http://www.desaraev.com/2016/06/digital-self-portrait-painting.html">Digital Art</a>
+</li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<div class="toggle-wrapper">
+<input id="toggleEventdesktoponly" name="toggleEventdesktoponly" type="checkbox">
+<label for="toggleEventdesktoponly">
+<div>Event Planning</div>
+</label>
+<div class="toggle-inside">
+<ul>
+<li>
+<a href="http://www.desaraev.com/2016/06/style-for-dignity.html">dig·ni·ty </a>
+</li>
+</ul>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<p></p>
+</div>
+</div>
+<div class="clearfix">
+</div>
+<!--end other-->
+<p><a href="http://goo.gl/forms/adS4pKSJhG0uu6fm1" target="_blank">Feedback</a></p>
+</div><!--part of the menu toggle wrapper-->
+</div><!--end mobile toggle menu-->
+<div class="clearfix">
+</div><!--end menu toggle wrapper-->
+</aside>
+</div>
+</div>
+<!-- END sidebar -->
+<!--<div class="hover_img"> <div class="superman"> <a href="#" >Show text bubble click here. <span>I'm made out of CSS!</span> </a> </div> </div>-->
+<!-- START main -->
+<div class="col-lg-9 col-sm-12 content-main" role="main">
+<div class="main section" id="main">
+<div class="widget Blog" data-version="1" id="Blog1">
+<div class="blog-posts hfeed">
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<h2 class="date-header"><span>Saturday, June 11, 2016</span></h2>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="https://4.bp.blogspot.com/-myWD7NcIgFk/V1vU0FDiB2I/AAAAAAAA94A/oTBSZzOO32E8LBu9C6PRZVcue3cB_t2jQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.06.33%2BAM.png" itemprop="image_url">
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="4573559835519408775" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=4573559835519408775&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=4573559835519408775&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=4573559835519408775&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=4573559835519408775&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=4573559835519408775&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1466290181191" name="I0_1466290181191" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Fportfolio-website.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1466290181191&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=20879889" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="4573559835519408775"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/portfolio-website.html">Portfolio Website</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-4573559835519408775" itemprop="description articleBody">
+<p>The purpose of this page is page is to provide a case study that portrays the design process I follow when building new sites. This particular project sample has the most thorough examples and photos. If you do not have time to skim all the sample, this one would be the best example project to review.</p><a name="more"></a><a href="https://4.bp.blogspot.com/-myWD7NcIgFk/V1vU0FDiB2I/AAAAAAAA94A/oTBSZzOO32E8LBu9C6PRZVcue3cB_t2jQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.06.33%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-myWD7NcIgFk/V1vU0FDiB2I/AAAAAAAA94A/oTBSZzOO32E8LBu9C6PRZVcue3cB_t2jQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.06.33%2BAM.png"></a> <br><div class="clearfix"></div><div class="left"><blockquote><h2>Jump to a Section:</h2><ul><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#buildingport">Overview</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#goals">Setting Goals</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#research">Research</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#site">Building the Site</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#challenges">Challenges</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#testing">Testing</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#code">Code Sample</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#tools">Tools/Skills</a></li></ul></blockquote></div><h1 id="buildingport">Building the Perfect Portfolio</h1><p>A lot of thought was put into building the perfect portfolio in only a few days. I started off by sketching low-fidelity wireframes on 4 pieces of paper. These had the basic idea of where I wanted everything to sit. Next, I took a few more pieces of paper and quickly made a list of criteria. I based a lot of my ideas on what I assumed should be in a great resume and how I would want to portray design to someone who is unfamiliar with user interface processes. After I made my own list, I googled keywords like, "tips for building design/ux/illustration portfolios" and "beautiful/clean/minimal design portfolios." </p> <h3>Examples</h3><p>Click on any 'example' image to zoom in</p><div class="clearfix"></div> <div class="portfoliogrid"><div class="imagewrapper"><a href="https://1.bp.blogspot.com/-WzyP7Y8tQNc/V1uwpZuZ64I/AAAAAAAA9vg/jJBjjOPi5-gCAceDpfDpNCpHXKyIL2jAQCLcB/s1600/20160610_170433_resized.jpg" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-WzyP7Y8tQNc/V1uwpZuZ64I/AAAAAAAA9vg/jJBjjOPi5-gCAceDpfDpNCpHXKyIL2jAQCLcB/s1600/20160610_170433_resized.jpg"></a></div><div class="imagewrapper"><a href="https://1.bp.blogspot.com/-dtkF6dDcp0g/V1uwpo7DAjI/AAAAAAAA9vw/9_Q-RAKE5aQafzUKiO5BSn6mQg4_qrWzQCLcB/s1600/20160610_170503_resized.jpg" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-dtkF6dDcp0g/V1uwpo7DAjI/AAAAAAAA9vw/9_Q-RAKE5aQafzUKiO5BSn6mQg4_qrWzQCLcB/s1600/20160610_170503_resized.jpg"></a></div><div class="imagewrapper"><a href="https://1.bp.blogspot.com/-zpJvIwPKc0A/V1uwpqoMV0I/AAAAAAAA9vs/B-DDugNO2Dwf24cGeG8mkRI5vXzJT3AQACLcB/s1600/20160610_170458_resized.jpg" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-zpJvIwPKc0A/V1uwpqoMV0I/AAAAAAAA9vs/B-DDugNO2Dwf24cGeG8mkRI5vXzJT3AQACLcB/s1600/20160610_170458_resized.jpg"></a></div><div class="imagewrapper"><a href="https://1.bp.blogspot.com/-ckuaFC8iDec/V1uwpkqYLNI/AAAAAAAA9vo/djc785frEesQ4xxfMwnfbxyUWU0lEiEmgCLcB/s1600/20160610_170454_resized.jpg" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-ckuaFC8iDec/V1uwpkqYLNI/AAAAAAAA9vo/djc785frEesQ4xxfMwnfbxyUWU0lEiEmgCLcB/s1600/20160610_170454_resized.jpg"></a></div><div class="imagewrapper"><a href="https://3.bp.blogspot.com/-GlomHwh79aE/V1uwpSXXaXI/AAAAAAAA9vc/jy5-hu04VKok6lXudsRu5g-bpSAixLlyQCLcB/s1600/20160610_170440_resized.jpg" imageanchor="1"><img border="0" src="https://3.bp.blogspot.com/-GlomHwh79aE/V1uwpSXXaXI/AAAAAAAA9vc/jy5-hu04VKok6lXudsRu5g-bpSAixLlyQCLcB/s1600/20160610_170440_resized.jpg"></a></div><div class="imagewrapper"><a href="https://2.bp.blogspot.com/-xb5axCWn2CU/V1uwpVeBtrI/AAAAAAAA9vY/22oASQY52qwxQ2LnE4cQ8diQ0pn_tS6TgCLcB/s1600/20160610_170447_resized.jpg" imageanchor="1"><img border="0" src="https://2.bp.blogspot.com/-xb5axCWn2CU/V1uwpVeBtrI/AAAAAAAA9vY/22oASQY52qwxQ2LnE4cQ8diQ0pn_tS6TgCLcB/s1600/20160610_170447_resized.jpg"></a></div></div><a href="https://1.bp.blogspot.com/-Kq_x6ZwzZnQ/V1vPHVQqDpI/AAAAAAAA93w/LY-p4p_UddYTdtfIwUdyZ0Qvx5JIBQWWQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B3.42.22%2BAM.png" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-Kq_x6ZwzZnQ/V1vPHVQqDpI/AAAAAAAA93w/LY-p4p_UddYTdtfIwUdyZ0Qvx5JIBQWWQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B3.42.22%2BAM.png"></a><br><div class="clearfix"></div><h2 id="goals">Initial Goals and Future Enhancements</h2><p>Above all I wanted the work to stand out and speak for itself, but I know the medium is just as important in telling any story. In my second set of sketches I included crazy ideas like a video tutorial, where I introduce myself and walk viewers through each of my favorite projects. I thought it would be fun to have a light and dark theme that switch using a moon or sun icon. Next to those, I could throw in another random icon that looked like a wizard's hat. That hat would transform my sterile minimalist design into a magical world that would make any Disney or Blizzard designer proud. It could dazzle with css parallax designs and hidden gems that are subtle but show creativity in a bold way. Those are probably unrealistic out-of-scope future enhancements, but where so fun to imagine that I dreamed about them that night.</p> <div id="research"><p>I spent a substantial amount of time Googling inspiration from illustrator/photography portfolio sites and Disney movie websites. Mostly because I knew those sites would look especially creative and have nice, unique layouts for showcasing specific work. Too many corporate</p></div> <h3>Inspiration:</h3><ul><li><a href="https://helgesverre.com/blog/">https://helgesverre.com/blog/</a></li><li><a href="https://flattrendz.com/flat-design-gallery/crod-ltd">FlatTrendz</a></li></ul> <h2 id="site">Building the Site</h2><p>After my initial sketches I used my blog website as a template to setup this website using Blogspot as the content management system. I'd already spent over a year cleaning up the code from my blog and developing a lot of custom functionality. I also knew that a blog layout would not be ideal for a portfolio site. I do not need to show ads, cross-link book reviews that I'd received from sponsors, or try to promote anything. The goal of this site is to introduce myself, how I think, and my work. More-over, I hope that this website will show that I have a passion for design and creating user-friendly projects. So, I setup a new site using an old domain I already owned but had recently stopped using.</p> <p>I knew my list of criteria for a portfolio site might not be complete, so I once again turned to Google. I made sure to create a complete list of what other designer's recommended including in a portfolio based on my goals.<br>One goal for this site is to show that I am familiar with the latest technology, coding best practices, and can customize functionality using HTML5/CSS3. So, I stayed up until the wee hours of the morning on day one cleaning up my original template. I deleted anything I didn't need. Blogger's out-of-the box code feels like (to me) a disorganized jumbled mess. So I integrated Bootstrap, removed most of Blogger's classes, and rearranged the code to go in order from header to footer (it wasn't that way to start with). Most of Blogger's themes are not responsive, accessibility friendly, or easy to read (the code). So, that is why I deleted everything and changed all the styles to Bootstrap's grid styles. My original design already was recoded to be responsive, but not clean enough and I really want this site to shine.</p> <h3>Assumptions</h3><p>The target audience for this website is the user experience team at Blizzard Entertainment. The Blizzard offices are located in Austin, Texas and Irvine, CA. Blizzard works on video games and entertainment software that requires computers which can process high resolution graphics and an internet connection like Fiber.</p> <p>According to SitePoint 54% of internet users use Google Chrome. The second most used internet browsers are Internet Explorer and Firefox. Internet Explorer has been discontinued by Microsoft and is generally considered the bane of most developer's existences.</p> <p>Since this site is being reviewed by a team while they are likely at work, they will most likely view the website on a desktop computer. They may also briefly test the site for mobile compatibility, but it is easier to navigate and read portfolio sites on a desktop.</p> <p>Based on the above assumptions the target audience for this site will expect high resolution photos, so most photos have not been optimized for the web and are at a fairly high resolution. The site code and multiple themes are optimized for mobile, but content that is not important to the portfolio may be hidden on mobile browsers. The site was built on Chrome and not tested in IE or Firefox (yet). There is a known navigation issue in Firefox, but the site has multiple ways to navigate so it is still very user friendly even without the left navigation.</p> <p>The team viewing the site are likely user interface designers, developers, managers, or user experience researchers. So it is important that the site is not only well coded and user friendly but also that the content explains my design process in a comprehensive way that is consistent and easy to navigate. Unfortunately, since this site was built in under a week there may still be bugs or code that needs removed. The site has been tested by over twenty friends, family and anyone else I could wrangle in to help with usability and their feedback has helped to improve the site in ways that would have otherwise taken me months to refine on my own. The content of the site is based on a conversation with Larry, a recruiter at Blizzard ENT, and information gleaned from the <a href="http://us.blizzard.com/en-us/company/careers/posting.html?id=16000CG">UX job requirements</a>.</p> <p>Based on my original review of the job requirements I knew that I have the qualifications to fulfill the requirements. I really wanted to show my aptitude with more than just simple images. Adding a higher level of detail to my portfolio could provide me with a higher probability of standing out amongst other applicants, I did that through case studies and linking to documentation samples. I was also hoping that the effort would reflect my excitement to potentially work for one of the top gaming companies in the industry, a company that built one of my favorite games (I spend an inordinate amount of my free time playing it). I would have a very hard time quantifying my excitement about the prospect of this position. </p>   <h3>Building the Site: Resources</h3><ul><li><a href="https://github.com/desaraev/portfolio/tree/blogger">Saving CSS/jQuery on GitHub</a></li><li><a href="http://hilite.me/">Creating code snippets</a></li><li><a href="http://www.bloggertipspro.com/2012/07/blogger-static-home-page-google-search.html">Create static homepage for Blogger</a></li><li><a href="http://kyleschaeffer.com/user-experience/10-things-a-website-should-never-ever-do/">http://kyleschaeffer.com/user-experience/10-things-a-website-should-never-ever-do/</a></li></ul><h2 id="challenges">Challenges</h2><p>I ran into a number of road blocks while recoding the site. A few elements of blogger like to re-add themselves, this was a minor speed bump. I also had some issue adding links to custom code, especially jQuery/Javascript - to get past this I rewrote anything I could as CSS and the rest I uploaded to Github and used a link to the raw files as linkable code files.</p> <p>Blogger deletes HTML markups from posts if the view of the WYSIWYG is changed to compose. Even if you do not save pages, paragraph tags may be removed and replaced with breaks at the end of each paragraph. </p> <h2 id="testing">User Acceptance Testing/Feedback</h2><p>Once my initial rough draft was built, I asked a number of close friends and family to review the site. My test group came from a diverse background with varying levels of technology savvy and familiarity with software development (most are novices but many have heard me excitedly prattle on about technology for years). I sent each person a short introduction to the site and asked for their feedback.</p> <a href="https://1.bp.blogspot.com/-TQ0-U6h2EMs/V1oHmqQ2iyI/AAAAAAAA9oE/0_KAbjSFSLc5hY2KrfWP6slWC3K83TXHgCLcB/s1600/Screen%2BShot%2B2016-06-08%2Bat%2B10.57.56%2BPM.png" imageanchor="1"><img alt="Prototype website image" border="0" class="left" src="https://1.bp.blogspot.com/-TQ0-U6h2EMs/V1oHmqQ2iyI/AAAAAAAA9oE/0_KAbjSFSLc5hY2KrfWP6slWC3K83TXHgCLcB/s1600/Screen%2BShot%2B2016-06-08%2Bat%2B10.57.56%2BPM.png"> <span class="caption">High-Fidelity Prototype - Version One</span></a> <p>After my interviewees responded I slowly revealed my goals, careful to try not to integrate any response bias into the survey/interview. I recorded feedback in my notes, being sure to note when people had similar responses. I noted, that many people related their ideas to what they had seen other sites do (like corporate sites) and often wanted the feeling of robust data to clutter their screen. One user mentioned that there was a lot of white space (not their same words) and that they knew most sites filled that space with ads, so maybe I should find something to add to the empty spaces. I responded that my goal is to highlight my work, make it easy to notice how to navigate between portfolio items, and to have a place where the portfolio and my resume may be downloaded as PDFs. Adding anything that wasn't important to those goals would distract users, they agreed and we moved on to continue the feedback session.</p> <h2>Finishing the Site</h2><p>The next step is to integrate analytics to track issues, finish refining the design, get more feedback and revise/repeat. As I write this, the site is in the first draft phase, once I finish cleaning up the design I will note any ideas I do not have time for right now (to hopefully integrate them... someday). When I ask my friends (who are doubling as users and quality assurance) to review the site, I will send some of them a list of simple goals and ask them to provide feedback. </p> <h2>Choosing a Color Scheme</h2><p>I received a lot of feedback that my color scheme was too plain, sterile, too simple, and even hospital like. I decided, based on that feedback, to change my original color scheme (mostly white, gray, and a vibrant teal) and integrate more color. My new color scheme is based on a picture of my favorite super hero.</p> <a href="https://4.bp.blogspot.com/-hmij8bm12Gg/V1r9zQrvVeI/AAAAAAAA9sc/sdto4bwUjIgWMFnijprYGoyKV-jJ2GGgQCLcB/s1600/toggle.PNG" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-hmij8bm12Gg/V1r9zQrvVeI/AAAAAAAA9sc/sdto4bwUjIgWMFnijprYGoyKV-jJ2GGgQCLcB/s1600/toggle.PNG"></a> <p>Think the site needs a colorful background? Scroll to the bottom and click the space toggle.  It is located in the bottom left corner of every screen.</p><p>Many bootstrap features, like color, are not accessibility friendly or 508 compliant out-of-the-box. So, I updated colors for things like messages. The colors where tested using <a href="http://webaim.org/resources/contrastchecker/">WebAim's color contrast checker</a>.</p> <h3 id="code">Example</h3><p>The difference in the pictures below may seem subtle, but for anyone with color blindness it can make a huge difference.</p> <h4>Before</h4><a href="https://3.bp.blogspot.com/-CqdTKzyZvYk/V1oFEQl7bDI/AAAAAAAA9nk/D6wbAWqc3h4EmIAWmycIO3hCLynWfuzwACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.08.30%2BPM.png" imageanchor="1"><img alt="alert warning banner using Bootstrap colors" border="0" class="left" src="https://3.bp.blogspot.com/-CqdTKzyZvYk/V1oFEQl7bDI/AAAAAAAA9nk/D6wbAWqc3h4EmIAWmycIO3hCLynWfuzwACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.08.30%2BPM.png"></a><br> <div style="float: right; width: 50%;"><h3>CSS</h3><code>.alert-danger, .alert-error {     color: #b94a48;     background-color: #f2dede;     border-color: #eed3d7; } </code></div> <a href="https://3.bp.blogspot.com/-dmoo5TPLtOY/V1oF88Vk-DI/AAAAAAAA9n0/UADRvC03MOsWPoKd5kdd9-J1h5MMFvq0ACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.11.37%2BPM.png" imageanchor="1"><img alt="Results from testing Bootstrap's colors (fail)" border="0" src="https://3.bp.blogspot.com/-dmoo5TPLtOY/V1oF88Vk-DI/AAAAAAAA9n0/UADRvC03MOsWPoKd5kdd9-J1h5MMFvq0ACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.11.37%2BPM.png" style="width: 50%;"></a><br> <div class="clearfix"></div><h4>After</h4><a href="https://2.bp.blogspot.com/-eKC8q2gKIQs/V1oFL1rutQI/AAAAAAAA9ns/BjHc1s7z4bQpQInx7TnV4sHumSbdYGU_ACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.09.02%2BPM.png" imageanchor="1"><img alt="alert warning banner using custom colors that are accessibility friendly" border="0" class="left" src="https://2.bp.blogspot.com/-eKC8q2gKIQs/V1oFL1rutQI/AAAAAAAA9ns/BjHc1s7z4bQpQInx7TnV4sHumSbdYGU_ACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.09.02%2BPM.png"></a><br><div style="float: right; width: 50%;"><h3>CSS</h3><code>.alert-danger {     color: #9C0705;     background-color: #FFEAEA;     border-color: #ebccd1; } </code> </div><a href="https://4.bp.blogspot.com/-e1kK6aueVgE/V1oGC0-fH2I/AAAAAAAA9n8/Sol76Z0XwwsbVf6TnoOYeqF_1qvXrNAkACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.04.26%2BPM.png" imageanchor="1"><img alt="Results from testing Bootstrap's colors (pass)" border="0" src="https://4.bp.blogspot.com/-e1kK6aueVgE/V1oGC0-fH2I/AAAAAAAA9n8/Sol76Z0XwwsbVf6TnoOYeqF_1qvXrNAkACLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B7.04.26%2BPM.png" style="width: 50%;"></a> <br><h1 id="example2">Examples</h1><a href="https://3.bp.blogspot.com/--KjETyxChF8/V1vVdMRNf9I/AAAAAAAA94Q/tZBprr5E_is1ROm42OQTajpQfOtNQHf6QCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.19%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://3.bp.blogspot.com/--KjETyxChF8/V1vVdMRNf9I/AAAAAAAA94Q/tZBprr5E_is1ROm42OQTajpQfOtNQHf6QCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.19%2BAM.png"></a><a href="https://2.bp.blogspot.com/-q3TgZb8F0mg/V1vVdPEno5I/AAAAAAAA94U/r3JMANVW4kgaSYhduOBj-yr4EB4SZsZeQCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.29%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-q3TgZb8F0mg/V1vVdPEno5I/AAAAAAAA94U/r3JMANVW4kgaSYhduOBj-yr4EB4SZsZeQCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.29%2BAM.png"></a><a href="https://4.bp.blogspot.com/-lM-6Jgbp-0s/V1vVdOAiKxI/AAAAAAAA94M/AjH1heYHhbQbKpwNOX99mO0olSSSqLdJQCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.40%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-lM-6Jgbp-0s/V1vVdOAiKxI/AAAAAAAA94M/AjH1heYHhbQbKpwNOX99mO0olSSSqLdJQCKgB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.08.40%2BAM.png"></a> <br><h1 id="tools">Tools and Skills</h1><ul><li><a href="http://getbootstrap.com/javascript/#dropdowns">Bootstrap Buttons</a></li><li><a href="http://getbootstrap.com/examples/theme/">Boostrap Menu</a></li><li><a href="http://getbootstrap.com/components/#glyphicons">Bootstrap Glyphicons</a></li><li><a href="http://fontawesome.io/icons/">Font Awesome</a></li><li>Usability Testing</li><li><a href="http://stackoverflow.com/questions/10769016/display-image-on-text-link-hover-css-only">Stackoverflow: CSS Only - make text appear on hover</a></li><li><a href="http://codepen.io/desaraev/">Codepen</a></li></ul><h1>Final QA/Usability Testing</h1> <h2>Portfolio Site Review</h2><div class="clearfix"></div><center><iframe width="420" height="315" src="https://www.youtube.com/embed/wwdosrZE6EM" frameborder="0" allowfullscreen=""></iframe></center><div class="clearfix"></div> <div class="button-wrapper"><a href="http://www.desaraev.com/p/portfolio-site-review-rocky-chat.html"><button class="lined thin" title="Chat transcript">Chat Transcript with Rocky</button></a><a href="https://youtu.be/wwdosrZE6EM"><button class="lined thin" title="Rocky Review">View Review on YouTube</button></a></div><div class="clearfix"></div> <div id="keepinmind">Things to keep in mind when reviewing this site:</div><ul><li>I do creative/technical work</li><li>The site should show that I have leadership experience</li><li>I want to show my capabilities/formal training in:  <ul><li>user interface (UI including graphic design and front-end development), fine art, program management, user experience (UX including formal research/evaluations, technical writing, prototyping, wireframes, process planning, and usability testing), and SEO</li></ul></li><li>This site is built only for people who have requested to see my portfolio. The goal of the site is not to improve search engine optimization (SEO) to increase random visits from unknown users. This is also why my contact information is not provided. Anyone on the site <b>should</b> already be able to contact me.</li></ul><h1>Would you like to help me improve this site?</h1>This link (<a href="http://goo.gl/forms/adS4pKSJhG0uu6fm1">http://goo.gl/forms/adS4pKSJhG0uu6fm1</a>) will take you to a Google Web Form. I've created a short survey, you can think of it like a scavenger hunt.<br><div class="">Let me know if you've seen any issues on the site and what you think of the content/layout. Example of the type of things to look for include:<br><ul><li>Spelling/grammar (it's not always my strong suit)</li><li>Did you understand the concepts described?</li><li>Did you like the projects I used in my portfolio (aesthetically)?</li><li>Do you see anything on the website that might be irrelevant (please skim the things to <a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#keepinmind">keep in mind</a>)? </li></ul></div> <h2>Mobile Testing</h2><div class="clearfix"></div><a href="https://2.bp.blogspot.com/-obscEWDSGmw/V1vWipqfVII/AAAAAAAA94g/dyCx_a4uGFQ6EcldlZBfY_PPLYfpBafWgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.12.14%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-obscEWDSGmw/V1vWipqfVII/AAAAAAAA94g/dyCx_a4uGFQ6EcldlZBfY_PPLYfpBafWgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.12.14%2BAM.png" style="max-width: 25% !important;"></a> <a href="https://3.bp.blogspot.com/-oHkzjvBmlLA/V1vWikpMl5I/AAAAAAAA94k/H5v9TtSC6b09iaKzJLniorF96sOdm_2SgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.12.40%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://3.bp.blogspot.com/-oHkzjvBmlLA/V1vWikpMl5I/AAAAAAAA94k/H5v9TtSC6b09iaKzJLniorF96sOdm_2SgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.12.40%2BAM.png" style="max-width: 25% !important;"></a> <a href="https://2.bp.blogspot.com/-4c43ZT4jkxI/V1vWio1REEI/AAAAAAAA94o/e084ufPMq-gD9yVq_d1-YwZNWiS3vQt1ACLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.01%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-4c43ZT4jkxI/V1vWio1REEI/AAAAAAAA94o/e084ufPMq-gD9yVq_d1-YwZNWiS3vQt1ACLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.01%2BAM.png" style="max-width: 25% !important;"></a> <div class="clearfix"></div> <a href="https://2.bp.blogspot.com/-0Ssq5_llVgI/V1vWiwgUlNI/AAAAAAAA94s/lPWhIR5KTgck8VCXfXraYa9p7_juoxv7ACLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.13%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-0Ssq5_llVgI/V1vWiwgUlNI/AAAAAAAA94s/lPWhIR5KTgck8VCXfXraYa9p7_juoxv7ACLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.13%2BAM.png" style="max-width: 25% !important;"></a> <a href="https://4.bp.blogspot.com/-ObMBMRP5Y_s/V1vWjPx6xCI/AAAAAAAA94w/JiUajkHuLCcMRHk92t3ptXBYg6dbUgBlgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.25%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-ObMBMRP5Y_s/V1vWjPx6xCI/AAAAAAAA94w/JiUajkHuLCcMRHk92t3ptXBYg6dbUgBlgCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.25%2BAM.png" style="max-width: 25% !important;"></a> <a href="https://4.bp.blogspot.com/-_0EAYI_aO3Q/V1vWjBlLAjI/AAAAAAAA940/ygHZt2tV2Wsqf2QerzX0jzfxe-UwRZwYwCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.38%2BAM.png" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-_0EAYI_aO3Q/V1vWjBlLAjI/AAAAAAAA940/ygHZt2tV2Wsqf2QerzX0jzfxe-UwRZwYwCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.13.38%2BAM.png" style="max-width: 25% !important;"></a><br><div class="clearfix"></div> <a href="http://mobiletest.me/ipad_mini_emulator/?u=http://desaraev.com">Mobile Test Me</a> <h1>Future Enhancements and Error Tracking</h1><a href="https://1.bp.blogspot.com/-jo1uLqh82fI/V1v6F7u6PWI/AAAAAAAA95w/6PWkHr43Pb0ivm2QtjbaZrmlyw4PaCmDQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B6.45.45%2BAM.png" imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-jo1uLqh82fI/V1v6F7u6PWI/AAAAAAAA95w/6PWkHr43Pb0ivm2QtjbaZrmlyw4PaCmDQCLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B6.45.45%2BAM.png" class="left"></a><br>   <div class="clearfix"></div>  <div class="button-wrapper">   <div class="hover_img">    <a href="http://www.desaraev.com/2016/06/blog-post.html">     <button class="lined thin" title="Code pages are not optimized for mobile">Code Samples</button>       <span>Code pages are not optimized for mobile</span>    </a>      </div>   <button class="lined thin">      <a href="http://www.desaraev.com/p/pattern-library.html" target="_blank">Pattern Library <div class="arrow arrow-1 right"></div>      </a></button>  </div> <div class="clearfix"></div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="https://4.bp.blogspot.com/-UJkqpLzDntk/V1veVQrvLDI/AAAAAAAA95I/bYTaXGJsEycK9EZOJ8M2hKVNBVlbhS0yACLcB/s320/Screen%2BShot%2B2016-06-11%2Bat%2B4.46.41%2BAM.png" itemprop="image_url">
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="836062369505072639" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=836062369505072639&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=836062369505072639&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=836062369505072639&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=836062369505072639&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=836062369505072639&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I1_1466290181195" name="I1_1466290181195" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Fsample-of-standards-documentation.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I1_1466290181195&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=38045454" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="836062369505072639"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/sample-of-standards-documentation.html">Sample of Standards Documentation</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-836062369505072639" itemprop="description articleBody">
+<div dir="ltr" style="text-align: left;" trbidi="on"><h2 style="text-align: left;">Purpose</h2><p>The purpose of the User Interface (UI) standards is to establish best practices for application/Website design. The primary audiences of: Information Architects, Development and Quality Assurance (QA) will benefit significantly from the development of core standards, as they will contribute to enhanced communication, reduced design time and a common knowledge regarding user interface design/user experience and functionality. All new products or products that will undergo /have undergone a major redesign will be required to comply unless otherwise specified.</p><a name="more"></a><p>Core UI standards will be able to be measured and enforced. Any given application (fitting the criteria listed above) will be able to be reviewed against them to determine its degree of compliance.</p><p>The UI Standards document is intended to be a global document for Web sites/applications must follow. In addition, it is expected that each Web site or application created will also have an accompanying style guide which will further define elements specific to each (e.g. font family, colors, branding). References to these style guides can be found with each product’s documentation.</p> <h3 style="text-align: left;">1.1 Supported browser / platform specifications</h3><br>All Web sites must be designed to support the W3C standards for HTML, CSS and DOM and be coded for device and platform independent.<br><br>Baseline capability will target Internet Explorer 9.x for Windows.<br><br><h3 style="text-align: left;">1.2 Target Resolution</h3><br>1024 x 768 pixels (px); design for this resolution must accommodate for screen pixels used by the browser’s interface (browser chrome).<br><br><h2 style="text-align: left;">2.0 Links</h2><p>Use links within the document as needed, to provide navigation to related articles or documents or to related Web sites. Do not underline headings that are not hypertext links.</p><br><div><h2 style="text-align: left;">3.0 Forms &amp; Interaction Guidelines</h2><div>This section includes best practices for the layout of forms and other interaction patterns.</div><div><br></div><h3 style="text-align: left;">3.1 Use Familiar &amp; &nbsp;Real World Field Layouts</h3><div><br></div><div>Mimic the users’ real world experiences and expectations in laying out form fields. Present information in the same logical format within the application as it appears elsewhere in the users’ world. For example, the layout of the name and address on a form would appear the way it does on an envelope.</div><div><br></div><h4 style="text-align: left;">Example:</h4></div><br>Location of all page elements/components should stay consistent throughout the application. For instance, if the location of the search box of a Web site is at the top-right of the screen on the homepage, it should also be at the top right on every other page where it appears.<br><br><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-UJkqpLzDntk/V1veVQrvLDI/AAAAAAAA95I/bYTaXGJsEycK9EZOJ8M2hKVNBVlbhS0yACLcB/s1600/Screen%2BShot%2B2016-06-11%2Bat%2B4.46.41%2BAM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="297" src="https://4.bp.blogspot.com/-UJkqpLzDntk/V1veVQrvLDI/AAAAAAAA95I/bYTaXGJsEycK9EZOJ8M2hKVNBVlbhS0yACLcB/s320/Screen%2BShot%2B2016-06-11%2Bat%2B4.46.41%2BAM.png" width="320"></a></div><br></div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="8399790435479389528" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=8399790435479389528&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=8399790435479389528&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=8399790435479389528&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=8399790435479389528&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=8399790435479389528&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_2" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I2_1466290181197" name="I2_1466290181197" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Fapplication-development-projecttask.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I2_1466290181197&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=27219015" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="8399790435479389528"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/application-development-projecttask.html">Application Development Project/Task Outline</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-8399790435479389528" itemprop="description articleBody">
+<div dir="ltr" style="text-align: left;" trbidi="on"><p>The purpose of this page is to show an outline of the types of team members/resources and project tasks that may be used during the software development lifecycle.</p><a name="more"></a> <div style="text-align: left;">Application Development Project/Task Outline</div><h2 style="text-align: left;">Requirements</h2><br> Requirements Gathering<br> Requirements Review<br><br>o UI/UX Lead<br>o Technical Lead<br>o UI/UX Lead<br>o Technical Lead<br><br><h2 style="text-align: left;"></h2></div>
+<div style="clear: both;"></div>
+</div>
+<style>
+        .breadcrumb { display: none;}
+        h3.post-title:hover, h3.post-title a:hover {
+            color: #034566 !important;
+            cursor: pointer;
+        }
+        .thumbnail, .excerpt {display: block !important;}
+  		.post.hentry .toggle-wrapper.button-wrapper, .post-labels { display: none; }
+        .jump-link { float: right; margin: 0px;}
+        .jump-link a { padding: 5px 0px; background: #e85c41; color: #fff !important; }
+        .post.hentry {
+            margin-bottom: 1.5em;
+            line-height: 1.6;
+            border: 1px solid #ddd;
+            padding: 0px 20px;
+            background: #f4f4f4;
+            border-radius: 5px;
+            margin-top:2em;
+        }
+        .status-msg-wrap {
+           margin: 52px auto 0 auto;
+        }
+        .viewall {
+            margin: -1em 0 0 0;
+    		z-index: 11111;
+        }
+        .darkbg .post.hentry, .magicbg .post.hentry { background: transparent !important; border: 0px !important;}
+      </style>
+<div class="jump-link">
+<a href="http://beta.desaraev.com/2016/06/application-development-projecttask.html#more" title="Application Development Project/Task Outline">Read more »</a>
+</div>
+<div class="clearfix"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"><span class="post-comment-link">
+<a class="comment-link" href="http://beta.desaraev.com/2016/06/application-development-projecttask.html#comment-form" onclick="">
+No comments:
+    </a>
+</span>
+</div></div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="2752307158933033570" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2752307158933033570&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2752307158933033570&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2752307158933033570&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2752307158933033570&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2752307158933033570&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_3" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I3_1466290181200" name="I3_1466290181200" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Fuser-experience-review.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I3_1466290181200&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=10089523" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="2752307158933033570"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/user-experience-review.html">User Experience Review</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2752307158933033570" itemprop="description articleBody">
+<h2>Introduction</h2><p>The purpose of this content is to provide an overview of the User Experience (UX) Review process. The UX Review section of the UX review process focuses specifically on the user experience, user interface, and usability testing (where applicable). This document describes methodology and standards used by the UX review team during a UX review. It also describes the artifacts delivered at the end of the review.</p><a name="more"></a> <h2>Prerequisites</h2><p>In order to perform a UX review, the review team requires access to the systems’ requirements, use cases, design documentation, etc., and access to a working copy of the application/website with valid test user accounts.</p> <h2>Review Methodology</h2><p>The application review team will first meet with the review coordinator, at least one business analyst, and at least one of the system developers to get an overview of the system, purpose, primary tasks, and overall user statistics. It is also useful to determine if there are specific sections of the application that are expected to require more and/or primary focus than others, such as high severity defects, etc.</p> <p>The application review team begins by focusing on the primary tasks of the application.</p><p>In general, the review team is looking at the application and task flow at a high level to identify areas of improvement within the overall information architecture. This process will help identify areas that are prone to user error, task inefficiency, and get in the way of the users’ success.</p> <p>Below is a comprehensive list of all available review categories, along with an outline of each ones’ purpose. Category recommendations will depend upon overall review goals, expectations, and review timeline:</p> <ul><li>Heuristic Review</li><li>Contextual Inquiry</li><li>Search Engine Optimization (SEO)</li><li>Task AnalysisvInitial assessment of application to identify medium to high severity usability concerns, as well as to baseline the application against established UI standards.</li><li>Initial interview of users to walk through current workflow within application. This helps to identify particular areas of frustration for users, any system limitations/performance issues, error-prone areas, and establish overall baseline user satisfaction.</li><li>Establish primary and secondary keywords that best match the product/application. Identify current page rank among various search engines and how to optimize for best search engine ranking relative to primary/secondary keywords.</li><li>Define tasks of user group and task frequency.</li><li>User Profile</li><li>Information Architecture</li><li>Conceptual Design</li><li>Usability testing (iterative process)</li><li>Usability test results and recommendations</li><li>Detailed Design</li><li>User research to gather user information/statistics such as demographics, user types, level of education, technical baseline, etc.</li><li>Diagram representing the navigational structure and architecture of the site.</li><li>Static graphical representation of concepts. Content and Functional Specs added as available.</li><li>Test preparation (user recruitment, test scripts, etc.) and facilitation.</li><li>Compile usability test results, and determine/prepare recommendations.</li><li>Static and/or interactive representation of revised concept based upon recommendations via results of usability testing.</li></ul> <h3>Deliverables</h3><p>Upon completion of the User Experience Review, the application review team will provide document that describes in detail each of the findings that were discovered during each categorical review</p><p>Each categorical review includes the following detailed documentation:</p><ul><li>Heuristic Review - documentation</li><li>Contextual Inquiry – documentation</li><li>Search Engine Optimization - documentation</li><li>Task Analysis - documentation</li><li>User Profile - documentation</li><li>Topology (Information Architecture) - visio diagram</li><li>Conceptual design - documentation</li><li>Usability test prep (user criteria; test scripts) - documentation</li><li>Usability test results and recommendations - documentation</li><li>Detailed design - documentation</li><li>UI/Functional specifications - documentation</li></ul> <p>The application review team will review the findings with the review coordinator, business analyst, and developers, to ensure collaborative understanding as well as to answer any questions that arise.</p>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<h2 class="date-header"><span>Friday, June 10, 2016</span></h2>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="https://2.bp.blogspot.com/-69ATftobc-A/V1utP0IZDnI/AAAAAAAA9vM/nNfRhpzmAiwaMg9ptbw7Kqwn5eP7mDQAgCLcB/s1600/20160610_170829_resized.jpg" itemprop="image_url">
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="2201199512664667011" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2201199512664667011&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2201199512664667011&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2201199512664667011&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2201199512664667011&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=2201199512664667011&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_4" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I4_1466290181202" name="I4_1466290181202" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Fgeneral-dynamics-information-technology.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I4_1466290181202&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=18992407" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="2201199512664667011"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/general-dynamics-information-technology.html">General Dynamics Information Technology</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2201199512664667011" itemprop="description articleBody">
+<div dir="ltr" style="text-align: left;" trbidi="on"><p>The purpose of this page is to describe projects and my role while employed at General Dynamics (GDIT). </p>  <a name="more"></a><div class="clearfix"></div><div class="right"><blockquote><h2>Jump to a Section:</h2><ul><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#overview">Overview</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#goals">Goals</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#examples">Examples</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#tools">Tools/Skills</a></li><li><a href="https://www.blogger.com/blogger.g?blogID=5358063918643889764#mentions">Mentions</a></li></ul></blockquote></div><h1 id="overview">Overview</h1>I am a senior UI designer at GDIT. General Dynamics is a leading large-scale IT contractor for defense, intelligence, civilian government &amp; private business. When I first started with the company, I worked on a small team for a company called Buccaneer (yes the office was full of pirate memorabilia until recently and it was awesome). Shortly after being hired onto the position Buccaneer was bought by Vangent who was almost immediately purchased by General Dynamics. If you've never heard of GD, you may recognize some of the company's various sectors' work like Gulf Stream airplanes, military tanks, bombs, government fraud and waste prevention systems, military training programs, or big data sites that have recently won numerous (positive) recognition/awards. I do not work on defense contracts or in aviation (though I love aviation). I'm in the Health and Civilian Solutions Division our sector provides software development support for extremely large information systems. Basically we improve processes/applications, analyze big data, and provide the backbone (infrastructure).<br>In this position, I've gained experience working with military and government agencies. Government work comes with it's own unique set of challenges and rewards. This includes working with a variety of technologies and development paradigms that are unique to government and enterprise software development, such as CMMI, UK accessibility standards (BSI), and Section 508 compliance. <br><h1 id="goals">Goals and Mission Statement</h1>The goal of my role, as a user experience(UX) designer is to advocate for stakeholders and end-users in areas like usability, accessibility, and strategic development that improve processes while increasing efficiency. In my role as a user interface (UI) designer, I aim to create aesthetically pleasing designs that push the boundaries of innovative technology.<br><h2>In Pursuit of Excellence</h2>At GDIT, I've spent over four years creating designs, documents and collaborating on strategies for multiple applications. I create wireframes, prototypes, and provide front-end design/development for multiple applications concurrently across multiple foreign/domestic divisions. The team I work on is matrix based meaning we often share talent and resources within the division. My role working with teams outside of my division is a unique one, but it has given me the opportunity to mentor other teams while advocating for the role of user-centered design in the overall software development lifecycle.<br><h1 id="examples">Examples</h1>Click on any 'example' image to zoom in<br><div class="clearfix"></div><div class="portfoliogrid"><div class="imagewrapper"><a href="https://2.bp.blogspot.com/-69ATftobc-A/V1utP0IZDnI/AAAAAAAA9vM/nNfRhpzmAiwaMg9ptbw7Kqwn5eP7mDQAgCLcB/s1600/20160610_170829_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-69ATftobc-A/V1utP0IZDnI/AAAAAAAA9vM/nNfRhpzmAiwaMg9ptbw7Kqwn5eP7mDQAgCLcB/s1600/20160610_170829_resized.jpg"></a></div><div class="imagewrapper"><a href="https://2.bp.blogspot.com/-omVRlBJNFfw/V1utPfaa27I/AAAAAAAA9uo/imnVPJMkrFYkZYHV_rAjWvcXX3nN7PmiACLcB/s1600/20160610_170612_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://2.bp.blogspot.com/-omVRlBJNFfw/V1utPfaa27I/AAAAAAAA9uo/imnVPJMkrFYkZYHV_rAjWvcXX3nN7PmiACLcB/s1600/20160610_170612_resized.jpg"></a></div><div class="imagewrapper"><a href="https://4.bp.blogspot.com/-HZmcUyw4yHw/V1utQCFwWPI/AAAAAAAA9vI/c_9PHqWwB20PMRqrVbYonDNplLH8hdbKwCLcB/s1600/20160610_170908_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-HZmcUyw4yHw/V1utQCFwWPI/AAAAAAAA9vI/c_9PHqWwB20PMRqrVbYonDNplLH8hdbKwCLcB/s1600/20160610_170908_resized.jpg"></a></div><div class="imagewrapper"><a href="https://4.bp.blogspot.com/-uot9L-0Oi7c/V1utPQm3pDI/AAAAAAAA9uk/6FtIPAvhZfAJC6HdMNE1zp1YCt2dJ9jpACLcB/s1600/20160610_170626_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-uot9L-0Oi7c/V1utPQm3pDI/AAAAAAAA9uk/6FtIPAvhZfAJC6HdMNE1zp1YCt2dJ9jpACLcB/s1600/20160610_170626_resized.jpg"></a></div><div class="imagewrapper"><a href="https://4.bp.blogspot.com/-fCowHN7pRY8/V1utPdetxmI/AAAAAAAA9us/cbFVtqYvjPQCwTQIOaINwLyltpv9yhq4ACLcB/s1600/20160610_170649_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-fCowHN7pRY8/V1utPdetxmI/AAAAAAAA9us/cbFVtqYvjPQCwTQIOaINwLyltpv9yhq4ACLcB/s1600/20160610_170649_resized.jpg"></a></div><div class="imagewrapper"><a href="https://3.bp.blogspot.com/-oOsuRa40yh8/V1utPiiHlfI/AAAAAAAA9u4/i0vI0WJDnUQB_duzGK6JdDmSgSTiFRcWwCLcB/s1600/20160610_170712_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://3.bp.blogspot.com/-oOsuRa40yh8/V1utPiiHlfI/AAAAAAAA9u4/i0vI0WJDnUQB_duzGK6JdDmSgSTiFRcWwCLcB/s1600/20160610_170712_resized.jpg" style="margin: -302px -71px;"></a></div><div class="imagewrapper"><a href="https://1.bp.blogspot.com/-9C3k6i0xn5U/V1utPjyc4jI/AAAAAAAA9u0/4Yt8YmIxX-8u9nZZMgiG0bNj9u7OZGAQACLcB/s1600/20160610_170757_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://1.bp.blogspot.com/-9C3k6i0xn5U/V1utPjyc4jI/AAAAAAAA9u0/4Yt8YmIxX-8u9nZZMgiG0bNj9u7OZGAQACLcB/s1600/20160610_170757_resized.jpg"></a></div><div class="imagewrapper"><a href="https://4.bp.blogspot.com/-Cd8PZf-F-lA/V1utP60936I/AAAAAAAA9vA/piPKgT2g4s8kAxDF8475ODV2C7RelkGoQCLcB/s1600/20160610_170827_resized.jpg" imageanchor="1"><img border="0" class="left" src="https://4.bp.blogspot.com/-Cd8PZf-F-lA/V1utP60936I/AAAAAAAA9vA/piPKgT2g4s8kAxDF8475ODV2C7RelkGoQCLcB/s1600/20160610_170827_resized.jpg"></a></div></div><div class="clearfix"></div>The following are links to articles about projects I redesigned, reviewed, or did other work for. NONE of the links in the following bullet points are the actual project I worked on. <br><ul><li><a href="https://www.ccwdata.org/web/guest/home" rel="nofollow">CCW</a></li><li><a href="http://www.gdit.com/" rel="nofollow">GDIT.com</a></li><li><a href="https://www.govtechworks.com/" rel="nofollow">GovTechWorks</a></li><li><a href="http://createsend.com/t/r-B7BC12BFF69659072540EF23F30FEDED" rel="nofollow">CQRS</a></li><li><a href="https://www.qtso.com/" rel="nofollow">QIES</a></li><li><a href="http://www.paymentinitiative.org/aboutUs/Pages/default.aspx" rel="nofollow">APII</a></li><li><a href="http://arfamiliesfirst.com/the-arkansas-payment-improvement-initiative/" rel="nofollow">APII</a></li></ul> <h1>Presentation</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/g0QLXrQTT6s" frameborder="0" allowfullscreen=""></iframe><h1 id="tools">Skills and Tools</h1><h2>Role</h2><ul><li>Create designs and layouts</li><li>Mock-up new functionality in low or high fidelity wireframes or prototypes</li><li>Mentor</li><li>Strategic software development planning</li><li>508 compliance and accessibility compliance testing/integration</li><li>Assist on capture management teams including writing responses to requests for information (RFI), requests for proposals (RFP), and proposal writing</li><li>Usability testing</li><li>Case studies</li><li>Business requirements</li><li>Ongoing application maintenance including stakeholder interface to resolve technical issues involving design, development and ux testing</li><li>Public speaking and recruitment</li><li>Analyze and synthesize website traffic data in detailed reports or presentations</li><li>Create and track behavioral flows, user story flows, case studies and audience demographics</li><li>Document site styles, patterns, and workflows as pattern libraries, style guides, and information architecture documentation</li><li>Experience working on applications for health analytics claims data analyzing Medicare and Medicaid data</li><li>Applications generating reports related to big data through services like OBIEE and SAS</li><li>Data entry, filing, and claims data experience with warehouse data </li><li>Design and task lead for high profile international projects</li><li>Accountable for development front-end code, wireframes, prototypes, and ongoing design strategy for provider reports </li><li>Design lead for transitioning data mining projects and the analysis of claims data for provider profiles which involved summarizing diagnoses, procedures, drugs, type of claims and providers, demographic information, and calculation of HEDIS measures</li><li>Co-lead for design workgroup, provided leadership and UI/UX support</li><li>Evaluation consultant for overall UI/UX/accessibility including beta testing GDIT.com and GovTechWorks</li></ul><h1 class="mentions">Mentions</h1><ul><li>Featured on Teamworks (internal company board) for Distinguished Performance Award</li><li>Featured on Teamworks for participating in Ragbrai and Tour de Cure (with other colleagues)</li><li>Featured on Teamworks for planning various local activities via the activities commitee (Dunk your boss, multiple fundraisers for charity, volunteering at Women of Innovation (WOI) and Hyperstream (a club that helps teach high school students about technology)</li><li><a href="https://www.govtechworks.com/state-cios-push-accessibility-and-user-experience-with-new-standards/#gs.0HHi3Vc">GovTechWorks</a></li></ul></div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="160082020365536562" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=160082020365536562&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=160082020365536562&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=160082020365536562&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=160082020365536562&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=160082020365536562&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_5" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I5_1466290181205" name="I5_1466290181205" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Frecommendations.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I5_1466290181205&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=66744290" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="160082020365536562"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/recommendations.html">Recommendations</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-160082020365536562" itemprop="description articleBody">
+<p>The purpose of this page is to show a list of references from colleagues, friends, and people I've volunteered with</p><p>Additional references available upon request.</p><a name="more"></a><h1>From LinkedIn</h1><h2>Patrick Rhone</h2><p><i>Author of Keeping It Straight and enough — http://patrickrhone.com/books/</i></p>Desarae is a perfect catalyst. She possesses a rare combination of brilliance and compassion. She connects people with needs with the people, companies, and/or teams to make them happen. She does this not just in the areas of design, marketing, and social media, but also in the private sector as well.<p></p> <p>May 24, 2010, Patrick was with another company when working with Desarae at Agency Couture</p> <h2>Xochi Adame</h2><p><i>Sr. Marketing &amp; PR. Full stack. B2B.</i></p><p>"Desarae went above and beyond her contracted Magento tasks to help Global Marketing troubleshoot issues on our website and blogs. Desarae is both talented and self-motivated. She participated in several branding and engagement strategy sessions with me, bringing valuable working knowledge to the table. Her expertise in UI design and her innate talent for relationship building resulted in Desarae being sent along with our corporate team to SXSW 2012 for learning and networking."</p> <p><i>May 22, 2012, Xochi worked directly with Desarae at CDS Global</i></p> <h2>Rick Mahn</h2><p>Sr. IT Architect - System Center Configuration Manager </p><p>Deasarae is a knowledgeable and motivated professional in the social media space. She's worked with Social Media Breakfast - MSP to share her knowledge and expertise with our community, proving her vision and professionalism time and again. She is a great choice for anyone looking for a knowledgeable speaker and business/brand advocate for their event or organization.</p> <p>September 2, 2010, Rick was with another company when working with Desarae at Agency Couture</p> <h2>Nate Riggs</h2><p><i>Inbound Marketing Consultant, HubSpot Gold Partner, CEO at NR Media Group, Experienced Conference Speaker and Educator</i></p><p>Desarae is a trust agent. I know that because when I met her in Minneapolis last year during a trip to the IABC conference, 4-5 people in the area mentioned her name. We met up at a cool little Jazz club and spent the next few hours talking about everything from business to faith to how the web is evolving. </p> <p>Desarae is as sharp as they come. She's had an extensive and diverse background in everything digital and has all the qualities of a natural communicator. Those skills have allowed her to build a virtual agency and make it profitable - and that's a tough business model to make work. </p> <p>In my mind, Des should be leading teams of people for a BIG company. She's a go getter, a diligent manager, excellent at building relationships and levels of respect and has a no BS interaction style. I'm glad to have her in my network.</p> <p>August 19, 2010, Nate was with another company when working with Desarae at Agency Couture</p>  <h2>Cory Vandenberghe</h2><p><i>Digital Marketing Manager | Interactive Producer &amp; Strategist</i></p><p>Desarae has been great to work with on different website projects. She has a unique eye for design, and has recommended many great interactive marketing strategies for our clients. I'm looking forward to working on more projects with Desarae. She's got a great work ethic, and does well in meetings with clients.</p> <p>April 10, 2008, Cory was with another company when working with Desarae at www.dveit.com</p> <div class="clearfix"></div> <div class="button-wrapper">   <div class="hover_img"><a href="http://www.desaraev.com/p/about.html" target="_blank"><button class="lined thin">About Desarae</button></a></div></div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+<div class="viewall">
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/categories.html" title="View all Cateogries">
+<i aria-hidden="true" class="fa fa-sort-amount-asc"></i>
+<span>View all project label categories</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/search?q=" title="List all projects">
+<div class="glyphicon glyphicon-th-list "></div>
+<span>View all projects with details in a list</span></a>
+</div>
+<div class="hover_img right">
+<a href="http://www.desaraev.com/p/view-all.html" title="View all project images as a grid">
+<div class="glyphicon glyphicon-th"></div>
+<span>View all projects in a grid as thumbnails</span></a>
+</div>
+<h3 class="right"><a href="http://www.desaraev.com/p/view-all.html" title="Show project images as a grid">View All:</a></h3>
+</div>
+<div class="post hentry" id="MAINcontent" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div class="navbar-collapse collapse right desktoponly" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class=" " style="position: relative;">
+<div class="toggle-wrapper button-wrapper">
+<input id="toggleDOWNLOADS" name="toggleDOWNLOADS" type="checkbox">
+<label for="toggleDOWNLOADS">
+<div class="lined-thin">
+                  Download
+                  <span class="caret"></span>
+</div>
+</label>
+<div class="toggle-inside">
+<ul aria-labelledby="toggleDOWNLOADS" class="dropdown-menutoggle">
+<li><a href="https://docs.google.com/document/d/1X7yOpM5IxFGxUMGATCvrbqC-QL-xYKLwecxONzdajqA/edit?usp=sharing" target="_blank">Portfolio</a></li>
+<li><a href="https://www.linkedin.com/in/desarae" target="_blank">Linkedin</a></li>
+<li class="divider" role="separator"></li>
+<li class="dropdown-header">Resumé</li>
+<li><a href="https://drive.google.com/file/d/0ByncXJQoSbO0Q3BmMy1wazRSSUg5Nmo2UXppLUx1V3pEZzdB/view?usp=sharing" target="_blank" title="Email to request access">UI/UX Resumé</a></li>
+<li><a href="https://docs.google.com/document/d/1CzcO-LRriWyMgeflLS_LXYCf_KsdQQcg-J4cWNwZUjE/edit" target="_blank">PM Resumé</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<meta content="4717460821390233792" itemprop="blogId">
+<meta content="6384492154793794070" itemprop="postId">
+<div class="social">
+<span class="post-icons">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=6384492154793794070&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=6384492154793794070&amp;target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=6384492154793794070&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=6384492154793794070&amp;target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="https://www.blogger.com/share-post.g?blogID=4717460821390233792&amp;postID=6384492154793794070&amp;target=pinterest" target="_blank" title="Share to Pinterest"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block google-plus-share-container"><div id="___plusone_6" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I6_1466290181208" name="I6_1466290181208" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fbeta.desaraev.com&amp;url=http%3A%2F%2Fbeta.desaraev.com%2F2016%2F06%2Frisdall-marketing.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I6_1466290181208&amp;parent=http%3A%2F%2Fbeta.desaraev.com&amp;pfname=&amp;rpctoken=35888255" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+</div>
+<a name="6384492154793794070"></a>
+<h3 class="breadcrumb">
+<a href="http://desaraev.com" target="_blank" title="Breadcrumb to home">Home  <span class="caret-right"></span></a>
+</h3>
+<h3 class="post-title entry-title" itemprop="name">
+<a href="http://beta.desaraev.com/2016/06/risdall-marketing.html">Risdall Marketing</a>
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-6384492154793794070" itemprop="description articleBody">
+<p>Consistently delivered on-time and under-budget search engine marketing, optimization, web development and design projects. Introduced new technology, to “old school” advertising methodologies for small business SEO, web design and social media clients. In many cases, resulted in revolutionizing how these companies executed their marketing campaigns to increase visibility and project efficiency.</p>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer-line post-footer-line-3"></div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="http://beta.desaraev.com/search?updated-max=2016-06-10T08:45:00-07:00&amp;max-results=7" id="Blog1_blog-pager-older-link" title="Older Posts">Older</a>
+</span>
+<a class="home-link" href="http://beta.desaraev.com/">Home</a>
+</div>
+<div class="clear"></div>
+<div class="blog-feeds">
+<div class="feed-links">
+Subscribe to:
+<a class="feed-link" href="http://beta.desaraev.com/feeds/posts/default" target="_blank" type="application/atom+xml">Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div>
+</div>
+</div>
+<!-- END main -->
+</div>
+</div>
+<!-- end #content .container and .row -->
+<!--start footer -->
+<footer class="bs-docs-footer" role="contentinfo">
+<div class="container">
+<div class="row">
+<p style="margin: 0px 0 11rem 50px;">Site by Desarae Veit using <a href="http://getbootstrap.com" target="_blank" title="Bootrap is a CSS Framework">Bootstrap</a> &amp; <a href="http://getbootstrap.com" target="_blank" title="Blogger is a content management system by Google">Blogger. © 2016</a>
+<a class="right" href="http://www.desaraev.com/p/sitemap.html" title="Sitemap is a list of all pages"><i aria-hidden="true" class="fa fa-sitemap"></i> Sitemap</a>
+<a class="right" href="http://www.desaraev.com/p/pattern-library.html" style="margin: 0 20px 0 0;"><i aria-hidden="true" class="fa fa-puzzle-piece"></i> Pattern Library </a>
+</p>
+</div>
+</div>
+<nav class="nav navbar-nav navbar navbar-fixed-bottom">
+<div class="container">
+<div class="row">
+<div class="col-md-9">
+<div id="searchwrapper">
+<form action="/search" id="searchthis" method="get" style="display:inline;" class="ng-pristine ng-valid">
+<div class="col-md-11" style="float:left;">
+<input id="abt-search-box" name="q" placeholder="  Type to search " size="40" type="text">
+</div>
+<div class="col-md-1" style="float:left;">
+<input id="abt-search-btn btn" style="padding: 1rem;" type="submit" value="Search">
+</div>
+</form>
+</div>
+</div>
+<div class="col-md-3">
+<div class="top" style="float:right;">
+<a href="#top">↑ Top</a>
+</div>
+</div>
+<div style="display: none;">
+<div class="foot no-items section" id="footer-1"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="section-columns columns-2">
+<tbody>
+<tr>
+<td class="first columns-cell">
+<div class="foot no-items section" id="footer-2-1"></div>
+</td>
+<td class="columns-cell">
+<div class="foot no-items section" id="footer-2-2"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class="foot section" id="footer-3"><div class="widget Text" data-version="1" id="Text1">
+<h2 class="title">Disclaimer</h2>
+<div class="widget-content">
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=4717460821390233792&amp;widgetType=Text&amp;widgetId=Text1&amp;action=editWidget&amp;sectionId=footer-3" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Text1&quot;));" target="configText1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div>
+<div style="display: none;">
+<div class="section" id="crosscol-overflow"><div class="widget PageList" data-version="1" id="PageList1">
+<h2>Pages</h2>
+<div class="widget-content">
+<ul>
+<li class="selected"><a href="http://beta.desaraev.com/">Home</a></li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=4717460821390233792&amp;widgetType=PageList&amp;widgetId=PageList1&amp;action=editWidget&amp;sectionId=crosscol-overflow" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PageList1&quot;));" target="configPageList1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget HTML" data-version="1" id="HTML6">
+<h2 class="title">Search</h2>
+<div class="widget-content">
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=4717460821390233792&amp;widgetType=HTML&amp;widgetId=HTML6&amp;action=editWidget&amp;sectionId=crosscol-overflow" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML6&quot;));" target="configHTML6" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div>
+</div>
+</div>
+</nav>
+</footer>
+<!--end footer-->
+<script type="text/javascript">
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+  /*<![CDATA[*/
+    var perPage=10;
+    var numPages=6;
+    var firstText ='First';
+    var lastText ='Last';
+    var prevText ='« Previous';
+    var nextText ='Next »';
+    var urlactivepage=location.href;
+    var home_page="/";
+  /*]]>*/
+</script>
+<script src="http://helplogger.googlecode.com/svn/trunk/page-navigation2.js"></script>
+</div>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2424841708-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript">
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '4717460821390233792';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4717460821390233792','//beta.desaraev.com/','4717460821390233792');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4717460821390233792', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Beta', 'pageType': 'index', 'url': 'http://beta.desaraev.com/', 'canonicalUrl': 'http://beta.desaraev.com/', 'homepageUrl': 'http://beta.desaraev.com/', 'searchUrl': 'http://beta.desaraev.com/search', 'canonicalHomepageUrl': 'http://beta.desaraev.com/', 'blogspotFaviconUrl': 'http://beta.desaraev.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Beta', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Beta - Atom\x22 href\x3d\x22http://beta.desaraev.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Beta - RSS\x22 href\x3d\x22http://beta.desaraev.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Beta - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4717460821390233792/posts/default\x22 /\x3e\n', 'meTag': '', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://beta.desaraev.com/\x22 /\x3e\n', 'latencyHeadScript': '\x3cscript type\x3d\x22text/javascript\x22\x3e(function() { (function(){function c(a){this.t\x3d{};this.tick\x3dfunction(a,c,b){var d\x3dvoid 0!\x3db?b:(new Date).getTime();this.t[a]\x3d[d,c];if(void 0\x3d\x3db)try{window.console.timeStamp(\x22CSI/\x22+a)}catch(e){}};this.tick(\x22start\x22,null,a)}var a;window.performance\x26\x26(a\x3dwindow.performance.timing);var h\x3da?new c(a.responseStart):new c;window.jstiming\x3d{Timer:c,load:h};if(a){var b\x3da.navigationStart,e\x3da.responseStart;0\x3cb\x26\x26e\x3e\x3db\x26\x26(window.jstiming.srt\x3de-b)}if(a){var d\x3dwindow.jstiming.load;0\x3cb\x26\x26e\x3e\x3db\x26\x26(d.tick(\x22_wtsrt\x22,void 0,b),d.tick(\x22wtsrt_\x22,\n\x22_wtsrt\x22,e),d.tick(\x22tbsd_\x22,\x22wtsrt_\x22))}try{a\x3dnull,window.chrome\x26\x26window.chrome.csi\x26\x26(a\x3dMath.floor(window.chrome.csi().pageT),d\x26\x260\x3cb\x26\x26(d.tick(\x22_tbnd\x22,void 0,window.chrome.csi().startE),d.tick(\x22tbnd_\x22,\x22_tbnd\x22,b))),null\x3d\x3da\x26\x26window.gtbExternal\x26\x26(a\x3dwindow.gtbExternal.pageT()),null\x3d\x3da\x26\x26window.external\x26\x26(a\x3dwindow.external.pageT,d\x26\x260\x3cb\x26\x26(d.tick(\x22_tbnd\x22,void 0,window.external.startE),d.tick(\x22tbnd_\x22,\x22_tbnd\x22,b))),a\x26\x26(window.jstiming.pt\x3da)}catch(k){}})();window.tickAboveFold\x3dfunction(c){var a\x3d0;if(c.offsetParent){do a+\x3dc.offsetTop;while(c\x3dc.offsetParent)}c\x3da;750\x3e\x3dc\x26\x26window.jstiming.load.tick(\x22aft\x22)};var f\x3d!1;function g(){f||(f\x3d!0,window.jstiming.load.tick(\x22firstScrollTime\x22))}window.addEventListener?window.addEventListener(\x22scroll\x22,g,!1):window.attachEvent(\x22onscroll\x22,g);\n })();\x3c/script\x3e', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/285f8adf5e0327ac', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}}}, {'name': 'features', 'data': {'templateBrowserTheme': true, 'widgetVisibility': true}}, {'name': 'messages', 'data': {'adsGoHere': 'Ads go here', 'archive': 'Archive', 'authorSaid': '%1 said...', 'authorSaidWithLink': '\x3ca href\x3d\x22%2\x22 rel\x3d\x22nofollow\x22\x3e%1\x3c/a\x3e said...', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \x3ca href\x3d\x22%2\x22\x3e%1\x3c/a\x3e', 'configurationRequired': 'Configuration required', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'hidden': 'Hidden', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \x3d0 {No comments} \x3d1 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \x3ca href\x3d\x22%2\x22\x3e%1\x3c/a\x3e', 'readMore': 'Read more', 'recentPosts': 'Recent posts', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'showLess': 'Show less', 'showMore': 'Show more', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeTo': 'Subscribe to:', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\x27s nothing here!', 'viewAll': 'View all', 'visible': 'Visible', 'visitProfile': 'Visit profile', 'widgetNotAvailableInPreview': 'This content is not available in blog preview.', 'widgetNotAvailableOnHttps': 'This content is not yet available over encrypted connections.'}}, {'name': 'skin', 'data': {'vars': {}, 'override': ''}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'title': 'Beta', 'description': ''}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-left-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label2', 'main', null, document.getElementById('Label2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/4174178637-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'footer-3', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol-overflow', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://beta.desaraev.com/', 'title': 'Home', 'isCurrentPage': true}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'crosscol-overflow', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+</script>
+
+<iframe name="oauth2relay297727384" id="oauth2relay297727384" src="https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fbeta.desaraev.com&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2cv2ukNQR74.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNOPOlYPyViTRZzB0LhQcLsf3eauw#rpctoken=273429278&amp;forcesecure=1" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; opacity: 0.9; cursor: pointer; top: 600px; left: 1112.5px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px;"></span><span style="border-radius: 2px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 20px; font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; -webkit-font-smoothing: antialiased; top: 296px; left: 526px; background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(189, 8, 28);">Save</span><link type="text/css" rel="stylesheet" href="https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css"><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/4174178637-lbx.js"></script><div class="iyp__toolbar"></div></body></html>
