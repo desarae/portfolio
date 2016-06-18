@@ -11,6 +11,9 @@
 	.toggle-wrapper.desktopmenu {
 		display: none;
     	}
+    	.toggle-wrapper.mobilemenu {
+    		cursor: pointer;	
+    	}
 	.toggle-wrapper.mobilemenu {
 		display: block;
 		position: absolute;
