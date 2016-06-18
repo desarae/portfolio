@@ -551,8 +551,8 @@ aside .toggle-inside li {
 	overflow: visible;
 }
 footer .navbar {
-	height: 6rem;
-	padding: 10px 0 0 0;
+	height: 6rem !important;
+	padding: 10px 0 0 0 !important;
 }
 #navbar label div  {
     color: #fff !important;
