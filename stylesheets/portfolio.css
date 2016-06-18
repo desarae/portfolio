@@ -1781,6 +1781,9 @@ a.home-link, a.home-link:link, a.home-link:visited,
 	font-weight:bold; 
 	box-shadow: 0px 3px 2px #CCC;
 }
+.jump-link a, .jump-link a:link, .jump-link a:visited {
+	color: #fff !important;
+}
 
 .jump-link a:hover, a.home-link:hover,  
 #blog-pager-older-link a:hover, #blog-pager-newer-link a:hover {
