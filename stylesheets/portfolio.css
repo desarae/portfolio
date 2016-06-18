@@ -680,7 +680,6 @@ footer .navbar {
 	border-right: 1px solid #EEEDEE;
 }
 h2 span, h2 {
-    font-family: 'Open Sans', 'PT Sans', serif, arial !important;
     color: #000;
 }
 h2.date-header span {
@@ -1900,7 +1899,6 @@ iframe[id*='google_ads'], #ads, .ads {
 }
 .rightupper article h1 {
     color: #000;
-    font: 16px 'open sans', sans-serif, arial;
     line-height: 21px;
     margin-top: 3px;
 }
@@ -1957,7 +1955,6 @@ ul.lineofarticles li {
 }
 .lineofarticles li .item-title {
     color: #000;
-    font: 16px 'open sans', sans-serif, arial;
     line-height: 21px;
     margin-top: 3px;
 }
