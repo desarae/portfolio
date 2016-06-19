@@ -1,4 +1,40 @@
 /***** RESPONSIVE ==============================================*****/
+/*********************************************************************************************/
+@media (min-width: 1501px) {
+	.Header h1 a:after {
+        	content: 'viewport > 1501';
+        	padding: 0 10px;
+        	font-size: 1rem;
+	}
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+	.Header h1 a:after {
+        	content: 'viewport 1400 : 1500';
+        	padding: 0 10px;
+        	font-size: 1rem;
+	}
+}
+@media (min-width: 1300px) and (max-width: 1400px) {
+	.Header h1 a:after {
+        	content: 'viewport 1300 : 1400';
+        	padding: 0 10px;
+        	font-size: 1rem;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.Header h1 a:after {
+        	content: 'viewport 1200 : 1300';
+        	padding: 0 10px;
+        	font-size: 1rem;
+	}
+}
+@media (min-width: 1181px) and (max-width: 1200px) {
+	.Header h1 a:after {
+        	content: 'viewport 1181 : 1200';
+        	padding: 0 10px;
+        	font-size: 1rem;
+	}
+}
 @media (min-width: 1200px) {
 	.toggle-wrapper.desktopmenu {
 		display: block;
@@ -67,11 +103,6 @@
 		display: none !important;
 		visibility: hidden;
     	}
-	.Header h1 a:after {
-	        content: 'viewport > 1181';  /** > > is greater than**/
-	        padding: 0 10px;
-	        font-size: 1rem;
-	    }
 	    .homeicons ul {
 	        padding: 0 !important;
 	    }
