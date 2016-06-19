@@ -34,7 +34,8 @@
     background:#555;
 }
 .magicbg,.magicbg .Header h1,.magicbg .Header h1 a,.magicbg .content-main .main.section,.magicbg a,
-.magicbg h1,.magicbg h2,.magicbg h2 span,.magicbg p{
+.magicbg h1,.magicbg h2,.magicbg h2 span,.magicbg p, 
+.profile-datablock a, .profile-datablock a:link, .profile-datablock a:visited{
     color:#fff!important;
     font-family:'Lucida Grande',Helvetica,open-sans,sans-serif;
     font-weight:100;
