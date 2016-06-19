@@ -2171,15 +2171,18 @@ ul.lineofarticles li {
 /*------------END SUPER HEROES------------*/
 /***** NAVIGATION ==============================================*****/
 /***** Breadcrumb *******/
+.breadcrumb {
+    	background:transparent !important;
+}
 h3.breadcrumb {
-    padding: 0px 10px 0 0;
-    margin: 0;
-    float: left;
+    	padding: 0px 10px 0 0;
+    	margin: 0;
+    	float: left;
 	z-index: 1;
 }
 h3.post-title:hover, h3.post-title a:hover {
-    color: #aaa !important;
-    cursor: not-allowed;
+    	color: #aaa !important;
+	cursor: not-allowed;
 }
 .breadcrumb a:visited, .breadcrumb a:link, .breadcrumb a {
 	box-shadow: 0 0 0 0 transparent;
@@ -2188,29 +2191,29 @@ h3.breadcrumb:hover h3.breadcrumb a:hover {
 	cursor: pointer !important;
 }
 span.caret-right {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-left: 4px dashed;
-    border-left: 4px solid\9;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    margin-bottom: 2px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-left: 4px dashed;
+	border-left: 4px solid\9;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	margin-bottom: 2px;
 }
 /***** ACCESSIBILITY ==============================================*****/
 .sr-only-focusable:active, .sr-only-focusable:focus {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #064471;
-    z-index: 1;
-    color: #fff !important;
-    text-align: center;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	clip: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #064471;
+	z-index: 1;
+	color: #fff !important;
+	text-align: center;
 }
