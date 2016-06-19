@@ -57,7 +57,8 @@
     box-shadow: 1px 1px 1px 0px #d4b63e !important;
 }
 /**Pagination**/
-.darkbg .mbt-pager a, .darkbg .mbt-pager a:link, .darkbg .mbt-pager a:visited, .darkbg .mbt-pager i {
+.darkbg .mbt-pager a, .darkbg .mbt-pager a:link, .darkbg .mbt-pager a:visited, .darkbg .mbt-pager i,
+.darkbg .mbt-pager li a strong, .darkbg .mbt-pager li a:link strong, .darkbg .mbt-pager li a:visited strong {
 	color: #000 !important;	
 }
 /**Nav**/
