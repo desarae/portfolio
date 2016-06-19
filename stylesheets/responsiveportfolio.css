@@ -21,6 +21,11 @@
         	font-size: 1rem;
 	}
 }
+@media (max-width: 1300px) {
+	.skywrapper {
+        	display:none;
+	}
+}
 @media (min-width: 1200px) and (max-width: 1300px) {
 	.Header h1 a:after {
         	content: 'viewport 1200 : 1300';
