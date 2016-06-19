@@ -93,9 +93,6 @@
 .select label.selected-3 .switch-toggle::after {
   transform: translateX(37.5px);
 }
-.switch label:hover{
-  opacity:0.8;
-}
 /****************************DAY NIGHT TOGGLE *************************/
 .sun-burst {
 	display:none;
