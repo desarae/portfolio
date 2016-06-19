@@ -80,7 +80,6 @@
 }
 .darkbg .clouds {
 	height:539px;
-	position: fixed;
   	background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
 }
 .darkbg .starstwinkle, .darkbg .twinkling {
