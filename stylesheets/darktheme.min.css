@@ -72,7 +72,7 @@
   	background:0 0;
 }
 .darkbg .content-main .main.section{
-	border: 1px solid rgba(225, 195, 72, 0.32)!important;
+	border: 1px solid #a1e3f7!important;
 	border-radius: 0!important;
 	background: #f7ffff;
 	box-shadow: -21px 39px 34px -26px rgba(0, 0, 0, 0.2);
@@ -80,10 +80,11 @@
 	background: linear-gradient(to left, rgba(206, 239, 251, 0.46) 0%, #c2e4ef 100%);
 }
 .darkbg .silly{
-  	border: 5px solid rgba(225, 195, 72, 0.34);
+  	border: 1px solid rgba(225, 195, 72, 0.34);
   	padding: 12px 5px;
   	background: -webkit-linear-gradient(top, #d1f5ff 0%, #ffdf6d 100%);
   	background: linear-gradient(to bottom, #d1f5ff 0%, #e1c348 100%);
+  	padding: 0 13px;
 }
 .darkbg .main-container{
   	margin-top:10px!important;
