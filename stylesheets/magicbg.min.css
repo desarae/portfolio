@@ -57,6 +57,10 @@
 .magicbg .mbt-pager li.next:hover,.magicbg .mbt-pager li.previous:hover, .magicbg .primarybutton .lined {
     background: #000 !important;
 }
+.magicbg .profile-data {
+    background: #ccc;
+    padding: 6px 10px;
+}
 .magicbg a,.magicbg a.button,.magicbg a.button:hover,.magicbg a:focus,.magicbg a:hover,.magicbg a:visited,
 .magicbg button,.magicbg button a,.magicbg button a:hover{
     color:#70bce2!important;
