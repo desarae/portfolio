@@ -1,15 +1,15 @@
-.darkbg{
+.bg-2{
 	/*background-image:url(https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG);
 	*/background-attachment:fixed;
 	background-repeat:repeat;
 	background-size:14%;
 	background: #9ee3fb;
 }
-.darkbg .darkbgonly,.darkbg .togglehover_img a,.magicbg .togglehover_img a{
+.bg-2 .bg-2only,.bg-2 .togglehover_img a,.magicbg .togglehover_img a{
   	display:block!important;
 }
 /**Search**/
-.darkbg #blog-pager,.darkbg footer .nav .col-md-9 #searchwrapper,.darkbg footer p,.darkbgonly{
+.bg-2 #blog-pager,.bg-2 footer .nav .col-md-9 #searchwrapper,.bg-2 footer p,.bg-2only{
   	display:none;
 }
 .darksearch{
@@ -18,65 +18,65 @@
 	right:0;
 }
 /**main**/
-.darkbg blockquote{
+.bg-2 blockquote{
   	border:5px solid #89C6DB;
   	box-shadow:0 0 0 0 transparent;
 }
-.darkbg .post a,.darkbg .post a:hover{
+.bg-2 .post a,.bg-2 .post a:hover{
   	box-shadow:inset 0 0 0 transparent;
 }
-.darkbg a:active,.darkbg a:focus,.darkbg a:hover{
+.bg-2 a:active,.bg-2 a:focus,.bg-2 a:hover{
   	color:#014875!important;
 }
-.darkbg a:visited{
+.bg-2 a:visited{
   	text-decoration:none;
   	color:#2b5c6c!important;
 }
 /**Buttons**/
-.darkbg a,.darkbg a.button,.darkbg a.button:hover,.darkbg button,.darkbg button a,.darkbg button a:hover{
+.bg-2 a,.bg-2 a.button,.bg-2 a.button:hover,.bg-2 button,.bg-2 button a,.bg-2 button a:hover{
   	text-decoration:none;
   	color:#057596!important;
 }
-.darkbg .primarybutton .lined {
+.bg-2 .primarybutton .lined {
   	background: #e2c448 !important;
 }
-.darkbg .btn-right::before, .darkbg .btn-right::after {
+.bg-2 .btn-right::before, .bg-2 .btn-right::after {
   	background: #e1c348;
 }
-.darkbg .jump-link a, .darkbg .jump-link a:link {
+.bg-2 .jump-link a, .bg-2 .jump-link a:link {
     background: #ffdf6d !important;
     color: #000 !important;
     border: 1px solid #e1c348;
     box-shadow: 1px 1px 1px 1px #e1c348 !important;
     padding: 5px 0;
 }
-.darkbg .jump-link a:hover {
+.bg-2 .jump-link a:hover {
     background: #eacc51 !important;
     color: #000 !important;
     border: 1px solid #e1c348;
     box-shadow: 1px 1px 1px 0px #d4b63e !important;
 }
 /**Pagination**/
-.darkbg .mbt-pager a, .darkbg .mbt-pager a:link, .darkbg .mbt-pager a:visited, .darkbg .mbt-pager i,
-.darkbg .mbt-pager li a strong, .darkbg .mbt-pager li a:link strong, .darkbg .mbt-pager li a:visited strong {
+.bg-2 .mbt-pager a, .bg-2 .mbt-pager a:link, .bg-2 .mbt-pager a:visited, .bg-2 .mbt-pager i,
+.bg-2 .mbt-pager li a strong, .bg-2 .mbt-pager li a:link strong, .bg-2 .mbt-pager li a:visited strong {
 	color: #000 !important;	
 }
 /**Nav**/
-.darkbg #navbar label div {
+.bg-2 #navbar label div {
   	background:#000!important;
 }
-.darkbg .center-circle{
+.bg-2 .center-circle{
   	background-color:#057596;
 }
-.darkbg .top a{
+.bg-2 .top a{
 	padding:27px 15px!important;
 	border-radius:43px!important;
 	background:#fff!important;
 }
-.darkbg nav.nav.navbar-nav.navbar.navbar-fixed-bottom{
+.bg-2 nav.nav.navbar-nav.navbar.navbar-fixed-bottom{
   	background:0 0;
 }
-.darkbg .content-main .main.section{
+.bg-2 .content-main .main.section{
 	border: 1px solid #a1e3f7!important;
 	border-radius: 0!important;
 	background: #f7ffff;
@@ -84,24 +84,24 @@
 	background: -webkit-linear-gradient(left, #c8f1ff 0%, rgba(208, 234, 243, 0.46) 100%);
 	background: linear-gradient(to left, rgba(208, 234, 243, 0.46) 0%, #c8f1ff 100%);
 }
-.darkbg .silly{
+.bg-2 .silly{
   	border: 1px solid rgba(225, 195, 72, 0.34);
   	padding: 12px 5px;
   	background: -webkit-linear-gradient(top, #d1f5ff 0%, #ffdf6d 100%);
   	background: linear-gradient(to bottom, #d1f5ff 0%, #e1c348 100%);
   	padding: 0 13px;
 }
-.darkbg .main-container{
+.bg-2 .main-container{
   	margin-top:10px!important;
 }
-.darkbg .showit, .darkbg .sun-burst {
+.bg-2 .showit, .bg-2 .sun-burst {
 	display: block;
 }
-.darkbg .clouds {
+.bg-2 .clouds {
 	height:539px;
   	background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
 }
-.darkbg .starstwinkle, .darkbg .twinkling {
+.bg-2 .starstwinkle, .bg-2 .twinkling {
 	display: none;
 }
 .sun-burst {
@@ -118,7 +118,7 @@
 	transition-delay: 10s;
 	opacity: 0.7;
 }
-.darkbg .skywrapper .moon {
+.bg-2 .skywrapper .moon {
 	height: 100px;
 	width: 100px;
 	margin: 50px auto;
