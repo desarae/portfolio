@@ -1,112 +1,113 @@
 .darkbg{
-  /*background-image:url(https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG);
-  */background-attachment:fixed;
-  background-repeat:repeat;
-  background-size:14%;
-  background: #9ee3fb;
+	/*background-image:url(https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG);
+	*/background-attachment:fixed;
+	background-repeat:repeat;
+	background-size:14%;
+	background: #9ee3fb;
 }
 .darkbg .darkbgonly,.darkbg .togglehover_img a,.magicbg .togglehover_img a{
-  display:block!important;
+  	display:block!important;
 }
 /**Search**/
 .darkbg #blog-pager,.darkbg footer .nav .col-md-9 #searchwrapper,.darkbg footer p,.darkbgonly{
-  display:none;
+  	display:none;
 }
 .darksearch{
-  position:absolute;
-  top:0;
-  right:0;
+	position:absolute;
+	top:0;
+	right:0;
 }
 /**main**/
 .darkbg blockquote{
-  border:5px solid #89C6DB;
-  box-shadow:0 0 0 0 transparent;
+  	border:5px solid #89C6DB;
+  	box-shadow:0 0 0 0 transparent;
 }
 .darkbg .post a,.darkbg .post a:hover{
-  box-shadow:inset 0 0 0 transparent;
+  	box-shadow:inset 0 0 0 transparent;
 }
 .darkbg a:active,.darkbg a:focus,.darkbg a:hover{
-  color:#E1C348!important;
+  	color:#E1C348!important;
 }
 .darkbg a:visited{
-  text-decoration:none;
-  color:#2b5c6c!important;
+  	text-decoration:none;
+  	color:#2b5c6c!important;
 }
 /**Buttons**/
 .darkbg a,.darkbg a.button,.darkbg a.button:hover,.darkbg button,.darkbg button a,.darkbg button a:hover{
-  text-decoration:none;
-  color:#057596!important;
+  	text-decoration:none;
+  	color:#057596!important;
 }
 .darkbg .primarybutton .lined {
-  background: #e2c448 !important;
+  	background: #e2c448 !important;
 }
 .darkbg .btn-right::before, .darkbg .btn-right::after {
-  background: #e1c348;
+  	background: #e1c348;
 }
 /**Nav**/
 .darkbg #navbar label div {
-  background:#000!important;
+  	background:#000!important;
 }
 .darkbg .center-circle{
-  background-color:#057596;
+  	background-color:#057596;
 }
 .darkbg .top a{
-  padding:27px 15px!important;
-  border-radius:43px!important;
-  background:#fff!important;
+	padding:27px 15px!important;
+	border-radius:43px!important;
+	background:#fff!important;
 }
 .darkbg nav.nav.navbar-nav.navbar.navbar-fixed-bottom{
-  background:0 0;
+  	background:0 0;
 }
 .darkbg .content-main .main.section{
-  border: 1px solid rgba(225, 195, 72, 0.32)!important;
-  border-radius: 0!important;
-  background: #f7ffff;
-  box-shadow: -21px 39px 34px -26px rgba(0, 0, 0, 0.2);
-  background: -webkit-linear-gradient(left, #9ee3fb 0%, rgba(134, 195, 215, 0.52) 100%);
-  background: linear-gradient(to left, rgba(158, 227, 251, 0.46) 0%, #86c3d7 100%);
+	border: 1px solid rgba(225, 195, 72, 0.32)!important;
+	border-radius: 0!important;
+	background: #f7ffff;
+	box-shadow: -21px 39px 34px -26px rgba(0, 0, 0, 0.2);
+	background: -webkit-linear-gradient(left, #9ee3fb 0%, rgba(134, 195, 215, 0.52) 100%);
+	background: linear-gradient(to left, rgba(158, 227, 251, 0.46) 0%, #86c3d7 100%);
 }
 .darkbg .silly{
-  border: 5px solid rgba(225, 195, 72, 0.34);
-  padding: 12px 5px;
-  background: -webkit-linear-gradient(top, #d1f5ff 0%, #ffdf6d 100%);
-  background: linear-gradient(to bottom, #d1f5ff 0%, #e1c348 100%);
+  	border: 5px solid rgba(225, 195, 72, 0.34);
+  	padding: 12px 5px;
+  	background: -webkit-linear-gradient(top, #d1f5ff 0%, #ffdf6d 100%);
+  	background: linear-gradient(to bottom, #d1f5ff 0%, #e1c348 100%);
 }
 .darkbg .main-container{
-  margin-top:10px!important;
+  	margin-top:10px!important;
 }
 .darkbg .showit, .darkbg .sun-burst {
-  display: block;
+	display: block;
 }
 .darkbg .clouds {
 	height:539px;
-  background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
+	position: fixed;
+  	background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
 }
 .darkbg .starstwinkle, .darkbg .twinkling {
 	display: none;
 }
 .sun-burst {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background-color: rgba(255, 204, 51, 0);
-  right: 0;
-  top: 25%;
-  box-shadow: 0 0 77px 22px #fc3;
-  border-radius: 50%;
-  transition: opacity 3s ease-in-out;
-  transform-origin: top;
-  transition-delay: 10s;
-  opacity: 0.7;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: rgba(255, 204, 51, 0);
+	right: 0;
+	top: 25%;
+	box-shadow: 0 0 77px 22px #fc3;
+	border-radius: 50%;
+	transition: opacity 3s ease-in-out;
+	transform-origin: top;
+	transition-delay: 10s;
+	opacity: 0.7;
 }
 .darkbg .skywrapper .moon {
-  height: 100px;
-  width: 100px;
-  margin: 50px auto;
-  border-radius: 50%;
-  transform-origin: 50% 50%;
-  transition: all 1.5s ease-in-out;
-  transform: rotate(360deg);
-  box-shadow: inset 100px 100px 0px 70px #fff0af;
-  border: 3px solid #fdd63a;
+	height: 100px;
+	width: 100px;
+	margin: 50px auto;
+	border-radius: 50%;
+	transform-origin: 50% 50%;
+	transition: all 1.5s ease-in-out;
+	transform: rotate(360deg);
+	box-shadow: inset 100px 100px 0px 70px #fff0af;
+	border: 3px solid #fdd63a;
 }
