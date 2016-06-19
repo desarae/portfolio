@@ -67,8 +67,10 @@
     text-decoration:none;
 }
 .bg-2 .alert{
-    color:#333!important;
     background-color:#f7c4a9;
+}
+.bg-2 .alert p{
+    color:#333!important;
 }
 .bg-2 footer .navbar{
     color:#000;
