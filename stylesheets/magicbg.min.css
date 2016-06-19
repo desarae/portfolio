@@ -11,7 +11,7 @@
 }
 .magicbg .silly,.magicbg .silly a{
     border: 0px solid transparent; 
-    background:0 0;
+    background: #000;
     color:#fff;
 }
 .magicbg .tips{
@@ -53,8 +53,8 @@
 .magicbg .jump-link a,.magicbg a.home-link,.magicbg a.home-link:visited{
     box-shadow:0 0 1px 1px #000;
 }
-.magicbg .mbt-pager li.next:hover,.magicbg .mbt-pager li.previous:hover{
-    background:#000;
+.magicbg .mbt-pager li.next:hover,.magicbg .mbt-pager li.previous:hover, .magicbg .primarybutton .lined {
+    background: #000 !important;
 }
 .magicbg a,.magicbg a.button,.magicbg a.button:hover,.magicbg a:focus,.magicbg a:hover,.magicbg a:visited,
 .magicbg button,.magicbg button a,.magicbg button a:hover{
