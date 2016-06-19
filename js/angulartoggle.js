@@ -3,7 +3,7 @@ angular.module('ionicApp', ['ngStorage','webstorage'])
 .controller('MainCtrl', function($scope, $localStorage) {
   
   // Primer paso
-  $scope.strings = ['Main Theme', 'Night Theme', 'Sunny Theme', 'Magic Theme'];
+  $scope.strings = ['Sunny Theme', 'Night Theme', 'Magic Theme'];
   
   
   $scope.cargarTemplates = function () {
