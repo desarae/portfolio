@@ -11,7 +11,7 @@
 	.toggle-wrapper.desktopmenu {
 		display: none;
     	}
-    	.toggle-wrapper.mobilemenu {
+    	.toggle-wrapper.mobilemenu, .mobilemenu .fa.fa-bars {
     		cursor: pointer;	
     	}
 	.toggle-wrapper.mobilemenu {
