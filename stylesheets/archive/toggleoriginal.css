@@ -164,3 +164,7 @@
 #toggledaynight {
   display:none;
 }
+#toggledaynight:checked ~ div img{
+  opacity:0;
+}
+/****************END DAY NIGHT TOGGLE ***************/
