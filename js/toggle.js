@@ -29,7 +29,8 @@ function componentPrepare() {
     label.find(".switch-toggle").val(values[selected].value);
     label.find(".display").html(values[selected].label);
     label.addClass("selected-" + selected);
-
+      $body.addClass("bg-" + selected);
+    
     //change on click
     label.click(function(event) {
       selected = (selected + 1) % values.length;
@@ -42,14 +43,14 @@ function componentPrepare() {
       var selected = 0;
       for (var i = 0; i < values.length; i++) {
         label.removeClass("selected-" + i);
-        $bg.removeClass("bg-" + i);
+        $body.removeClass("bg-" + i);
         if ($(this).val() == values[i].value)
           selected = i;
       }
 
       label.find(".display").html(values[selected].label);
       label.addClass("selected-" + selected);
-      $bg.addClass("bg-" + selected);
+      $body.addClass("bg-" + selected);
       event.preventDefault();
     });
 
