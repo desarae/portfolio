@@ -113,3 +113,75 @@
   transform-origin: 50% 50%;
   transition: all 1.5s ease-in-out;
 }
+/**** STARS***/
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+.starstwinkle {
+  background:#000 url('https://2.bp.blogspot.com/-QwKNvHkrizU/V13YNZIziZI/AAAAAAAA99U/cINO_Gp9q1M0NIAE6OlKWgcdayqJmKAGgCLcB/s1600/stars.png');
+ /* z-index:0;*/
+}
+
+.twinkling{
+  background:transparent url('https://1.bp.blogspot.com/-u2C1b8RFNe8/V13YNFvKOEI/AAAAAAAA99Q/vqirPi6plKcbUYJw6dSnaZTm-cCQ3wE6gCLcB/s1600/twinkling.png') repeat top center;
+
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+.showit {
+  display:none;
+}
+.starstwinkle, .twinkling, .clouds {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+.clouds{
+    background:transparent url('https://4.bp.blogspot.com/-qIUWQ0B9j-g/V13YNR9ZRyI/AAAAAAAA99Y/NueGhkaJ8TQ9oEvihElPEq2N3UO_ZZaOwCLcB/s1600/clouds.png') repeat top center;
+
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
