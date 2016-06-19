@@ -99,6 +99,15 @@ span.zippy.toggle-open:before {
     background: rgba(58, 183, 191, 0.34);
 }
 /****************************DAY NIGHT TOGGLE *************************/
+.sun-burst {
+	display:none;
+}
+.skywrapper {
+	position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 2;
+}
 *,
 *::before,
 *::after {
