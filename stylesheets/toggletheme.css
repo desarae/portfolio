@@ -164,7 +164,7 @@ span.display {
   border-radius: 70px;
   border: 5px solid #1c1c1c;
   background-color: #3c4145 !important;
-  border-bottom: 12px solid;
+  border-bottom: 12px solid  #1c1c1c;
 }
 /*swith dongle dot look*/
 .toggledaynight .togglebtn:before,
