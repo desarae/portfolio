@@ -259,12 +259,12 @@ span.zippy.toggle-open:before {
   animation-fill-mode: backwards;
   animation-timing-function: ease-in-out;
 }
-.toggledaynight .togglecheckbox:checked + .togglebtn &gt; .togglefeature {
+.toggledaynight .togglecheckbox:checked + .togglebtn > .togglefeature {
   opacity: 0;
   box-shadow: rgba(255, 255, 255, 0.1) 30px -3px 0 -4px, rgba(255, 255, 255, 0.1) 12px 10px 0 -5px, #fff 38px 18px 0 -3px, rgba(255, 255, 255, 0.1) 32px 34px 0 -4px, #fff 20px 24px 0 -5.5px, rgba(255, 255, 255, 0.1) 5px 38px 0 -3px;
   animation: none;
 }
-.toggledaynight .togglecheckbox:checked + .togglebtn &gt; .togglefeature:before {
+.toggledaynight .togglecheckbox:checked + .togglebtn > .togglefeature:before {
   left: 25px;
   transform: rotate(70deg);
 }
