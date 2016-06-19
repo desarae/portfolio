@@ -48,6 +48,7 @@
     color: #000 !important;
     border: 1px solid #e1c348;
     box-shadow: 1px 1px 1px 1px #e1c348 !important;
+    padding: 5px 0;
 }
 .darkbg .jump-link a:hover {
     background: #eacc51 !important;
