@@ -43,13 +43,13 @@
 .darkbg .btn-right::before, .darkbg .btn-right::after {
   	background: #e1c348;
 }
-.jump-link a, .jump-link a:link {
+.darkbg .jump-link a, .darkbg .jump-link a:link {
     background: #ffdf6d !important;
     color: #000 !important;
     border: 1px solid #e1c348;
     box-shadow: 1px 1px 1px 1px #e1c348 !important;
 }
-.jump-link a:hover {
+.darkbg .jump-link a:hover {
     background: #eacc51 !important;
     color: #000 !important;
     border: 1px solid #e1c348;
