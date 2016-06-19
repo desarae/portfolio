@@ -157,7 +157,7 @@ span.display {
   /*background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png') !important;*/
 }
 .toggledaynight .togglebtn,
-.switch-toggle, .bg-1 .switch-toggle {
+.switch-toggle, .bg-2 .switch-toggle {
   position: relative;
   height: 53px;
   width: 100px !important;
@@ -179,7 +179,7 @@ span.display {
 }
 /**moon styles dongle**/
 .toggledaynight .togglebtn:before, 
-.bg-1 .switch-toggle:before {
+.bg-2 .switch-toggle:before {
   background-color: #fff !important;
   border: 5px solid #e3e3c7;
 }
@@ -224,7 +224,7 @@ span.display {
   }
 }
 /*sparkling stars*/
-.bg-1 .togglefeature {
+.bg-2 .togglefeature {
   display: block;
   position: absolute;
   top: 9px;
@@ -238,7 +238,7 @@ span.display {
   animation: starry_star 5s ease-in-out infinite;
 }
 /***the night planet dots***/
-.bg-1 .togglefeature:before, .bg-2 .togglefeature:before {
+.bg-2 .togglefeature:before, .bg-1 .togglefeature:before {
   width: 18px !important;
   height: 18px;
   background-color: #fff;
@@ -247,32 +247,32 @@ span.display {
   box-shadow: #e3e3c7 -28px 0 0 -3px, #e3e3c7 -8px 24px 0 -2px !important;
   transform-origin: -6px 130% !important;
 } 
-.bg-1 .togglefeature:before
+.bg-2 .togglefeature:before
 {
     top: -10px !important;
     left: -25px !important;
     position: absolute !important;
 }
-.bg-2 .togglefeature:before {
+.bg-1 .togglefeature:before {
     top: -2px !important;
     left: 30px !important;
     position: relative !important;
 }
 /**sun toggle dongle**/
-.bg-2 .switch-toggle {
+.bg-1 .switch-toggle {
   background-color: #9ee3fb !important;
   border: 5px solid #86c3d7;
   border-bottom: 12px solid #86c3d7;
 }
-.bg-2 span.display {
+.bg-1 span.display {
   color: #000 !important;
 }
-.bg-2 .switch-toggle:before {
+.bg-1 .switch-toggle:before {
   left: 55px;
   background-color: #ffdf6d !important;
   border: 5px solid #e1c348;
 }
-.bg-2 .switch-toggle:after {
+.bg-1 .switch-toggle:after {
   opacity: 100;
   animation-name: bounceIn;
   animation-duration: 0.60s;
@@ -280,12 +280,12 @@ span.display {
   animation-fill-mode: backwards;
   animation-timing-function: ease-in-out;
 }
-.bg-2 .switch-toggle > .togglefeature {
+.bg-1 .switch-toggle > .togglefeature {
   opacity: 0;
   box-shadow: rgba(255, 255, 255, 0.1) 30px -3px 0 -4px, rgba(255, 255, 255, 0.1) 12px 10px 0 -5px, #fff 38px 18px 0 -3px, rgba(255, 255, 255, 0.1) 32px 34px 0 -4px, #fff 20px 24px 0 -5.5px, rgba(255, 255, 255, 0.1) 5px 38px 0 -3px;
   animation: none;
 }
-.bg-2 .switch-toggle > .togglefeature:before {
+.bg-1 .switch-toggle > .togglefeature:before {
   left: 25px;
   transform: rotate(70deg);
 }
