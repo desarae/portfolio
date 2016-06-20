@@ -21,11 +21,6 @@
     width: 200px !important;
     background: #fff;
 }
-.bg-3 .desktopmenu .toggle-inside .clearfix {
-    clear: none !important;
-    display: inline;
-    float: left;
-}
 .bg-3 .desktopmenu .toggle-inside .toggle-inside ul li {
     list-style: none;
     border: 0px solid rgba(0, 0, 0, 0);
