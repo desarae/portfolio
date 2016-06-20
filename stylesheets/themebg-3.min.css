@@ -2,6 +2,7 @@
 .bg-3only, .bg-3 div[role="complementary"] .desktopmenu,
 .bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly, .bg-3 .desktopmenu input { display:none; }
 .bg-3 .bg-3only { display:block; }
+.bg-3 h1, .bg-3 h2, , .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6 { font-family: 'Adamina', serif !important; }
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
     text-decoration: underline;
