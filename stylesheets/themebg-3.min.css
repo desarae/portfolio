@@ -8,7 +8,7 @@
     background: rgba(0, 0, 0, 0);
     border: 0 solid rgba(0, 0, 0, 0);
     position: absolute;
-    top: -37px;
+    top: 0px;
     right: 0;
     width: 60%;
     z-index: 10002;
@@ -17,6 +17,9 @@
     float: left;
     width: 200px !important;
     background: #fff;
+}
+.bg-3 .toggle-wrapper label {
+    cursor: pointer;
 }
 .bg-3 .desktopmenu .toggle-inside ul li {
     list-style: none;
