@@ -52,19 +52,20 @@
 	margin: 5px 0;
 }
 .bg-0 body, .bg-0 .post-body div, .bg-0 .post-body span, .bg-0 .jump-link a, 
-.bg-0 a.home-link, .bg-0 a.home-link:visited, .bg-0 button, .button, #blog-pager-older-link a, #blog-pager-newer-link a, #Label1 select {
+.bg-0 a.home-link, .bg-0 a.home-link:visited, .bg-0 button, 
+.bg-0 .button, .bg-0 #blog-pager-older-link a, .bg-0 #blog-pager-newer-link a, .bg-0 #Label1 select {
     	font-size: 2rem;
 	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
 }
-h2 span, h2 {
+.bg-0 h2 span, .bg-0 h2 {
     color: #000;
 }
-h2.date-header span {
+.bg-0 h2.date-header span {
 	font-size: 11pt;
     font-size: 12px;
     font-weight: normal;
 }
-.georgia, a.georgia, .georgia a {
+.bg-0 .georgia, .bg-0 a.georgia, .bg-0 .georgia a {
     	background-color: white; 
 	color: black; 
 	font-family: georgia !important; 
