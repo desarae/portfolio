@@ -13,9 +13,6 @@
     width: 60%;
     z-index: 10002;
 }
-.bg-3 label[for="togglemenudesktoponly"] > div {
-    display: none;
-}
 .bg-3 .desktopmenu .toggle-inside .toggle-wrapper {
     float: left;
     width: 200px !important;
