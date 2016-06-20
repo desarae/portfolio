@@ -42,11 +42,11 @@
     border: 0px solid rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
-.bg-3 a#Blog1_blog-pager-newer-link:before {
+.bg-3 #Blog1 a#Blog1_blog-pager-newer-link:before {
     content: "\f053";
     font: normal normal normal 14px/1 FontAwesome;
 }
-.bg-3 a#Blog1_blog-pager-older-link:after {
+.bg-3 #Blog1 a#Blog1_blog-pager-older-link:after {
     content: "\f054";
     font: normal normal normal 14px/1 FontAwesome;
 }
@@ -118,26 +118,26 @@
 .bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
     background: #a5b5d0;
 }
-.bg-3 #blog-pager-newer-link {
+.bg-3 #Blog1 #blog-pager-newer-link {
     float: right;
     position: fixed;
     left: 0;
     top: 25%;
 }
-.bg-3 #blog-pager-older-link {
+.bg-3 #Blog1 #blog-pager-older-link {
     float: right;
     position: fixed;
     right: 0;
     top: 25%;
 }
-.bg-3 a#Blog1_blog-pager-newer-link, .bg-3 a#Blog1_blog-pager-older-link {
+.bg-3 #Blog1 a#Blog1_blog-pager-newer-link, .bg-3 #Blog1 a#Blog1_blog-pager-older-link {
     border: 0px solid rgba(0, 0, 0, 0) !important;
     color: rgba(0, 0, 0, 0) !important;
     padding: 100% 0;
 }
-.bg-3 a#Blog1_blog-pager-newer-link:hover, .bg-3 a#Blog1_blog-pager-older-link:hover, 
-.bg-3 a#Blog1_blog-pager-newer-link:focus, .bg-3 a#Blog1_blog-pager-older-link:focus, 
-.bg-3 a#Blog1_blog-pager-newer-link:active, .bg-3 a#Blog1_blog-pager-older-link:active {
+.bg-3 #Blog1 a#Blog1_blog-pager-newer-link:hover, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:hover, 
+.bg-3 #Blog1 a#Blog1_blog-pager-newer-link:focus, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:focus, 
+.bg-3 #Blog1 a#Blog1_blog-pager-newer-link:active, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:active {
     color: #000 !important;
 }
 /**logo**/
