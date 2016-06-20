@@ -102,7 +102,14 @@
 .bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
     background: #a5b5d0;
 }
+/**logo**/
+.bg-3 .navbar-header {
+    padding: 0 45px;
+}
 /**main content **/
+.bg-3 .post.hentry, .bg-3 .post.hentry {
+    padding: 0 5px;
+}
 .bg-3 .halfpurple {
     background: rgba(33,16,40,0.42);
 background: -moz-linear-gradient(left, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
