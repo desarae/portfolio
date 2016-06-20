@@ -1,6 +1,6 @@
 /**defaults**/
 .bg-3only, .bg-3 div[role="complementary"] .desktopmenu,
-.bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly { display:none; }
+.bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly, .bg-3 .desktopmenu input { display:none; }
 .bg-3 .bg-3only { display:block; }
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
@@ -41,9 +41,15 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     font-weight: bolder !important;
     margin: 0 10px;
 }
+.bg-3 .desktopmenu .toggle-wrapper h3 {
+    color: #ccc !important;
+    text-align: center;
+    border-bottom: 1px solid #353333;
+    margin-bottom: 10px;
+}
 .bg-3 .desktoponly .silly .toggle-wrapper .toggle-wrapper {
     float: left;
-    width: 135px !important;
+    width: 77px !important;
     overflow: visible;
 }
 .bg-3 .desktopmenu [id*='toggle']:checked ~ .toggle-inside {
