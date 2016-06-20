@@ -125,9 +125,9 @@
     top: 45%;
 }
 .bg-3 #blog-pager-older-link {
-    float: left;
+    float: right;
     position: fixed;
-    left: 0;
+    right: 0;
     top: 45%;
 }
 .bg-3 a#Blog1_blog-pager-newer-link, .bg-3 a#Blog1_blog-pager-older-link {
