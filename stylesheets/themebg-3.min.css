@@ -46,7 +46,7 @@
     content: "\f053";
     font: normal normal normal 14px/1 FontAwesome;
 }
-.bg-3 a#Blog1_blog-pager-newer-link:after {
+.bg-3 a#Blog1_blog-pager-older-link:after {
     content: "\f054";
     font: normal normal normal 14px/1 FontAwesome;
 }
