@@ -71,8 +71,10 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, 
 .bg-3 .button a, .bg-3 button, .bg-3 a.button, .bg-3 button a, .bg-3 a:link.button, 
 .bg-3 button a:link, .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
-    border: 3px solid #d3b37a !important;
     color: #fff3de !important;
+}
+.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, .bg-3 a.button, .bg-3 a:link.button{
+    border: 3px solid #d3b37a !important;
     font-weight: normal;
     background: #25112d !important;
     border-radius: 4px 3px 3px 3px;
