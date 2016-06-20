@@ -18,6 +18,11 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     text-decoration: none;
     color: #3e174c;
 }
+.bg-3 .jump-link a, .bg-3 .desktoponly .silly a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -29,11 +34,6 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     right: 0;
     width: 60%;
     z-index: 10002;
-}
-.bg-3 .desktoponly .silly a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: normal;
 }
 .bg-3 .desktoponly .silly a:hover {
     color: #a5b5d0 !important;
@@ -104,7 +104,7 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
 }
 .bg-3 .post.hentry {
     border: 1px solid #7888a2;
-    padding: 0px;
+    padding: 20px;
     background: rgba(165, 181, 208, 0.64);
 }
 /**icons**/
