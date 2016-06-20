@@ -60,7 +60,7 @@
 		position: absolute;
     		top: 0;
     		left: 0;
-		z-index: 299;
+		z-index: 29999;
 		background: #fff;
     		padding: 2px 15px 2px 0px;
 	}
