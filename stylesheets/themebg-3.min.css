@@ -134,9 +134,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 .bg-3 .button-wrapper button, .bg-3 .button-wrapper div.lined-thin {
     padding: 0;
 }
-.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, 
-.bg-3 .button a, .bg-3 button, .bg-3 a.button, .bg-3 button a, .bg-3 a:link.button, 
-.bg-3 button a:link, .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
+.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin,  .bg-3 button, .bg-3 a.button, .bg-3 button a, .bg-3 a:link.button, 
+ .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
     color: #fff3de !important;
 }
 .bg-3 .section-title {
