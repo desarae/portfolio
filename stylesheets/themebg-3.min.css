@@ -2,21 +2,7 @@
 .bg-3only, .bg-3 div[role="complementary"] .desktopmenu,
 .bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly, .bg-3 .desktopmenu input { display:none; }
 .bg-3 .bg-3only { display:block; }
-.bg-3 h1, .bg-3 h2, , .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6,
-.bg-3 h1 a, .bg-3 h2 a, , .bg-3 h3 a, .bg-3 h4 a, .bg-3 h5 a, .bg-3 h6 a,
-.bg-3 .desktopmenu p a, .bg-3 .desktopmenu label, 
-.bg-3 .Header h1 a, .bg-3 .Header h1,
-.bg-3 .viewallgrid li,
-.bg-3 .jump-link a,
-.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
-.bg-3 a.button, .bg-3 a:link.button,
-.bg-3 .Header h1 a, .bg-3 .Header h1, .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, 
-.bg-3 h3.post-title a span { 
-    font-family: 'Adamina', 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
-    text-transform: capitalize; 
-    font-size: 2.5rem !important;
-}
-.bg-3 h1 { 
+.bg-3 .desktopmenu p a, .bg-3 .desktopmenu label, .bg-3 .jump-link a, .bg-3 h1, .bg-3 h2, .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6 { 
     font-family: 'Adamina', 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
     text-transform: capitalize; 
     font-size: 2.5rem !important;
@@ -133,11 +119,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     border-top: 1px solid #f1f1f1;
     border-radius: 0 0 0 0;
-}
-.bg-3 .post.hentry {
-    border: 1px solid #7888a2;
-    padding: 20px;
-    background: rgba(165, 181, 208, 0.64);
 }
 /**icons**/
 @media (min-width: 1200px) {
