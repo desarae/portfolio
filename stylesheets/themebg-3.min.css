@@ -2,7 +2,15 @@
 .bg-3only, .bg-3 div[role="complementary"] .desktopmenu,
 .bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly, .bg-3 .desktopmenu input { display:none; }
 .bg-3 .bg-3only { display:block; }
-.bg-3 h1, .bg-3 h2, , .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6 { font-family: 'Adamina', serif !important; }
+.bg-3 h1, .bg-3 h2, , .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6,
+.bg-3 .desktopmenu p a, .bg-3 .desktopmenu label, 
+.bg-3 .Header h1 a, .bg-3 .Header h1,
+.bg-3 .viewallgrid li,
+.bg-3 .jump-link a,
+.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
+.bg-3 a.button, .bg-3 a:link.button,
+.bg-3 .Header h1 a, .bg-3 .Header h1, .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, 
+.bg-3 h3.post-title a span{ font-family: 'Adamina', serif !important; text-transform: capitalize; }
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
     text-decoration: underline;
@@ -10,7 +18,7 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 .bg-3 .Header h1 a, .bg-3 .Header h1, 
-h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
+.bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
     color: #393e5e !important;
     text-decoration: none;
 }
@@ -92,6 +100,16 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     background: #a5b5d0;
 }
 /**main content **/
+.bg-3 .halfpurple {
+    background: rgba(33,16,40,0.42);
+background: -moz-linear-gradient(left, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,16,40,0.42)), color-stop(45%, rgba(33,16,40,0.68)), color-stop(45%, rgba(255,255,255,0.68)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(33,16,40,0.42) 0%, rgba(33,16,40,0.68) 45%, rgba(255,255,255,0.68) 45%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', endColorstr='#ffffff', GradientType=1 );
+}
 .bg-3 .main-container .row > .content-main[role='main'] {
     width: 100%;
 }
@@ -123,9 +141,9 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     background: transparent !important;
 }
 .bg-3 .viewallgrid li,
-.jump-link a,
+.bg-3 .jump-link a,
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
-.bg-3 a.button, .bg-3 a:link.button{
+.bg-3 a.button, .bg-3 a:link.button {
     border: 3px solid #d3b37a !important;
     font-weight: normal;
     background: #25112d !important;
