@@ -22,6 +22,12 @@
     color: #fff;
     font-weight: normal;
 }
+.bg-3 .jump-link {
+    float: left;
+    margin: -74px 0 0 0;
+    z-index: 200;
+    position: absolute;
+}
 .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
     line-height: 1em;
 }
@@ -157,4 +163,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     position: relative;
     margin: -65px 10%;
     float: left;
+    background: rgba(0, 0, 0, 0);
 }
