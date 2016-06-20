@@ -195,3 +195,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 .bg-3 div#searchwrapper {
     margin: -33px 10px;
 }
+.bg-3 #searchwrapper input[value="Search"] {
+    background: #393e5e !important;
+    border-radius: 2px;
+    border: 1px solid #8c9ab1;
+    height: 44px;
+}
