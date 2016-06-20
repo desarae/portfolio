@@ -1,3 +1,4 @@
+/**defaults**/
 .bg-2 #___follow_0, .bg-2 .g-profile, .bg-2 #blog-pager #blog-pager-newer-link,
 .bg-2 #blog-pager #blog-pager-older-link, .bg-2 #navbar ul .divider,
 .bg-2 .center-circle,.bg-2 .post-labels2 {
@@ -6,9 +7,76 @@
 .bg-2{
     background:#000;
 }
+/***fonts***/
+a:visited,  a:link, a {
+    	text-decoration: none;
+	color: #2c9ab7;
+}
+a:focus, a:hover {
+ 	text-decoration: underline;
+  	color: #195760 !important;
+}
+p {
+	margin: 5px 0 10px;
+}
+h1, h2, h3, h4, h5 {
+  	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+	font-weight: bold;
+}
+h1 {
+    	font-size: 22px !important;
+	margin: 10px 0;
+}
+h2, .entry-content h2, .entry-content h2 span {
+    	font-size: 2rem;
+	margin: 10px 0;
+}
+h3.post-title:hover, h3.post-title a:hover {
+	color: #BEE7ED !important;
+}
+h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
+    	font-size: 14pt !important;
+    	line-height: 1.5em !important;
+    	max-width: 555px !important;
+	font-style: italic;
+    	text-transform: Capitalize;
+	margin: 0;
+}
+h5 {
+	font-size: 12.5pt;
+	margin: 5px 0;
+} 
+h5 {
+	font-size: 11pt;
+	margin: 5px 0;
+}
+body, .post-body div, .post-body span, .jump-link a, a.home-link, a.home-link:visited, button, .button, #blog-pager-older-link a, #blog-pager-newer-link a, #Label1 select {
+    	font-size: 2rem;
+	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+}
+h2 span, h2 {
+    color: #000;
+}
+h2.date-header span {
+	font-size: 11pt;
+    font-size: 12px;
+    font-weight: normal;
+}
+.georgia, a.georgia, .georgia a {
+    	background-color: white; 
+	color: black; 
+	font-family: georgia !important; 
+	font-size: 20px; 
+	font-weight: bold; 
+	line-height: 30px; 
+	outline: none; 
+	text-decoration: none;
+}
+/**bg stars**/
 .bg-2 .showit{
     display:block!important;
 }
+/**menu**/
 .bg-2 .silly,.bg-2 .silly a{
     border: 0px solid transparent; 
     background: #000;
