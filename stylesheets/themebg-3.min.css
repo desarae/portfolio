@@ -42,6 +42,14 @@ button.btn-right, button.btn-right:before, button.btn-right:after {
     border: 0px solid rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
+a#Blog1_blog-pager-newer-link:before {
+    content: "\f053";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+a#Blog1_blog-pager-newer-link:after {
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -109,6 +117,21 @@ button.btn-right, button.btn-right:before, button.btn-right:after {
 /**pagination**/
 .bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
     background: #a5b5d0;
+}
+#blog-pager-newer-link {
+    float: right;
+    position: fixed;
+    left: 0;
+    top: 45%;
+}
+#blog-pager-older-link {
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 45%;
+}
+a#Blog1_blog-pager-newer-link, a#Blog1_blog-pager-older-link {
+    border: 0px solid rgba(0, 0, 0, 0) !important;
 }
 /**logo**/
 .bg-3 .navbar-header {
