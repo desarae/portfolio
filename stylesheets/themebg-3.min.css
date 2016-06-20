@@ -25,6 +25,9 @@
 .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
     line-height: 1em;
 }
+.viewall .right, .viewall .left {
+    line-height: 1em !important;
+}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -149,4 +152,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     background: #a5b5d0;
     padding: 20px;
     border-top: 1px solid #8c9ab1;
+}
+.bg-3 footer nav {
+    position: relative;
+    margin: -65px 10%;
+    float: left;
 }
