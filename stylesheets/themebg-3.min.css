@@ -133,6 +133,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     border-top: 1px solid #f1f1f1;
     border-radius: 0 0 0 0;
 }
+.hover_img a button.lined.thin {
+    padding: 14px;
+}
 /**icons**/
 @media (min-width: 1200px) {
     .bg-3 .homeicons {
