@@ -178,6 +178,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     padding: 20px;
     border-top: 1px solid #8c9ab1;
 }
+.bg-3 footer {
+    background: #a5b5d0;
+}
+.bg-3 .introwrapper {
+    background: #e4e9f1;
+}
 .bg-3 footer nav {
     position: relative;
     margin: -65px 10%;
