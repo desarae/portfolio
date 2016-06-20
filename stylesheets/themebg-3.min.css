@@ -13,6 +13,10 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     color: #393e5e !important;
     text-decoration: none;
 }
+.bg-3 .mbt-pager li a, .bg-3 .mbt-pager li a:hover span, .bg-3 .mbt-pager li a:hover i {
+    text-decoration: none;
+    color: #3e174c;
+}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -62,6 +66,14 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     text-align: left;
     float: left;
 }
+.bg-3 .mbt-pager {
+    border-top: 2px solid #8593ab;
+    border-bottom: 2px solid #8593ab;
+}
+/**pagination**/
+.bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
+    background: #a5b5d0;
+}
 /**main content **/
 .bg-3 .main-container .row > .content-main[role='main'] {
     width: 100%;
@@ -85,7 +97,8 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
 .bg-3 button a:link, .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
     color: #fff3de !important;
 }
-.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, .bg-3 a.button, .bg-3 a:link.button{
+.bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
+.bg-3 a.button, .bg-3 a:link.button{
     border: 3px solid #d3b37a !important;
     font-weight: normal;
     background: #25112d !important;
