@@ -108,11 +108,14 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
         margin: 10px 15%;
     }
 }
-/**buttons **/
+/**buttons and view all page**/
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, 
 .bg-3 .button a, .bg-3 button, .bg-3 a.button, .bg-3 button a, .bg-3 a:link.button, 
 .bg-3 button a:link, .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
     color: #fff3de !important;
+}
+.bg-3 .viewallgrid li div, .bg-3 .viewallgrid li div a, .bg-3 .viewallgrid li div a:link {
+    background: transparent !important;
 }
 .bg-3 .viewallgrid li,
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
