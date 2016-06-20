@@ -16,10 +16,6 @@
     text-transform: capitalize; 
     font-size: 2.5rem !important;
 }
-h1, h2, h3, h4, h5 {
-    font-family: 'Adamina', 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
-	font-weight: bold;
-}
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
     text-decoration: underline;
