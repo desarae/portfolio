@@ -25,10 +25,10 @@
 .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
     line-height: 1em;
 }
-.viewall .right, .viewall .left {
+.bg-3 .viewall .right, .bg-3 .viewall .left {
     line-height: 1em !important;
 }
-.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link, div#searchwrapper {
+.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link, .bg-3 div#searchwrapper {
     font-family: 'Cutive';
     font-size: 18px;
     line-height: 18px;
@@ -133,8 +133,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     border-top: 1px solid #f1f1f1;
     border-radius: 0 0 0 0;
 }
-.hover_img a button.lined.thin {
+.bg-3 .hover_img a button.lined.thin {
     padding: 14px;
+}
+.bg-3 blockquote {
+    border: 5px solid #a5b5d0;
+    border-radius: 7px;
 }
 /**icons**/
 @media (min-width: 1200px) {
