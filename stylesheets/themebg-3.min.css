@@ -10,7 +10,11 @@
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
 .bg-3 a.button, .bg-3 a:link.button,
 .bg-3 .Header h1 a, .bg-3 .Header h1, .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, 
-.bg-3 h3.post-title a span{ font-family: 'Adamina', serif !important; text-transform: capitalize; }
+.bg-3 h3.post-title a span { 
+    font-family: 'Adamina', serif !important; 
+    text-transform: capitalize; 
+    
+}
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
     text-decoration: underline;
@@ -18,7 +22,7 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 .bg-3 .Header h1 a, .bg-3 .Header h1, 
-.bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
+.bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title span, .bg-3 h3.post-title a span {
     color: #393e5e !important;
     text-decoration: none;
 }
