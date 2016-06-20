@@ -144,7 +144,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     height: 35px;
     margin-bottom: 70px;
 }
-.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link {
+.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link {
     font-family: 'Cutive';
     font-size: 18px;
     line-height: 18px;
