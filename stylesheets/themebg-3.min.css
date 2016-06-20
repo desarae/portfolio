@@ -102,6 +102,11 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     border-top: 1px solid #f1f1f1;
     border-radius: 0 0 0 0;
 }
+.bg-3 .post.hentry {
+    border: 1px solid #7888a2;
+    padding: 0px;
+    background: rgba(165, 181, 208, 0.64);
+}
 /**icons**/
 @media (min-width: 1200px) {
     .bg-3 .homeicons {
