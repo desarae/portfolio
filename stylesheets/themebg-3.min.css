@@ -13,12 +13,12 @@
     width: 60%;
     z-index: 10002;
 }
-.bg-3 .desktopmenu .toggle-inside .toggle-wrapper {
+.bg-3 .desktopmenu .toggle-wrapper {
     float: left;
     width: 200px !important;
     background: #fff;
 }
-.bg-3 .desktopmenu .toggle-inside .toggle-inside ul li {
+.bg-3 .desktopmenu .toggle-inside ul li {
     list-style: none;
     border: 0px solid rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
