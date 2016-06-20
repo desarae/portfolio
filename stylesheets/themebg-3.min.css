@@ -3,6 +3,7 @@
 .bg-3 .main-container .row > .col-lg-3.col-sm-12.desktoponly, .bg-3 .desktopmenu input { display:none; }
 .bg-3 .bg-3only { display:block; }
 .bg-3 h1, .bg-3 h2, , .bg-3 h3, .bg-3 h4, .bg-3 h5, .bg-3 h6,
+.bg-3 h1 a, .bg-3 h2 a, , .bg-3 h3 a, .bg-3 h4 a, .bg-3 h5 a, .bg-3 h6 a,
 .bg-3 .desktopmenu p a, .bg-3 .desktopmenu label, 
 .bg-3 .Header h1 a, .bg-3 .Header h1,
 .bg-3 .viewallgrid li,
@@ -11,9 +12,9 @@
 .bg-3 a.button, .bg-3 a:link.button,
 .bg-3 .Header h1 a, .bg-3 .Header h1, .bg-3 h3, .bg-3 h3.post-title, .bg-3 h3.post-title a, .bg-3 h3.post-title span, 
 .bg-3 h3.post-title a span { 
-    font-family: 'Adamina', serif !important; 
+    font-family: 'Adamina', 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
     text-transform: capitalize; 
-    
+    font-size: 2.5rem !important;
 }
 /**fonts**/ 
 .bg-3 a:visited, .bg-3 a:link, .bg-3 a {
