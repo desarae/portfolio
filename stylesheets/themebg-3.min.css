@@ -149,16 +149,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 .bg-3 .jump-link a,
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, 
 .bg-3 a.button, .bg-3 a:link.button {
-    border: 3px solid #d3b37a !important;
+    border: 3px solid #fff !important;
     font-weight: normal;
     background: #25112d !important;
-    border-radius: 4px 3px 3px 3px;
-    background: -moz-linear-gradient(-45deg, rgba(33,16,40,1) 2%, rgba(33,16,40,1) 4%, rgba(57,22,70,1) 36%, rgba(5,19,56,1) 62%, rgba(0,0,0,1) 80%, rgba(33,16,40,1) 95%, rgba(33,16,40,1) 100%) !important;
-    background: -webkit-gradient(left top, right bottom, color-stop(2%, rgba(33,16,40,1)), color-stop(4%, rgba(33,16,40,1)), color-stop(36%, rgba(57,22,70,1)), color-stop(62%, rgba(5,19,56,1)), color-stop(80%, rgba(0,0,0,1)), color-stop(95%, rgba(33,16,40,1)), color-stop(100%, rgba(33,16,40,1))) !important;
-    background: -webkit-linear-gradient(-45deg, #211028 2%, #211028 4%, #391646 36%, #051338 62%, #000 80%, #211028 95%, #211028 100%) !important;
-    background: -o-linear-gradient(-45deg, rgba(33,16,40,1) 2%, rgba(33,16,40,1) 4%, rgba(57,22,70,1) 36%, rgba(5,19,56,1) 62%, rgba(0,0,0,1) 80%, rgba(33,16,40,1) 95%, rgba(33,16,40,1) 100%) !important;
-    background: -ms-linear-gradient(-45deg, rgba(33,16,40,1) 2%, rgba(33,16,40,1) 4%, rgba(57,22,70,1) 36%, rgba(5,19,56,1) 62%, rgba(0,0,0,1) 80%, rgba(33,16,40,1) 95%, rgba(33,16,40,1) 100%) !important;
-    background: linear-gradient(135deg, #371544 2%, #401750 4%, #391646 36%, #230f2b 62%, #25102e 80%, #211028 95%, #211028 100%) !important;
+    border-left: 0 solid rgba(0, 0, 0, 0) !important;
 }
 /**footer**/
 .bg-3 footer, .bg-3 .introwrapper {
