@@ -122,7 +122,7 @@
     float: right;
     position: fixed;
     left: 0;
-    top: 45%;
+    top: 25%;
 }
 .bg-3 #blog-pager-older-link {
     float: right;
@@ -133,7 +133,7 @@
 .bg-3 a#Blog1_blog-pager-newer-link, .bg-3 a#Blog1_blog-pager-older-link {
     border: 0px solid rgba(0, 0, 0, 0) !important;
     color: rgba(0, 0, 0, 0) !important;
-    padding: 60% 0;
+    padding: 100% 0;
 }
 .bg-3 a#Blog1_blog-pager-newer-link:hover, .bg-3 a#Blog1_blog-pager-older-link:hover, 
 .bg-3 a#Blog1_blog-pager-newer-link:focus, .bg-3 a#Blog1_blog-pager-older-link:focus, 
