@@ -136,6 +136,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 .bg-3 button a:link, .bg-3 a:active.button, .bg-3 button a:active, .bg-3 a.button:hover, .bg-3 button a:hover{
     color: #fff3de !important;
 }
+.bg-3 .section-title {
+    text-align: center;
+    border-bottom: 1px solid #231F20;
+    height: 35px;
+    margin-bottom: 70px;
+}
+.bg-3 .section-title h1 {
+    font-family: 'Cutive';
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.45em;
+    font-weight: normal;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 16px 42px 10px;
+    background: #a5b5d0;
+    margin-bottom: -66px;
+}
 .bg-3 .viewallgrid li div, .bg-3 .viewallgrid li div a, .bg-3 .viewallgrid li div a:link {
     background: transparent !important;
 }
