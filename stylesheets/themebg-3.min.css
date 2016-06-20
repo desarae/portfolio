@@ -28,6 +28,15 @@
 .viewall .right, .viewall .left {
     line-height: 1em !important;
 }
+.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link, div#searchwrapper {
+    font-family: 'Cutive';
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.45em;
+    font-weight: normal;
+}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -145,13 +154,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     margin-bottom: 70px;
 }
 .bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link {
-    font-family: 'Cutive';
-    font-size: 18px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 0.45em;
-    font-weight: normal;
     border: 1px solid #fff;
     display: inline-block;
     padding: 16px 42px 10px;
@@ -181,4 +183,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     margin: -65px 10%;
     float: left;
     background: rgba(0, 0, 0, 0);
+}
+.bg-3 div#searchwrapper:before {
+    content: 'Search: ';
+    display: block;
+    font-weight: bolder;
+}
+.bg-3 #searchwrapper .col-md-11 {
+    padding: 0;
+}
+.bg-3 div#searchwrapper {
+    margin: -33px 10px;
 }
