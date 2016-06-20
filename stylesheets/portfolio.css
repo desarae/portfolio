@@ -13,23 +13,16 @@ a:focus, a:hover {
 p {
 	margin: 5px 0 10px;
 }
-h1, h2, h3, h4, h5 {
-  	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
-	font-weight: bold;
-}
 h1 {
-    	font-size: 22px !important;
 	margin: 10px 0;
 }
 h2, .entry-content h2, .entry-content h2 span {
-    	font-size: 2rem;
 	margin: 10px 0;
 }
 h3.post-title:hover, h3.post-title a:hover {
 	color: #BEE7ED !important;
 }
 h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
-    	font-size: 14pt !important;
     	line-height: 1.5em !important;
     	max-width: 555px !important;
 	font-style: italic;
@@ -37,24 +30,10 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
 	margin: 0;
 }
 h5 {
-	font-size: 12.5pt;
 	margin: 5px 0;
-} 
-h5 {
-	font-size: 11pt;
-	margin: 5px 0;
-}
-body, .post-body div, .post-body span, .jump-link a, a.home-link, a.home-link:visited, button, .button, #blog-pager-older-link a, #blog-pager-newer-link a, #Label1 select {
-    	font-size: 2rem;
-	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
 }
 h2 span, h2 {
     color: #000;
-}
-h2.date-header span {
-	font-size: 11pt;
-    font-size: 12px;
-    font-weight: normal;
 }
 .georgia, a.georgia, .georgia a {
     	background-color: white; 
