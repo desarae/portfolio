@@ -1959,7 +1959,7 @@ span.caret-right {
 	top: 0;
 	left: 0;
 	background: #064471;
-	z-index: 1;
+	z-index: 10004;
 	color: #fff !important;
 	text-align: center;
 }
