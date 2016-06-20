@@ -117,7 +117,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 /**icons**/
 @media (min-width: 1200px) {
     .bg-3 .homeicons {
-        margin: 10px 15%;
+        margin: 10px 10%;
     }
 }
 /**buttons and view all page**/
