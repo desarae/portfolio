@@ -34,6 +34,9 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     color: #fff;
     font-weight: normal;
 }
+.bg-3 .desktoponly .silly a:hover {
+    color: #a5b5d0 !important;
+}
 .bg-3 .desktopmenu p a {
     color: #000 !important;
     line-height: 3.5rem;
