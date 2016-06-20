@@ -14,7 +14,7 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     text-decoration: none;
 }
 /**menu**/ 
-.bg-3 .silly {
+.bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
     padding: 0px 20px 15px 20px;
     background: rgba(0, 0, 0, 0);
@@ -25,33 +25,38 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     width: 60%;
     z-index: 10002;
 }
-.bg-3 .desktopmenu .toggle-wrapper {
+.bg-3 .desktoponly .silly a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+.bg-3 .desktoponly .silly .toggle-wrapper {
     float: left;
     width: 200px !important;
 }
-.bg-3 [id*='toggle']:checked ~ .toggle-inside {
+.bg-3 .desktopmenu .silly [id*='toggle']:checked ~ .toggle-inside {
     width: 500px;
     background: #444;
     border: 1px solid #333;
     padding: 5px 0;
 }
-.bg-3 [id*='toggle']:checked ~ .toggle-inside ul {
+.bg-3 .desktoponly .silly [id*='toggle']:checked ~ .toggle-inside ul {
     padding: 0 20px 5px;
 }
-.bg-3 [id*='toggle']:checked ~ .toggle-inside {
+.bg-3 .desktoponly .silly [id*='toggle']:checked ~ .toggle-inside {
     color: #fff;
 }
-.bg-3 .toggle-wrapper label {
+.bg-3 .desktoponly .silly .toggle-wrapper label {
     cursor: pointer;
     margin: 5px 0 5px 0;
 }
-.bg-3 .desktopmenu .toggle-inside ul li {
+.bg-3 .desktoponly .silly .toggle-inside ul li {
     list-style: none;
     border: 0px solid rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     padding: 0 !important;
 }
-.bg-3 [id*='toggle']:checked + label div:before {
+.bg-3 .desktoponly .silly [id*='toggle']:checked + label div:before {
     content: ' ' !important;
     text-align: left;
     float: left;
@@ -66,6 +71,12 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     border-top: 1px solid #f1f1f1;
     border-radius: 0 0 0 0;
+}
+/**icons**/
+@media (min-width: 1200px) {
+    .bg-3 .homeicons {
+        margin: 10px 15%;
+    }
 }
 /**buttons **/
 .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, 
