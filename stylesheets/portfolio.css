@@ -485,6 +485,7 @@ header .navbar-toggle {
 .header-inner .Header .titlewrapper {
 	padding: 0px 30px 0 !important;
 }
+/**logo**/
 .Header h1 a, .Header h1 {
 	text-align: center;
 	color: #4C4848 !important;
@@ -492,7 +493,9 @@ header .navbar-toggle {
 .Header h1 a:hover {
 	color: #fff !important;
   }
-
+.Header h1 a:after {
+	display: block;
+}
 #header-inner {
   	background-position: background-position: 0 -9px !important;
   	background-size: 100% !important;
