@@ -30,12 +30,13 @@ h3, h3.post-title, h3.post-title a, h3.post-title span, h3.post-title a span {
     color: #fff;
     font-weight: normal;
 }
-.bg-3 .desktoponly .silly .toggle-wrapper {
+.bg-3 .desktoponly .silly .toggle-wrapper .toggle-wrapper {
     float: left;
     width: 135px !important;
+    overflow: visible;
 }
-.bg-3 .desktopmenu .silly [id*='toggle']:checked ~ .toggle-inside {
-    width: 500px;
+.bg-3 .desktopmenu [id*='toggle']:checked ~ .toggle-inside {
+    width: 500px !important;
     background: #444;
     border: 1px solid #333;
     padding: 5px 0;
