@@ -266,10 +266,6 @@
 	.viewallgrid li {
 		width: 47%;
     }
-    .post.hentry {
-        max-width: 90%;
-        margin: 0 10%;
-    }
 	.homeicons ul li {
         padding: 0 0.4rem;
     }
