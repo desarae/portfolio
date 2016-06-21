@@ -462,6 +462,13 @@
 }
 /*********************************************************************************************/	
 @media (min-width: 0px) and (max-width: 900px) {
+	.bg-0 #abt-search-box, .bg-2 #abt-search-box {
+	    width: 70%;
+	    float: right;
+	}
+	.bg-0 input#abt-search-btn, .bg-1 input#abt-search-btn, .bg-2 input#abt-search-btn {
+		display: none;
+	}
 /**--adjust main content columns--**/
     .main-inner .column-right-outer, .column-right-outer, 
     .column-center-outer, .columns-inner, .column-center-inner {
