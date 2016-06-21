@@ -42,14 +42,6 @@
     border: 0px solid rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
-.bg-3 #Blog1 a#Blog1_blog-pager-newer-link:before {
-    content: "\f053";
-    font: normal normal normal 14px/1 FontAwesome;
-}
-.bg-3 #Blog1 a#Blog1_blog-pager-older-link:after {
-    content: "\f054";
-    font: normal normal normal 14px/1 FontAwesome;
-}
 /**menu**/ 
 .bg-3 .desktoponly .silly {
     margin: 0px 20px 15px 10px;
@@ -115,9 +107,6 @@
     border-bottom: 2px solid #8593ab;
 }
 /**pagination**/
-.bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
-    background: #a5b5d0;
-}
 .bg-3 #Blog1 #blog-pager-newer-link {
     float: right;
     position: fixed;
@@ -139,6 +128,9 @@
 .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:focus, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:focus, 
 .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:active, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:active {
     color: #000 !important;
+}
+.bg-3 .mbt-pager li.next:hover, .bg-3 .mbt-pager li.previous:hover {
+    background: #a5b5d0;
 }
 /**logo**/
 .bg-3 .navbar-header {
