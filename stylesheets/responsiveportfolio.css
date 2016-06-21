@@ -274,6 +274,7 @@
     }
     .bg-3 .viewallgrid li, .bg-3 .jump-link a, .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, .bg-3 a.button, .bg-3 a:link.button {
     	padding: 10px;
+    	width: 100%;
     }
 /**--adjust search--**/
 	#topwrapper #socialicns {
