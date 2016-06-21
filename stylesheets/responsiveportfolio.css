@@ -462,7 +462,8 @@
 	    width: 70%;
 	    float: right;
 	}
-	.bg-0 #searchwrapper .col-md-1 input, .bg-1 #searchwrapper .col-md-1 input, .bg-2 #searchwrapper .col-md-1 input {
+	.bg-0 #searchwrapper .col-md-1 input, .bg-1 #searchwrapper .col-md-1 input, .bg-2 #searchwrapper .col-md-1 input,
+	.bg-3 div#searchwrapper:before {
 		display: none !important;
 	}
 /**--adjust main content columns--**/
