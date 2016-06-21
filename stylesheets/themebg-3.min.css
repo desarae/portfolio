@@ -13,10 +13,6 @@
     color: #393e5e !important;
     text-decoration: none;
 }
-.bg-3 .mbt-pager li a, .bg-3 .mbt-pager li a:hover span, .bg-3 .mbt-pager li a:hover i {
-    text-decoration: none;
-    color: #3e174c;
-}
 .bg-3 .jump-link a, .bg-3 .desktoponly .silly a {
     text-decoration: none;
     color: #fff;
@@ -107,23 +103,6 @@
     border-bottom: 2px solid #8593ab;
 }
 /**pagination**/
-.bg-3 #Blog1 #blog-pager-newer-link {
-    float: right;
-    position: fixed;
-    left: 0;
-    top: 25%;
-}
-.bg-3 #Blog1 #blog-pager-older-link {
-    float: right;
-    position: fixed;
-    right: 0;
-    top: 25%;
-}
-.bg-3 #Blog1 a#Blog1_blog-pager-newer-link, .bg-3 #Blog1 a#Blog1_blog-pager-older-link {
-    border: 0px solid rgba(0, 0, 0, 0) !important;
-    color: rgba(0, 0, 0, 0) !important;
-    padding: 100% 0;
-}
 .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:hover, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:hover, 
 .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:focus, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:focus, 
 .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:active, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:active {
