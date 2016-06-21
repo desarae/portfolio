@@ -462,7 +462,7 @@
 	    width: 70%;
 	    float: right;
 	}
-	.bg-0 input#abt-search-btn, .bg-1 input#abt-search-btn, .bg-2 input#abt-search-btn {
+	.bg-0 #searchwrapper .col-md-1 input, .bg-1 #searchwrapper .col-md-1 input, .bg-2 #searchwrapper .col-md-1 input {
 		display: none !important;
 	}
 /**--adjust main content columns--**/
