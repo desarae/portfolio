@@ -108,12 +108,15 @@
 		display: none !important;
 		visibility: hidden;
     	}
-	    .homeicons ul {
-	        padding: 0 !important;
-	    }
-	    .homeicons ul li {
-	        padding: 0 14px;
-	    }
+	.homeicons ul {
+		padding: 0 !important;
+	}
+	.homeicons ul li {
+		padding: 0 14px;
+	}
+	.hover_img a:hover span { 
+		width: 293px;
+	}
 /**--adjust hide upper search meant for smaller screens--**/
 	.column-center-outer {
 		max-width: 675px;
