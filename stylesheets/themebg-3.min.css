@@ -175,12 +175,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     border: 5px solid #a5b5d0;
     border-radius: 7px;
 }
-/**icons**/
-@media (min-width: 1200px) {
-    .bg-3 .homeicons {
-        margin: 10px 10%;
-    }
-}
 /**buttons and view all page**/
 .bg-3 .button-wrapper button, .bg-3 .button-wrapper div.lined-thin {
     padding: 0;
@@ -253,4 +247,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     position: fixed;
     bottom: 8px;
     right: 50px;
+}
+/***Responsive***************/
+@media (min-width: 1200px) {
+    /**icons**/
+    .bg-3 .homeicons {
+        margin: 10px 10%;
+    }
 }
