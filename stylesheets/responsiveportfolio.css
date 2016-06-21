@@ -274,7 +274,7 @@
     	padding: 10px 0 0 40px;
     }
 /**--adjust search--**/
-  	div#HTML6 {
+  	div#HTML6, .viewall {
   		width: 100%;
 		float: right;
   	}
