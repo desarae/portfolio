@@ -21,3 +21,30 @@ All the themes are responsive and include a secondary hamburger menu.
 ## Accessibility friendly
 
 Level AA/508 compliance has not been fully tested on these themes but they are built with accessibility in mind. The main template includes a skip nav and details on color contrast testing.
+
+## Scripts
+
+Header scripts are loaded asyncronously using the async="async" attribute. If Blogger didn't require XML it could be written as just async. This is only neccessary for scripts using the src tag and is an HTML5 specific attribute.
+
+For older browser support add:
+
+<code>
+<script>
+  var resource = document.createElement('script'); 
+  resource.src = "https://third-party.com/resource.js";
+  var script = document.getElementsByTagName('script')[0];
+  script.parentNode.insertBefore(resource, script);
+</script>
+</code>
+
+OR
+
+<code>
+(function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = 'https://third-party.com/resource.js';
+    s.parentNode.insertBefore(g, s);
+}(document, 'script'));</code>
+
+Details here: https://css-tricks.com/thinking-async/
