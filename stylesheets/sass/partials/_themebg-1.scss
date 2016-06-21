@@ -1,0 +1,203 @@
+/**defaults**/
+.bg-1{
+	/*background-image:url(https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG);
+	*/background-attachment:fixed;
+	background-repeat:repeat;
+	background-size:14%;
+	background: #9ee3fb;
+}
+.bg-1 .bg-1only,.bg-1 .togglehover_img a,.magicbg .togglehover_img a{
+  	display:block!important;
+}
+/***fonts***/
+.bg-1 a:visited,  .bg-1 a:link, .bg-1 a {
+    	text-decoration: none;
+	color: #2c9ab7;
+}
+.bg-1 a:focus, .bg-1 a:hover {
+ 	text-decoration: underline;
+  	color: #195760 !important;
+}
+.bg-1 p {
+	margin: 5px 0 10px;
+}
+.bg-1 h1, .bg-1 h2, .bg-1 h3, .bg-1 h4, .bg-1 h5 {
+  	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+	font-weight: bold;
+}
+.bg-1 h1 {
+    	font-size: 22px !important;
+	margin: 10px 0;
+}
+.bg-1 h2, .bg-1 .entry-content h2, .bg-1 .entry-content h2 span {
+    	font-size: 2rem;
+	margin: 10px 0;
+}
+.bg-1 h3.post-title:hover, .bg-1 h3.post-title a:hover {
+	color: #BEE7ED !important;
+}
+.bg-1 h3, .bg-1 h3.post-title, .bg-1 h3.post-title a, .bg-1 h3.post-title span, .bg-1 h3.post-title a span {
+    	font-size: 14pt !important;
+    	line-height: 1.5em !important;
+    	max-width: 555px !important;
+	font-style: italic;
+    	text-transform: Capitalize;
+	margin: 0;
+}
+.bg-1 h5 {
+	font-size: 12.5pt;
+	margin: 5px 0;
+} 
+.bg-1 h5 {
+	font-size: 11pt;
+	margin: 5px 0;
+}
+.bg-1 body, .bg-1 .post-body div, .bg-1 .post-body span, .bg-1 .jump-link a, .bg-1 a.home-link, 
+.bg-1 a.home-link:visited, .bg-1 button, .bg-1 .button, .bg-1 #blog-pager-older-link a, 
+.bg-1 #blog-pager-newer-link a, .bg-1 #Label1 select {
+    	font-size: 2rem;
+	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+}
+.bg-1 h2 span, .bg-1 h2 {
+    color: #000;
+}
+.bg-1 h2.date-header span {
+	font-size: 11pt;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bg-1 .georgia, .bg-1 a.georgia, .bg-1 .georgia a {
+    	background-color: white; 
+	color: black; 
+	font-family: georgia !important; 
+	font-size: 20px; 
+	font-weight: bold; 
+	line-height: 30px; 
+	outline: none; 
+	text-decoration: none;
+}
+/**Search**/
+.bg-1 #blog-pager,.bg-1 footer .nav .col-md-9 #searchwrapper,.bg-1 footer p,.bg-1only{
+  	display:none;
+}
+.darksearch{
+	position:absolute;
+	top:0;
+	right:0;
+}
+/**main**/
+.bg-1 blockquote{
+  	border:5px solid #89C6DB;
+  	box-shadow:0 0 0 0 transparent;
+}
+.bg-1 .post a,.bg-1 .post a:hover{
+  	box-shadow:inset 0 0 0 transparent;
+}
+.bg-1 a:active,.bg-1 a:focus,.bg-1 a:hover{
+  	color:#014875!important;
+}
+.bg-1 a:visited{
+  	text-decoration:none;
+  	color:#2b5c6c!important;
+}
+/**Buttons**/
+.bg-1 a,.bg-1 a.button,.bg-1 a.button:hover,.bg-1 button,.bg-1 button a,.bg-1 button a:hover{
+  	text-decoration:none;
+  	color:#057596!important;
+}
+.bg-1 .primarybutton .lined {
+  	background: #e2c448 !important;
+}
+.bg-1 .btn-right::before, .bg-1 .btn-right::after {
+  	background: #e1c348;
+}
+.bg-1 .jump-link a, .bg-1 .jump-link a:link {
+    background: #ffdf6d !important;
+    color: #000 !important;
+    border: 1px solid #e1c348;
+    box-shadow: 1px 1px 1px 1px #e1c348 !important;
+    padding: 5px 0;
+}
+.bg-1 .jump-link a:hover {
+    background: #eacc51 !important;
+    color: #000 !important;
+    border: 1px solid #e1c348;
+    box-shadow: 1px 1px 1px 0px #d4b63e !important;
+}
+/**Pagination**/
+.bg-1 .mbt-pager a, .bg-1 .mbt-pager a:link, .bg-1 .mbt-pager a:visited, .bg-1 .mbt-pager i,
+.bg-1 .mbt-pager li a strong, .bg-1 .mbt-pager li a:link strong, .bg-1 .mbt-pager li a:visited strong {
+	color: #000 !important;	
+}
+/**Nav**/
+.bg-1 aside .toggle-inside li {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+.bg-1 #navbar label div {
+  	background:#000!important;
+}
+.bg-1 .center-circle{
+  	background-color:#057596;
+}
+.bg-1 .top a{
+	padding:27px 15px!important;
+	border-radius:43px!important;
+	background:#fff!important;
+}
+.bg-1 nav.nav.navbar-nav.navbar.navbar-fixed-bottom{
+  	background:0 0;
+}
+.bg-1 .content-main .main.section{
+	border: 1px solid #a1e3f7!important;
+	border-radius: 0!important;
+	background: #f7ffff;
+	box-shadow: -21px 39px 34px -26px rgba(0, 0, 0, 0.2);
+	background: -webkit-linear-gradient(left, #c8f1ff 0%, rgba(208, 234, 243, 0.46) 100%);
+	background: linear-gradient(to left, rgba(208, 234, 243, 0.46) 0%, #c8f1ff 100%);
+}
+.bg-1 .silly{
+  	border: 1px solid rgba(225, 195, 72, 0.34);
+  	padding: 12px 5px;
+  	background: -webkit-linear-gradient(top, #d1f5ff 0%, #ffdf6d 100%);
+  	background: linear-gradient(to bottom, #d1f5ff 0%, #e1c348 100%);
+  	padding: 0 13px;
+}
+.bg-1 .main-container{
+  	margin-top:10px!important;
+}
+.bg-1 .showit, .bg-1 .sun-burst {
+	display: block;
+}
+.bg-1 .clouds {
+	height:539px;
+  	background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
+}
+.bg-1 .starstwinkle, .bg-1 .twinkling {
+	display: none;
+}
+.sun-burst {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: rgba(255, 204, 51, 0);
+	right: 0;
+	top: 25%;
+	box-shadow: 0 0 77px 22px #fc3;
+	border-radius: 50%;
+	transition: opacity 3s ease-in-out;
+	transform-origin: top;
+	transition-delay: 10s;
+	opacity: 0.7;
+}
+.bg-1 .skywrapper .moon {
+	height: 100px;
+	width: 100px;
+	margin: 50px auto;
+	border-radius: 50%;
+	transform-origin: 50% 50%;
+	transition: all 1.5s ease-in-out;
+	transform: rotate(360deg);
+	box-shadow: inset 100px 100px 0px 70px #fff0af;
+	border: 3px solid #fdd63a;
+}

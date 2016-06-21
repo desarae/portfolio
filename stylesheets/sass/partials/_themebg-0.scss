@@ -1,0 +1,102 @@
+/**defaults**/
+.bg-0{
+  background:url('https://1.bp.blogspot.com/-jCDheUd40fs/V1y4c72n8WI/AAAAAAAA98o/4-q_D5cwESozU0LYPm1cvZa7EDqQmUs6gCLcB/s1600/bg2.png') #F0F1F3;
+  background-color:#BEE7ED!important;
+  color:#656E7F;
+}
+.bg-0 ul.mbt-pager{
+  display:none;
+  
+}
+/***fonts***/
+.bg-0 a:visited,  .bg-0 a:link, a {
+    	text-decoration: none;
+	color: #2c9ab7;
+}
+.bg-0 a:focus, .bg-0 a:hover {
+ 	text-decoration: underline;
+  	color: #195760 !important;
+}
+.bg-0 p {
+	margin: 5px 0 10px;
+}
+.bg-0 h1, .bg-0 h2, .bg-0 h3, .bg-0 h4, .bg-0 h5 {
+  	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+	font-weight: bold;
+}
+.bg-0 h1 {
+    	font-size: 22px !important;
+	margin: 10px 0;
+}
+.bg-0 h2, .bg-0 .entry-content h2, .bg-0 .entry-content h2 span {
+    	font-size: 2rem;
+	margin: 10px 0;
+}
+.bg-0 h3.post-title:hover, .bg-0 h3.post-title a:hover {
+	color: #BEE7ED !important;
+}
+.bg-0 h3, .bg-0 h3.post-title, .bg-0 h3.post-title a, .bg-0 h3.post-title span, .bg-0 h3.post-title a span {
+    	font-size: 14pt !important;
+    	line-height: 1.5em !important;
+    	max-width: 555px !important;
+	font-style: italic;
+    	text-transform: Capitalize;
+	margin: 0;
+}
+.bg-0 h5 {
+	font-size: 12.5pt;
+	margin: 5px 0;
+} 
+.bg-0 h5 {
+	font-size: 11pt;
+	margin: 5px 0;
+}
+.bg-0 body, .bg-0 .post-body div, .bg-0 .post-body span, .bg-0 .jump-link a, 
+.bg-0 a.home-link, .bg-0 a.home-link:visited, .bg-0 button, 
+.bg-0 .button, .bg-0 #blog-pager-older-link a, .bg-0 #blog-pager-newer-link a, .bg-0 #Label1 select {
+    	font-size: 2rem;
+	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial;
+}
+.bg-0 h2 span, .bg-0 h2 {
+    color: #000;
+}
+.bg-0 h2.date-header span {
+	font-size: 11pt;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bg-0 .georgia, .bg-0 a.georgia, .bg-0 .georgia a {
+    	background-color: white; 
+	color: black; 
+	font-family: georgia !important; 
+	font-size: 20px; 
+	font-weight: bold; 
+	line-height: 30px; 
+	outline: none; 
+	text-decoration: none;
+}
+/**menu**/
+.bg-0 .silly{
+  background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
+  border:1px solid #B0DBE1;
+  border-top-color:rgba(190,231,237,.93);
+  box-shadow:0 4px 3px 0 #BEE7ED;
+}
+.bg-0 .center-circle {
+  background-color:#E85C41;
+}
+.bg-0 header{
+  background:url('https://4.bp.blogspot.com/-bGW1Zsf4ZCo/V2UjsBvvhhI/AAAAAAAA-Gk/pHPEQNWIfqYmuj-pjPw1hZKXyen8ew1uQCLcB/s1600/bluenobot2.png') #F0F1F3;
+  z-index:0 !important; 
+  background-position-y: 0px;
+}
+header.navbar {
+  height: 54px !important;
+}
+.bg-0 .content-main .main.section{
+  border:2px solid #B0DBE1;
+}
+.bg-0 footer.bs-docs-footer{
+  background:url('https://4.bp.blogspot.com/-0HvaLSanhq0/V1srm67ZgCI/AAAAAAAA9s8/zvhONFaUvfsxA2mHVkrZFeHaYYecwUzTwCLcB/s320/blue.PNG') repeat-x #F0F1F3;
+  padding:10px;
+}
