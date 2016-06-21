@@ -274,7 +274,7 @@
     	width: 100%;
     	max-width: 100%;
     }
-    .bg-3 .viewallgrid li, .bg-3 .jump-link a, .bg-3 .button-wrapper button.lined.thin, .bg-3 .button-wrapper div.lined-thin, .bg-3 button, .bg-3 a.button, .bg-3 a:link.button {
+    .viewallgrid li, .jump-link a, .button-wrapper button.lined.thin, .button-wrapper div.lined-thin, button, a.button, a:link.button {
     	padding: 10px;
     	width: 100%;
     	max-width: 100%;
@@ -472,7 +472,7 @@
 	    width: 70%;
 	    float: right;
 	}
-	#searchwrapper .col-md-1 input, .bg-3 div#searchwrapper:before {
+	#searchwrapper .col-md-1 input, #searchwrapper .col-sm-3 input, .bg-3 div#searchwrapper:before {
 		display: none !important;
 		content: ' ' !important;
 	}
