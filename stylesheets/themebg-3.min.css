@@ -249,7 +249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     border: 1px solid #8c9ab1;
     height: 44px;
 }
-.top {
+.bg-3 .top {
     position: fixed;
     bottom: 8px;
     right: 50px;
