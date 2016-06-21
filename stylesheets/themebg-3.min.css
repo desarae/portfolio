@@ -189,13 +189,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     height: 35px;
     margin-bottom: 70px;
 }
-.bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link {
-    border: 1px solid #fff;
-    display: inline-block;
-    padding: 16px 42px 10px;
-    background: #a5b5d0;
-    margin-bottom: -66px;
-}
 .bg-3 .viewallgrid li div, .bg-3 .viewallgrid li div a, .bg-3 .viewallgrid li div a:link {
     background: transparent !important;
 }
@@ -253,5 +246,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     /**icons**/
     .bg-3 .homeicons {
         margin: 10px 10%;
+    }
+    .bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link {
+        border: 1px solid #fff;
+        display: inline-block;
+        padding: 16px 42px 10px;
+        background: #a5b5d0;
+        margin-bottom: -66px;
     }
 }
