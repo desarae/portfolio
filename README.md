@@ -12,7 +12,7 @@ This is a site built for Desarae Veit's work. The site uses the Bootstrap framew
 
 * The main site is hosted at: http://desaraev.com and the beta site is under beta subdomain.
 * Pattern library: http://www.desaraev.com/p/pattern-library.html
-* Documentation on Github: http://desaraevdotcom.github.io/portfolio
+* Documentation on Github: http://desaraevdotcom.github.io/portfolio (editable by admin under settings)
 
 ## Responsive
 
