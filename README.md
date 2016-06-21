@@ -29,12 +29,10 @@ Header scripts are loaded asyncronously using the async="async" attribute. If Bl
 For older browser support add:
 
 <code>
-<script>
   var resource = document.createElement('script'); 
   resource.src = "https://third-party.com/resource.js";
   var script = document.getElementsByTagName('script')[0];
   script.parentNode.insertBefore(resource, script);
-</script>
 </code>
 
 OR
