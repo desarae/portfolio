@@ -463,7 +463,7 @@
 	    float: right;
 	}
 	.bg-0 input#abt-search-btn, .bg-1 input#abt-search-btn, .bg-2 input#abt-search-btn {
-		display: none;
+		display: none !important;
 	}
 /**--adjust main content columns--**/
     .main-inner .column-right-outer, .column-right-outer, 
