@@ -424,9 +424,10 @@ aside .toggle-inside li {
 }
 .main-container {
 	margin-top: 0px;
+	max-width: 100%;
 }
 .content-main[role='main'] {
-    margin-top: -15px;
+    	margin-top: -15px;
 }
 .main-outer {
 	border: 3px solid #FFF;
@@ -461,7 +462,6 @@ img.left, a.left img {
 	text-align: left;
 }
 /** MENU and HEADER ============================================================**/
-
 .mainmenu li { 
 	float: left; 
 }
