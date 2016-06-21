@@ -227,9 +227,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     }
 }
 @media (max-width: 1800px) {
-    .bg-3 #Blog1 a#Blog1_blog-pager-older-link  {
-        max-width: 50px;
-    }
     .bg-3 .content-main .main.section {
         margin: 5px !important;
         padding: 10px;
