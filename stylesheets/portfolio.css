@@ -1750,15 +1750,15 @@ ul.lineofarticles li {
 .hover_img a span, .hover_img a:link span, .hover_img a:visited span { position:absolute; display:none; z-index:99; color: #000; }
 .hover_img a:hover span { 
 	display: block;
-    color: #000;
-    top: -101px;
-    left: -223px;
-    background: #fff;
-    border: 1px solid#ccc;
-    padding: 10px;
-    box-shadow: 1px 1px 1px 2px #ccc;
-    border-radius: 17px 10px 0 11px;
-    width: 293px;
+	color: #000;
+	top: -101px;
+	/*left: -223px;*/
+	left: 0px;
+	background: #fff;
+	border: 1px solid#ccc;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 2px #ccc;
+	border-radius: 17px 10px 0 11px;
 }
 .post .hover_img a, .post .hover_img a:hover {
     box-shadow: none;
