@@ -1751,9 +1751,6 @@ ul.lineofarticles li {
 .hover_img a:hover span { 
 	display: block;
 	color: #000;
-	top: -101px;
-	/*left: -223px;*/
-	left: 0px;
 	background: #fff;
 	border: 1px solid#ccc;
 	padding: 10px;
