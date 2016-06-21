@@ -677,10 +677,13 @@ input[type='checkbox']#main-nav:checked~ul{
 /** FOOTER **/
 footer {
 	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 footer .navbar {
 	height: 6rem !important;
-	padding: 10px 0 0 0 !important;
+	padding: 0 !important;
+	margin: 0px;
 }
 .post-share-buttons {
 	float: right;
