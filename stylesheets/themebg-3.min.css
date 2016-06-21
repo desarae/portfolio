@@ -259,5 +259,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:hover, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:hover, .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:focus, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:focus, .bg-3 #Blog1 a#Blog1_blog-pager-newer-link:active, .bg-3 #Blog1 a#Blog1_blog-pager-older-link:active {
         max-width: 50px;
     }
-}
+    .content-main .main.section {
+        margin: 5px !important;
+        padding: 10px;
+    }
 }
