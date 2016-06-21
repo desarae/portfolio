@@ -1440,24 +1440,24 @@ h2.date-header {
 }
 .content-main .main.section {
 	border: 1px solid #000;
-    align-self: center;
-    background: rgba(0, 0, 0, 0);
-    padding: 1rem 5rem;
-    margin: 0rem;
-    transition: all .5s ease;
-    color: #41403E;
-    font-size: 2rem;
-    letter-spacing: .2px;
-    outline: none;
-    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    border-bottom-right-radius: 225px 15px;
-    border-bottom-left-radius: 15px 255px;
+	align-self: center;
+	background: rgba(0, 0, 0, 0);
+	padding: 1rem 5rem;
+	margin: 0rem;
+	transition: all .5s ease;
+	color: #41403E;
+	font-size: 2rem;
+	letter-spacing: .2px;
+	outline: none;
+	box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+	border-bottom-right-radius: 225px 15px;
+	border-bottom-left-radius: 15px 255px;
 	background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
+	max-width: 100%;
 }
-
 html body .region-inner {
 	padding: 0px !important; 
 }
