@@ -17,8 +17,8 @@ This is a site built for Desarae Veit's work. The site uses the Bootstrap framew
 ## Beta Testing
 
 * The beta site is located at beta.desaraev.com
-* The CSS Change for beta is <link href='https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/beta.min.css' media='all' rel='stylesheet' type='text/css'/> 
-* 
+* The CSS Change for beta is <code> link href='https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/beta.min.css' media='all' rel='stylesheet' type='text/css'/ </code>
+
 ## Responsive
 
 All the themes are responsive and include a secondary hamburger menu.
