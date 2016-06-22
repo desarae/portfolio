@@ -1,0 +1,7 @@
+@import "homeicons/*.png"; /**create sprites out of homepage icons**/
+@include all-homeicons-sprites;
+
+$icons: sprite-map("homeicons/*.png");
+[class*="homeicons-"] {
+	height: 60px;
+}
