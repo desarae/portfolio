@@ -25,7 +25,7 @@
     line-height: 1em !important;
 }
 .bg-3 .section-title h1, .bg-3 button a, .bg-3 button a:link, .bg-3 .jump-link, .bg-3 div#searchwrapper {
-    font-family: 'Cutive';
+    font-family: 'Cutive' !important;
     font-size: 18px;
     line-height: 18px;
     text-transform: uppercase;
@@ -132,7 +132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
 .bg-3 .main-container .row > .content-main[role='main'] {
     width: 100%;
 }
-.bg-3 .content-main .main.section {
+.bg-3 .content-main {
     border: 0 solid rgba(0, 0, 0, 0);
     background: rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -227,7 +227,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211028', end
     }
 }
 @media (max-width: 1800px) {
-    .bg-3 .content-main .main.section {
+    .bg-3 .content-main  {
         margin: 5px !important;
         padding: 10px;
     }
