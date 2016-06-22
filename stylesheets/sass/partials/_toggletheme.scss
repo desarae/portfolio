@@ -76,10 +76,10 @@
   cursor: pointer;
 }
 .select label.selected-3 .switch-toggle {
-  background-color: rgba(64, 129, 255, 0.5);
+  background-color: #a5b5d0 !important;
 }
 .select label.selected-3 .switch-toggle::before {
-  background-color: rgba(64, 129, 255 , 1);
+  background-color: #25112d;
 }
 .select label.selected-1 .switch-toggle::before,
 .select label.selected-1 .switch-toggle::after {
@@ -153,8 +153,7 @@ span.display {
 .bg-0 .togglefeature {
   /*background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png') !important;*/
 }
-.toggledaynight .togglebtn,
-.switch-toggle, .bg-2 .switch-toggle {
+.toggledaynight .togglebtn, .bg-2 .switch-toggle {
   position: relative;
   height: 53px;
   width: 100px !important;

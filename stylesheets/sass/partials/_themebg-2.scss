@@ -24,7 +24,6 @@
 	font-weight: bold;
 }
 .bg-2 h1 {
-    	font-size: 22px !important;
 	margin: 10px 0;
 }
 .bg-2 h2, .bg-2 .entry-content h2, .bg-2 .entry-content h2 span {
@@ -73,15 +72,14 @@
 .section-title {
     text-align: center;
     border-bottom: 1px solid #231F20;
-    height: 35px;
+    height: 66px;
     margin-bottom: 70px;
 }
 .section-title h1 {
-    border: 1px solid #fff;
+    border: 18px solid #555555;
     display: inline-block;
     padding: 16px 42px 10px;
-    background: #fff;
-    margin-bottom: -66px;
+    background: #000;
 	text-transform: capitalize;
     text-rendering: optimizelegibility;
     margin-bottom: 60px;
