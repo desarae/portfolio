@@ -14,6 +14,11 @@ This is a site built for Desarae Veit's work. The site uses the Bootstrap framew
 * Pattern library: http://www.desaraev.com/p/pattern-library.html
 * Documentation on Github: http://desaraevdotcom.github.io/portfolio (editable by admin under settings)
 
+## Beta Testing
+
+* The beta site is located at beta.desaraev.com
+* The CSS Change for beta is <link href='https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/beta.min.css' media='all' rel='stylesheet' type='text/css'/> 
+* 
 ## Responsive
 
 All the themes are responsive and include a secondary hamburger menu.
