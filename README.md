@@ -7,15 +7,6 @@ Looking for a responsive theme for BlogSpot? Look no further. There are four in 
 * bg-2 The third is a dark night complete with swiveling moon and twinkling stars. 
 * bg-3 The fourth theme is a wide purple and gold theme. It is simple with a nav at the top of the page. 
 
-## Sections
-
-* About
-* Beta Testing
-* Responsive
-* Accessibility Friendly
-* Scripts
-
-
 ## About
 This is a site built for Desarae Veit's work. The site uses the Bootstrap framework and Blogger.
 
@@ -27,6 +18,8 @@ This is a site built for Desarae Veit's work. The site uses the Bootstrap framew
 
 * The beta site is located at beta.desaraev.com
 * The CSS Change for beta is <code> link href='https://rawgit.com/Desaraevdotcom/portfolio/blogger/stylesheets/beta.min.css' media='all' rel='stylesheet' type='text/css'/ </code>
+
+[MORE DETAILS](https://github.com/Desaraevdotcom/portfolio/wiki/Beta-Testing)
 
 ## Responsive
 
