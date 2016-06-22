@@ -6,3 +6,26 @@ $icons: sprite-map("homeicons/*.png");
 	height: 60px;
 	width: 60px;
 }
+
+/**home page**/
+.homeicons {
+    margin: 10px 0 20px 0;
+}
+.homeicons ul li.first {
+    padding: 0 !important;
+}
+ .homeicons ul li.middle {
+    padding-right: 0 !important;
+}
+.homeicons ul li {
+	list-style: none;
+	padding: 0 7px 0 7px;
+	text-align: center;
+}
+.homeicons a {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.homeicons a:hover span {
+    top: 0 !important;
+    border-radius: 15px 0 15px 15px !important;
+}

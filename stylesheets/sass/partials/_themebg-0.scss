@@ -86,14 +86,14 @@
   background-color:#E85C41;
 }
 .bg-0 header{
-  background:url('https://4.bp.blogspot.com/-bGW1Zsf4ZCo/V2UjsBvvhhI/AAAAAAAA-Gk/pHPEQNWIfqYmuj-pjPw1hZKXyen8ew1uQCLcB/s1600/bluenobot2.png') #F0F1F3;
-  z-index:0 !important; 
-  background-position-y: 0px;
+	background: #f0f1f3;
+	z-index: 0 !important;
+    border-bottom: 2px solid #90bcc8;
 }
 header.navbar {
   height: 54px !important;
 }
-.bg-0 .content-main .main.section{
+.bg-0 .content-main {
   border:2px solid #B0DBE1;
 }
 .bg-0 footer.bs-docs-footer{
