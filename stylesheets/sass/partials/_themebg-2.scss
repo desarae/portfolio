@@ -70,6 +70,32 @@
 	outline: none; 
 	text-decoration: none;
 }
+.section-title {
+    text-align: center;
+    border-bottom: 1px solid #231F20;
+    height: 35px;
+    margin-bottom: 70px;
+}
+.section-title h1 {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 16px 42px 10px;
+    background: #fff;
+    margin-bottom: -66px;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+    margin-bottom: 60px;
+    font-family: 'Pacifico', cursive !important;
+    font-size: 4.5rem !important;
+    letter-spacing: .09375rem;
+    line-height: 4.4375rem;
+    color: #054d72;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -khtml-font-smoothing: antialiased;
+    -apple-font-smoothing: antialiased;
+    font-smooth: always;
+}
 /**bg stars**/
 .bg-2 .showit{
     display:block!important;

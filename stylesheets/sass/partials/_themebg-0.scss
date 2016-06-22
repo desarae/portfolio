@@ -25,7 +25,6 @@
 	font-weight: bold;
 }
 .bg-0 h1 {
-    	font-size: 22px !important;
 	margin: 10px 0;
 }
 .bg-0 h2, .bg-0 .entry-content h2, .bg-0 .entry-content h2 span {
@@ -75,6 +74,32 @@
 	outline: none; 
 	text-decoration: none;
 }
+.section-title {
+    text-align: center;
+    border-bottom: 1px solid #231F20;
+    height: 35px;
+    margin-bottom: 70px;
+}
+.section-title h1 {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 16px 42px 10px;
+    background: #fff;
+    margin-bottom: -66px;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+    margin-bottom: 60px;
+    font-family: 'Pacifico', cursive !important;
+    font-size: 4.5rem !important;
+    letter-spacing: .09375rem;
+    line-height: 4.4375rem;
+    color: #054d72;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -khtml-font-smoothing: antialiased;
+    -apple-font-smoothing: antialiased;
+    font-smooth: always;
+}
 /**menu**/
 .bg-0 .silly{
   background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
@@ -85,8 +110,8 @@
 .bg-0 .center-circle {
   background-color:#E85C41;
 }
-.bg-0 header{
-	background: #f0f1f3;
+.bg-0 header {
+	background: #f0f1f3; 
 	z-index: 0 !important;
     border-bottom: 2px solid #90bcc8;
 }
