@@ -75,13 +75,13 @@
 	outline: none; 
 	text-decoration: none;
 }
-.section-title {
+.bg-0 .section-title {
     text-align: center;
     border-bottom: 1px solid #231F20;
     height: 35px;
     margin-bottom: 70px;
 }
-.section-title h1 {
+.bg-0 .section-title h1 {
     border: 1px solid #fff;
     display: inline-block;
     padding: 16px 42px 10px;
@@ -116,7 +116,7 @@
 	z-index: 0 !important;
     border-bottom: 2px solid #90bcc8;
 }
-header.navbar {
+.bg-0 header.navbar {
   height: 54px !important;
 }
 .bg-0 .content-main {

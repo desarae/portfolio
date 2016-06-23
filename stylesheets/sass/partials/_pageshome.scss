@@ -4,7 +4,7 @@
 $icons: sprite-map("homeicons/*.png");
 [class*="homeicons-"] {
 	height: 40px;
-	width: 40px;
+	width: 40px; 
 }
 
 /**home page**/
@@ -31,4 +31,5 @@ $icons: sprite-map("homeicons/*.png");
 }
 .homeicons .hover_img h3 {
     font-size: 12px !important;
+	text-align: center; 
 }

@@ -75,13 +75,13 @@
 	outline: none; 
 	text-decoration: none;
 }
-.section-title {
+.bg-1 .section-title {
     text-align: center;
     border-bottom: 1px solid #231F20;
     height: 35px;
     margin-bottom: 70px;
 }
-.section-title h1 {
+.bg-1 .section-title h1 {
     border: 1px solid #fff;
     display: inline-block;
     padding: 16px 42px 10px;
@@ -104,11 +104,6 @@
 /**Search**/
 .bg-1 #blog-pager,.bg-1 footer .nav .col-md-9 #searchwrapper,.bg-1 footer p,.bg-1only{
   	display:none;
-}
-.darksearch{
-	position:absolute;
-	top:0;
-	right:0;
 }
 /**main**/
 .bg-1 blockquote{
