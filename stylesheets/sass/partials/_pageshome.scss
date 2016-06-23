@@ -33,3 +33,9 @@ $icons: sprite-map("homeicons/*.png");
     font-size: 12px !important;
 	text-align: center; 
 }
+@media  (min-width: 0px) and (max-width: 1800px) {
+	.homeicons .col-sm-1, .col-sm-2 {
+	    min-width: 40px;
+	    float: left;
+	}
+}
