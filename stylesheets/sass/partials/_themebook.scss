@@ -1,0 +1,192 @@
+html body .region-inner {
+	padding: 0px !important; 
+}
+.main-outer {
+	border: 3px solid #FFF;
+	background: #FFF;
+}
+.region-inner.main-inner {
+	border: 4px solid #F0F1F3;
+}
+.main-inner .column-right-outer {
+	max-width:468px;
+	width: auto;
+}
+.main-inner .column-center-inner {
+	border-right: 1px solid #EEEDEE;
+}
+.post-footer-line.post-footer-line-2 {
+	text-align: center;
+}
+.column-center-inner div#Profile1 {
+    border: 1px solid #F0F1F3;
+    padding: 10px 0px 15px 13px;
+    
+    div#socialicns {
+	    width: 357px;
+	    float: right;
+	    
+	    a {
+			text-decoration: none !important;
+		}
+	}
+}
+.column-center-inner a.profile-name-link.g-profile {
+    padding: 0px;
+    font-size: 16pt;
+}
+.column-right-inner #Profile1 {
+	display: none;
+}
+.fa-send:before, .fa-paper-plane:before {
+	content: '\f1d8';
+}
+.tabs-outer {
+	margin: -60px 0px 35px 0px;
+}
+/*****************************HEADER *********************************/
+header .navbar-toggle {
+    display: none;
+}
+/***POPULAR POSTS **/
+.popular-posts .item-content::before {
+    color: #fff;
+    padding: 40px;
+}
+#PopularPosts1 .popular-posts .item-content::before {
+	content: 'Popular Article';
+}
+#PopularPosts2 .popular-posts .item-content::before {
+	content: 'Featured Article';
+}
+.popular-posts .item-content {
+    background: #EEEDEE;
+    background: -webkit-linear-gradient(#656E7F, #fff); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#656E7F, #fff); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#656E7F, #fff); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#656E7F, #fff); /* Standard syntax */
+    color: #FFF;
+    padding: 0px;
+    width: 190px;
+    margin: -20px 0 15px -10px;
+}
+.PopularPosts .item-title {
+	padding-bottom: .2em;
+    padding-top: 11px;
+    padding: 10px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.57);
+    background: -webkit-linear-gradient(rgba(221, 216, 221, 0.83), #fff); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(221, 216, 221, 0.83), #fff); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(221, 216, 221, 0.83), #fff); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(221, 216, 221, 0.83), #fff); /* Standard syntax */
+    width: 170px;
+    height: 38px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    
+    a {
+	    top: 0;
+	    z-index: 100000;
+	    width: 165px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+		font-weight: bold;
+	
+		&:hover {
+			text-decoration:none;
+		}
+	}
+}
+.PopularPosts .item-snippet {
+    padding: 4px 10px 10px 10px;
+    background: #FFF;
+    color: #000;
+    width: 178px;
+    margin: -8px 1px 0 0px;
+    height: 64px;
+    font-size: 12px;
+    letter-spacing: 0.5px !important;
+    line-height: 1.23;
+    overflow: hidden;
+    font-weight: 100;
+}
+.PopularPosts .item-thumbnail {
+    margin: 0 5px -2px 0 !important;
+    float: left;
+    align-content: center;
+    height: 125px;
+    overflow: hidden;
+
+	img {
+	    /* border-radius: 45px; */
+	    width: 190px;
+	    height: auto;
+	
+		&:hover {
+			opacity: .8 !important;
+		}
+	}
+}
+.widget-content.popular-posts, .list-label-widget-content {
+  	background: #fff;
+  	padding: 10px;
+}
+
+/*************************Similar Books***********/
+.audibletopad {
+    text-align: center;
+}
+.similarbooks {
+	clear: left; 
+	float: left; 
+	margin-bottom: 1em; 
+	margin-right: 1em;
+}
+.similarbooks img {
+    max-width: 200px;
+	min-width: 126px;
+}
+
+/** BEST OF AWARDS IMAGES **/
+.post-body .bestofaward {
+	border: 1px solid #EEEDEE;
+	clear: both;
+	text-align: center;
+}
+.bestofaward li {
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+}
+[href*='Favorite%3A%20'] img {
+    border: 0px solid rgba(0, 0, 0, 0) !important;
+    box-shadow: 0px 0px 0px #FFF !important;
+    width: 25%;
+	min-width: 90px;
+    height: auto;
+}
+[href*='Fav%3A%20NYT'] img {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0) !important;
+}
+[href*='Fav%3A%20PW'] img {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0) !important;
+    width: 25%;
+    border-radius: 80px;
+}
+#footer-3 /**disclaimer**/ {
+	background: #45484D;
+	padding: 0px 10px;
+	margin: -58px -10px;
+  
+	.widget h2 {
+		color: #FFF !important;
+	}
+	.title { 
+		text-align: center;
+		visibility: hidden;
+		display: none;
+	}
+}

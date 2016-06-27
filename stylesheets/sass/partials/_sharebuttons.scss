@@ -1,0 +1,22 @@
+.post-share-buttons {
+	float: right;
+	width: 186px;
+}
+.goog-inline-block [id*='plusone'] {
+	width: 33px !important;
+	overflow: hidden;
+}
+.social { 
+	z-index: 111;
+    position: absolute;
+    top: -23px;
+    right: 0;
+    
+    a {
+		cusor: pointer;
+	}
+}
+img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'], img[src*='Audible-Logo'],  img[src*='unnamed.png'] {
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+	border: 0px solid rgba(0, 0, 0, 0) !important;
+}

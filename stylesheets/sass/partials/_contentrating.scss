@@ -1,0 +1,89 @@
+img.stars.rating {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+  height: 20px;
+  margin-bottom: -7px;
+}
+.review-content {
+	float: left; 
+	padding: 0px;
+}
+.adbl-review-content {
+	margin: 0px !important; 
+	padding: 0px 0px 0px 14px !important;
+	line-height: 1.5 !important;
+}
+.adbl-new-stars.nullifyclearfix {
+	margin: 0px 0px 10px 0px !important;
+    padding: 5px 0px 5px 0px !important;
+    border-bottom: 1px dashed #DDD9DD;
+    clear: both;
+}
+.adbl-new-stars.nullifyclearfix::after {
+    clear: both;
+    content: ' Rating';
+    color: rgba(0, 0, 0, 0);
+}
+.adbl-rating-cont.adbl-new-stars {
+	display: inline; 
+	float: left; 
+	margin: 0px 0px 0px 10px; 
+	padding: 0px;
+}
+.adbl-new-stars img.stars.rating {
+	margin: -3px 0 -5px 0;
+}
+.adbl-rating-wrap.clearfix {
+	float: left;
+	margin: 0px; 
+	padding: 0px; 
+	zoom: 0;
+}
+.adbl-rating-label {
+	float: left; 
+	font-size: 11px; 
+	margin: 0px 0px 0px 10px; 
+	padding: 0px; 
+	width: auto;
+}
+.adbl-rating-full {
+    float: left;
+    height: 20px;
+    outline: none;
+    text-indent: -20000px;
+    width: 75px;
+    background-size: 75px;
+}
+.adbl-rating-full.one {
+	background: url('http://2.bp.blogspot.com/-kU1UvC1ee1A/VPe2eRv2dCI/AAAAAAAAzNc/AKzEyxTF75Y/s1600/1%2Bstars.png') 0px 0px no-repeat;
+	background-size: 76px;
+}
+.adbl-rating-full.two {
+	background: url('http://4.bp.blogspot.com/-c03bYdJCUAI/VPe2eUW05pI/AAAAAAAAzNk/0GPMzgGyKvc/s1600/2%2Bstars.png') 0px 0px no-repeat;
+	background-size: 76px;
+}
+.adbl-rating-full.three {
+	background: url('http://1.bp.blogspot.com/-6W1bp-p1UuU/VPe2eSQCQCI/AAAAAAAAzNU/WzT9hS8PRP0/s1600/3%2Bstars.png') 0px 0px no-repeat;
+	background-size: 76px;
+}
+.adbl-rating-full.four {
+	background: url('http://4.bp.blogspot.com/-HTF95KbbRA8/VPe2ewSBvtI/AAAAAAAAzNQ/vjd_2BRnMF8/s1600/4%2Bstars.png') 0px 0px no-repeat;
+	background-size: 76px;
+}
+.adbl-rating-full.five {
+	background: url('http://4.bp.blogspot.com/-ihdWS7hTwjA/VPe2fHttW2I/AAAAAAAAzNM/skBVPdLnStA/s1600/5%2Bstars.png') 0px 0px no-repeat;
+	background-size: 76px;
+}
+li.adbl-review {
+	border: 0px solid transparent !important;
+}
+.adbl-review-text {
+	font-stretch: normal !important;
+	line-height: 1.5em !important;
+	margin: 0px !important; 
+	padding: 5px 0px 0px !important;
+}
+.adbl-rev-qstn-lbl {
+	margin: 0px; 
+	padding: 0px;
+}

@@ -7,6 +7,20 @@ $icons: sprite-map("homeicons/*.png");
 	width: 40px; 
 }
 
+/****** HOME ==================================**=====================================================================================
+===================================================================================================**/
+
+#homepage h2, #homepage .entry-content h2 {
+	font: normal normal 18px Pacifico;
+}
+#homepage .lineofarticles li .item-snippet, .rightupper article p {
+    color: #5C5C5C;
+    line-height: 15px;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0;
+}
 /**home page**/
 .homeicons {
     margin: 10px 0 20px 0;

@@ -1,0 +1,16 @@
+.status-msg-body {
+	color: #000;
+	background: #FFF;
+}
+/************MESSAGES (overwriting bootstrap colors because they are not 508 compliant) ************=====================================================================================
+===================================================================================================**/
+.alert-danger {
+    color: #9C0705;
+    background-color: #FFEAEA;
+    border-color: #ebccd1;
+}
+.alert /*warning*/ {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}

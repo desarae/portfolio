@@ -1,0 +1,108 @@
+/** PROFILE img **/
+.center-circle {
+    width: 97px;
+    height: 97px;
+    -webkit-border-radius: 90px;
+    position: relative;
+	float: left;
+ 	margin-right: 11px;
+}
+.quarter-circle {
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 46px;
+    left: 37px;
+    border: 1px dashed #656E7F;
+    border-left: none;
+    border-top: none;
+    background: none;
+    -webkit-border-radius: 0 0 102px 0;
+    border-radius: 0 0px 63px 1px;
+    -webkit-animation: spin-back 10s infinite linear;
+    -moz-animation: spin-back 10s infinite linear;
+    -o-animation: spin-back 10s infinite linear;
+    animation: spin-back 10s infinite linear;
+    -webkit-transform-origin: 16% 6%;
+}
+@-webkit-keyframes spin-back {
+    0% {
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+    100% {
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+}
+.profile-datablock {
+    /*background: rgba(250, 248, 248, 0.84);
+    border: 2px solid #BEE7ED;*/
+    padding: 10px 10px 0px 10px;
+	margin: 0 !important;
+
+	a, a:link, a:visited { 
+		color: #272424 !important;
+		text-decoration: underline;
+	}
+}
+.profile-name-link .g-profile { 
+	text-decoration: none; 
+}
+.Profile img {
+    margin: -33px .75em .5em 0 !important !important;
+    border-radius: 46px;
+    border: 3px solid;
+    box-shadow: 4px 4px;
+
+	&.nostyle {
+		border-radius: 0px !important;
+	    border: 0px rgba(0, 0, 0, 0) !important;
+	    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0)!important;
+	    margin: 0px;
+	}
+}
+/** AUTHOR PROFILE IN CONTENT **=====================================================================================
+===================================================================================================**/
+.author-profile img {
+    border: 2px solid #BEE7ED !important;
+    float: left;
+    margin: -23px 50% 0px 42% !important;
+    border-radius: 45px;
+    box-shadow: 4px 4px #BEE7ED;
+}
+.author-profile {
+    border: 2px solid #BEE7ED;
+    background: #EFEDED;
+    padding: 10px;
+    overflow: visible !important;
+    margin: 11px 5px 0 0 !important;
+}
+.charlie-profile-img {
+    border-radius: 55px;
+    height: 80px !important;
+    overflow: hidden !important;
+    width: 80px !important;
+    margin: 0px 0px 0px -16px;
+    content: 'd ';
+    background: url('http://4.bp.blogspot.com/-Df3zf3t9164/VMcl3HW2IBI/AAAAAAAAw5Y/RdFkwpYsybY/s1600/IMG_6166.JPG');
+    float: right;
+    background-position: 0px -8px;
+    background-size: 100%;
+
+	img.profile-img {
+		margin-top: -20px;
+	}
+}
+.profile-img-desarae {
+	border-radius: 50px;
+}
+.sidebar dd.profile-textblock,  .sidebar a.profile-link {
+    display: none !important;
+    visibility: hidden;
+    color: #fff !important;
+}

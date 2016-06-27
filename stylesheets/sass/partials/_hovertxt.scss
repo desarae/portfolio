@@ -1,0 +1,44 @@
+/****** Hover over a to see a span no js needed****=====================================================================================
+===================================================================================================**/
+.hover_img a {
+    position:relative;
+}
+.hover_img a span, .hover_img a:link span, .hover_img a:visited span { position:absolute; display:none; z-index:99; color: #000; }
+.hover_img a:hover span { 
+	display: block;
+	color: #000;
+	background: #fff;
+	border: 1px solid#ccc;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 2px #ccc;
+	border-radius: 17px 10px 0 11px;
+}
+.post .hover_img a, .post .hover_img a:hover {
+    box-shadow: none;
+}
+/*hover text for footer toggle*=====================================================================================
+===================================================================================================**/
+.togglehover_img {
+    position: fixed;
+    bottom: 70px;	
+	z-index: 11;
+}
+.togglehover_img a, .togglehover_img a:hover {
+    box-shadow: none;
+	display: none;
+}
+.togglehover_img a {
+    position:relative;
+}
+.togglehover_img a span, .togglehover_img a:link span, .togglehover_img a:visited span { position:absolute; display:none; z-index:99; color: #000; }
+.togglehover_img a:hover span { 
+	padding: 20px;
+    bottom: 50px;
+    z-index: 20000;
+    left: 48px;
+    box-shadow: 1px 1px 1px 2px #ccc;
+    border-radius: 19px 10px 10px 0px;
+    display: block;
+    color: #000;
+    background: #fff;
+}
