@@ -122,8 +122,16 @@
 .bg-0 .content-main {
   border:2px solid #B0DBE1;
 }
+/** footer**/
 .bg-0 footer.bs-docs-footer{
     background: #fff;
     padding: 10px;
     border-top: 3px solid #b0dbe1;
+}
+@media (max-width: 1200px) {
+    footer a.right {
+	    padding: 20px 30px;
+	    border: 1px solid;
+	    width: 100%;
+	}
 }
