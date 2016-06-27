@@ -1,9 +1,6 @@
 /**defaults**/
-.bg-1only {
+.bg-1only, .sun-burst {
 	display: none;
-}
-.sun-burst {
-	display:none;
 }
 .skywrapper {
 	position: absolute;
@@ -197,12 +194,34 @@
 	.showit, .sun-burst {
 		display: block;
 	}
+	.showit {
+	    position: fixed;
+	    width: 100%;
+	}
 	.clouds {
 		height:539px;
 	  	background: rgba(0, 0, 0, 0) url('https://4.bp.blogspot.com/-Yu1k0aSJPpo/V2YfSYmaThI/AAAAAAAA-G8/pfjRoxGL8qMVnBbN2v_xYQZgUWzIkChOACLcB/s1600/cloudscolor.png') repeat top center !important;
 	}
 	.starstwinkle, .twinkling {
 		display: none;
+	}
+	.starstwinkle, .twinkling, .clouds {
+	  	position:fixed;
+	  	top:0;
+	  	left:0;
+	  	right:0;
+	  	bottom:0;
+	  	width:100%;
+	  	height:100%;
+	  	display:block;
+	}
+	.clouds{
+	    background:transparent url('https://4.bp.blogspot.com/-qIUWQ0B9j-g/V13YNR9ZRyI/AAAAAAAA99Y/NueGhkaJ8TQ9oEvihElPEq2N3UO_ZZaOwCLcB/s1600/clouds.png') repeat top center;
+		-moz-animation:move-clouds-back 200s linear infinite;
+		-ms-animation:move-clouds-back 200s linear infinite;
+		-o-animation:move-clouds-back 200s linear infinite;
+		-webkit-animation:move-clouds-back 200s linear infinite;
+		animation:move-clouds-back 200s linear infinite;
 	}
 	.sun-burst {
 		width: 100px;

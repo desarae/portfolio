@@ -21,19 +21,18 @@ p {
 ===================================================================================================**/
 .Header h1 a, .Header h1 {
     color: #04476c !important;
-
-	&:before {    
-		text-align: center;
-	    text-align: center;
-	    margin-top: -35px;
-	    font-weight: 900 !important;
-	    font-size: 8rem !important;
-	    color: rgb(8, 68, 106) !important;
-	    opacity: .4;
-	    content: '</>';
-	    position: absolute;
-	    margin-left: 35px;
-    }
+}
+.Header h1:before {    
+	text-align: center;
+    text-align: center;
+    margin-top: -35px;
+    font-weight: 900 !important;
+    font-size: 8rem !important;
+    color: rgb(8, 68, 106) !important;
+    opacity: .4;
+    content: '</>';
+    position: absolute;
+    margin-left: 35px;
 }
 h1 {
 	margin: 10px 0;
